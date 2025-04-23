@@ -33,7 +33,7 @@ There are multiple item types to choose from:
 The decimal field is a decimal (base 10) representation of the item's in-game hex code. This is how the randomizer client translates a named item to an in-game item.
 
 ##### Count
-The count field represents the quantity you receive each time the item is received, NOT the number of this item in the scenarios. In most cases, the count will be 1. For Weapons, the count is the starting ammo count for that weapon when received. For Ammo, the count is the amount of ammo received when you receive that "pack" of ammo.
+The count field represents the quantity you receive each time the item is received, NOT the number of this item. In most cases, the count will be 1. For Weapons, the count is the starting ammo count for that weapon when received. For Ammo, the count is the amount of ammo received when you receive that "pack" of ammo.
 
 ##### Progression
 If an item is marked as progression, it unlocks one or more locations. Typically, this will only be the case for the item types Key and Gating.
