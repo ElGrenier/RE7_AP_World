@@ -1,4 +1,4 @@
-# RE2R Archipelago World
+# RE7 Archipelago World
 An Archipelago (AP) randomizer world for Resident Evil 7 Biohazard. Designed for use with the RE7 Archipelago client repository linked below.
 
 ## How to generate and play an RE7 randomized world
