@@ -1,0 +1,588 @@
+[
+    { 
+        "from": "Menu",
+        "to": "",
+        "condition": {}
+    },
+    { 
+        "from": "",
+        "to": "",
+        "condition": {}
+    },
+    { 
+        "from": "",
+        "to": "",
+        "condition": {}
+    },
+    { 
+        "from": "",
+        "to": "",
+        "condition": {}
+    },
+    { 
+        "from": "",
+        "to": "Dining Area",
+        "condition": {}
+    },
+    { 
+        "from": "Dining Area",
+        "to": "Living Room",
+        "condition": {}
+    },
+    { 
+        "from": "Dining Area",
+        "to": "Kitchen"
+    },
+    { 
+        "from": "Kitchen",
+        "to": "Pantry",
+        "condition": {}
+    },
+    {
+        "from": "Pantry",
+        "to": "Laundry Room",
+	"condition": {
+            "items": ["Hatch Key"]
+        }
+    },
+    { 
+        "from": "Laundry Room",
+        "to": "Garage",
+        "condition": {
+            "items": ["Knife"]
+        }
+    },
+    { 
+        "from": "Garage",
+        "to": "Main Hall",
+        "condition": {
+	"items": ["Ox Statuette"]	
+        }
+    },
+    { 
+        "from": "Main Hall",
+        "to": "Bathroom",
+        "condition": {}
+
+    },
+    { 
+        "from": "Main Hall",
+        "to": "Recreation Room",
+        "condition": {}
+    },
+    { 
+        "from": "Recreation Room",
+        "to": "Grandma's Room",
+        "condition": {
+	"items": ["Scorpion Key"]	
+        }
+    },
+    { 
+        "from": "Main Hall",
+        "to": "Kid's Room",
+        "condition": {
+	"items": ["Snake Key"]	
+        }
+    },
+    { 
+        "from": "Main Hall",
+        "to": "Master Bedroom",
+        "condition": {
+	"items": ["Snake Key"]	
+        }
+    },
+    { 
+        "from": "Master Bedroom",
+        "to": "Storage",
+        "condition": {}
+    },
+    { 
+        "from": "Kid's Room",
+        "to": "Main House Attic",
+        "condition": {}
+    },
+    { 
+        "from": "Main Hall",
+        "to": "Drawing Room",
+        "condition": {
+	"items": ["Wooden Statuette"]	
+        }
+    },
+    { 
+        "from": "Drawing Room",
+        "to": "Supplies",
+        "condition": {
+	"items": ["Crow Key"]
+}
+    },
+    { 
+        "from": "Drawing Room",
+        "to": "Monitoring Room",
+        "condition": {}
+    },
+    { 
+        "from": "Monitoring Room",
+        "to": "Main Hall",
+        "condition": {
+	        "items": ["Scorpion Key"]
+	    }
+    },
+    { 
+        "from": "Main Hall",
+        "to": "Incinerator Room",
+        "condition": {
+            "items": ["Scorpion Key"]
+        }
+    },
+    { 
+        "from": "Incinerator Room",
+        "to": "Boiler Room",
+        "condition": {}
+    },
+    { 
+        "from": "Morgue",
+        "to": "Incinerator Room",
+        "condition": {
+	     "items": ["Snake Key"]	
+        }
+    },
+    { 
+        "from": "Boiler Room",
+        "to": "Dissection Room",
+        "condition": {
+            "items": ["Dissection Room Key"]
+        }
+    },
+    { 
+        "from": "Main Hall",
+        "to": "Yard",
+        "condition": {
+            "items": ["Blue Dogs Head", "White Dogs Head", "Red Dogs Head"]
+        }
+    },
+    { 
+        "from": "Yard",
+        "to": "Entrance - Old House",
+        "condition": {}
+    },
+    { 
+        "from": "Entrance - Old House",
+        "to": "Living Room - Old House",
+        "condition": {}
+    },
+    { 
+        "from": "Living Room - Old House",
+        "to": "Dining Room - Old House",
+        "condition": {}
+    },
+    { 
+        "from": "Dining Room - Old House",
+        "to": "Guest Room - Old House",
+        "condition": {}
+    },
+    { 
+        "from": "Guest Room - Old House",
+        "to": "Entrance - Old House",
+        "condition": {}
+    },
+    { 
+        "from": "Dining Room - Old House",
+        "to": "Gallery - Old House",
+        "condition": {}
+    },
+    { 
+        "from": "Altar",
+        "to": "Entrance - Old House",
+        "condition": {
+	        "items": ["Crank"]
+        }
+    },
+    { 
+        "from": "Gallery - Old House",
+        "to": "Altar",
+        "condition": {
+	        "items": ["Stone Statuette", "Crow Key"]	
+        }
+    },
+    { 
+        "from": "Altar",
+        "to": "Kid's Room - Old House",
+        "condition": {
+	        "items": ["Lantern"]
+        }
+    },
+    {
+        "from": "Kid's Room - Old House",
+        "to": "Contaminated Room - Old House",
+        "condition": {}
+    },
+    { 
+        "from": "Contaminated Room - Old House",
+        "to": "Detention Room - Old House",
+        "condition": {}
+    },
+    { 
+        "from": "Altar",
+        "to": "Greenhouse"
+    },
+    { 
+        "from": "Yard",
+        "to": "Testing Area",
+        "condition": {
+            "items": ["Keycard - Blue","Keycard - Red"]
+        }
+    },
+    { 
+        "from": "Testing Area",
+        "to": "Boat House",
+        "condition": {
+            "items": ["Crank"]
+        }
+    },
+    { 
+        "from": "Boat House",
+        "to": "",
+        "condition": {}
+    },
+    { 
+        "from": "",
+        "to": "",
+        "condition": {}
+    },
+    { 
+        "from": "",
+        "to": "",
+        "condition": {}
+    },
+    { 
+        "from": "",
+        "to": "",
+        "condition": {}
+    },
+    { 
+        "from": "",
+        "to": "",
+        "condition": {}
+    },
+    { 
+        "from": "",
+        "to": "",
+        "condition": {}
+    },
+    { 
+        "from": "",
+        "to": "",
+        "condition": {
+            "items": ["Diamond Key"]
+        }
+    },
+    { 
+        "from": "",
+        "to": "",
+        "condition": {}
+    },
+    { 
+        "from": "Chief's Office",
+        "to": "Side Stairs",
+        "condition": {
+            "items": ["Heart Key"]
+        }
+    },
+    { 
+        "from": "Chief's Office",
+        "to": "Private Collection Room",
+        "condition": {}
+    },
+    { 
+        "from": "Kennel",
+        "to": "Morgue",
+        "condition": {}
+    },
+    { 
+        "from": "Side Stairs",
+        "to": "Observation Room",
+        "condition": {
+            "items": ["Spade Key", "Heart Key", "Diamond Key", "Lion Medallion", "Unicorn Medallion", "Maiden Medallion"]
+        }
+    },
+    { 
+        "from": "Side Stairs",
+        "to": "Interrogation Room",
+        "condition": {
+            "items": ["Heart Key"]
+        }
+    },
+    { 
+        "from": "Side Stairs",
+        "to": "Balcony",
+        "condition": {}
+    },
+    { 
+        "from": "Balcony",
+        "to": "Roof",
+        "condition": {
+            "items": ["Spade Key", "Heart Key", "Diamond Key", "Lion Medallion", "Unicorn Medallion", "Maiden Medallion"]
+        }
+    },
+    { 
+        "from": "Roof",
+        "to": "East Hallway 2F",
+        "condition": {},
+        "limitation": "ONE_SIDED_DOOR"
+    },
+    { 
+        "from": "Parking Garage",
+        "to": "RPD Streets",
+        "condition": {
+            "items": ["Boxed Electronic Part 1", "Boxed Electronic Part 2", "Parking Garage Key Card"]
+        }
+    },
+    { 
+        "from": "RPD Streets",
+        "to": "Orphanage",
+        "condition": {}
+    },
+    { 
+        "from": "Orphanage",
+        "to": "Sewer Office",
+        "condition": {}
+    },
+    { 
+        "from": "Sewer Office",
+        "to": "Lower Waterway",
+        "condition": {}
+    },
+    { 
+        "from": "Lower Waterway",
+        "to": "Workroom",
+        "condition": {
+            "items": ["T-Bar Handle"]
+        }
+    },
+    { 
+        "from": "Workroom",
+        "to": "Waterway Overpass",
+        "condition": {}
+    },
+    { 
+        "from": "Waterway Overpass",
+        "to": "Upper Waterway",
+        "condition": {}
+    },
+    { 
+        "from": "Waterway Overpass",
+        "to": "Workers Break Room",
+        "condition": {
+            "items": ["Sewers Key"]
+        }
+    },
+    { 
+        "from": "Waterway Overpass",
+        "to": "Water Injection Chamber",
+        "condition": {
+            "items": ["Sewers Key"]
+        }
+    },
+    { 
+        "from": "Waterway Overpass",
+        "to": "Lower Waterway",
+        "condition": {
+            "items": ["Rook Plug"]
+        },
+        "limitation": "ONE_SIDED_DOOR"
+    },
+    { 
+        "from": "Workers Break Room",
+        "to": "Underground Stairs",
+        "condition": {},
+        "limitation": "ONE_SIDED_DOOR"
+    },
+    { 
+        "from": "Lower Waterway",
+        "to": "Control Room",
+        "condition": {}
+    },
+    { 
+        "from": "Control Room",
+        "to": "Monitor Room",
+        "condition": {}
+    },
+    { 
+        "from": "Monitor Room",
+        "to": "Treatment Pool Room",
+        "condition": {}
+    },
+    { 
+        "from": "Treatment Pool Room",
+        "to": "Central Hub",
+        "condition": {}
+    },
+    { 
+        "from": "Central Hub",
+        "to": "Lower Waterway",
+        "condition": {},
+        "limitation": "ONE_SIDED_DOOR"
+    },
+    { 
+        "from": "Central Hub",
+        "to": "Bottom Waterway",
+        "condition": {
+            "items": ["T-Bar Handle"]
+        }
+    },
+    { 
+        "from": "Bottom Waterway",
+        "to": "Supplies Storage Room",
+        "condition": {
+            "items": ["Queen Plug"]
+        }
+    },
+    { 
+        "from": "Upper Waterway",
+        "to": "Bottom Waterway",
+        "condition": {
+            "items": ["T-Bar Handle"]
+        }
+    }, 
+    { 
+        "from": "Bottom Waterway",
+        "to": "Upper Waterway",
+        "condition": {},
+        "limitation": "ONE_SIDED_DOOR"
+    },
+    { 
+        "from": "Monitor Room",
+        "to": "Main Power Room",
+        "condition": {
+            "items": ["Pawn Plug", "Knight Plug", "Bishop Plug", "Rook Plug", "Queen Plug", "King Plug"]
+        }
+    },
+    { 
+        "from": "Main Power Room",
+        "to": "Proposed Water Purification Room",
+        "condition": {}
+    },
+    { 
+        "from": "Proposed Water Purification Room",
+        "to": "Garbage Room",
+        "condition": {}
+    },
+    { 
+        "from": "Treatment Pool Room",
+        "to": "Cable Car Platform",
+        "condition": {
+            "items": ["T-Bar Handle", "Pawn Plug", "Knight Plug", "Bishop Plug", "Rook Plug", "Queen Plug", "King Plug"]
+        }
+    },
+    { 
+        "from": "Cable Car Platform",
+        "to": "Reception - Labs",
+        "condition": {}
+    },
+    { 
+        "from": "Reception - Labs",
+        "to": "Security Room",
+        "condition": {}
+    },
+    { 
+        "from": "Reception - Labs",
+        "to": "Cafeteria",
+        "condition": {}
+    },
+    { 
+        "from": "Cafeteria",
+        "to": "Kitchen",
+        "condition": {}
+    },
+    { 
+        "from": "Kitchen",
+        "to": "Nap Room",
+        "condition": {}
+    },
+    { 
+        "from": "Reception - Labs",
+        "to": "Main Shaft",
+        "condition": {
+            "items": ["ID Wristband - General Staff"]
+        }
+    },
+    { 
+        "from": "Main Shaft",
+        "to": "Lobby",
+        "condition": {}
+    },
+    { 
+        "from": "Lobby",
+        "to": "Presentation Room",
+        "condition": {}
+    },
+    { 
+        "from": "Presentation Room",
+        "to": "Greenhouse Control Room",
+        "condition": {}
+    },
+    { 
+        "from": "Greenhouse Control Room",
+        "to": "Greenhouse",
+        "condition": {
+            "items": ["Dispersal Cartridge - Empty"]
+        }
+    },
+    { 
+        "from": "Greenhouse",
+        "to": "Drug Testing Lab",
+        "condition": {}
+    },
+    { 
+        "from": "Greenhouse",
+        "to": "Lounge - Labs",
+        "condition": {}
+    },
+    { 
+        "from": "Lounge - Labs",
+        "to": "Server Room",
+        "condition": {
+            "items": ["Signal Modulator"]
+        }
+    },
+    { 
+        "from": "Lounge - Labs",
+        "to": "Low-Temp Testing Lab",
+        "condition": {
+            "items": ["Signal Modulator"]
+        }
+    },
+    { 
+        "from": "Lounge - Labs",
+        "to": "Lobby Storage",
+        "condition": {}
+    },
+    { 
+        "from": "Lobby Storage",
+        "to": "Lobby",
+        "condition": {},
+        "limitation": "ONE_SIDED_DOOR"
+    },
+    { 
+        "from": "Main Shaft",
+        "to": "Biotesting Lab",
+        "condition": {
+            "items": ["Signal Modulator", "ID Wristband - Senior Staff"]
+        }
+    },
+    { 
+        "from": "Biotesting Lab",
+        "to": "P-4 Level Testing Lab",
+        "condition": {}
+    },
+    { 
+        "from": "P-4 Level Testing Lab",
+        "to": "Bioreactors Room",
+        "condition": {}
+    },
+    { 
+        "from": "Bioreactors Room",
+        "to": "Path to G4",
+        "condition": {}
+    }
+]

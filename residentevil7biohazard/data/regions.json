@@ -1,0 +1,175 @@
+[
+    {
+        "name": "Menu",
+        "zone_id": 1
+    },
+    {
+        "name": "",
+        "zone_id": 1
+    },
+    {
+        "name": "",
+        "zone_id": 1
+    },
+    {
+        "name": "",
+        "zone_id": 1
+    },
+    {
+        "name": "",
+        "zone_id": 1
+    },
+    {
+        "name": "",
+        "zone_id": 1
+    },
+    {
+        "name": "Dining Area",
+        "zone_id": 2
+    },
+    {
+        "name": "Living Room",
+        "zone_id": 2
+    },
+    {
+        "name": "Kitchen",
+        "zone_id": 2
+    },
+    {
+        "name": "Pantry",
+        "zone_id": 2
+    },
+    {
+        "name": "Garage",
+        "zone_id": 2
+    },
+    {
+        "name": "Laundry Room",
+        "zone_id": 2
+    },
+    {
+        "name": "Main Hall",
+        "zone_id": 2
+    },
+  {
+        "name": "Monitoring Room",
+        "zone_id": 2
+    },
+    {
+        "name": "Drawing Room",
+        "zone_id": 2
+    },
+  {
+        "name": "Supplies",
+        "zone_id": 2
+    },
+    {
+        "name": "Morgue",
+        "zone_id": 2
+    },
+  {
+        "name": "Dissection Room",
+        "zone_id": 2
+    },
+    {
+        "name": "Boiler Room",
+        "zone_id": 2
+    },
+  {
+        "name": "Incinerator Room",
+        "zone_id": 2
+    },
+    {
+        "name": "Workshop",
+        "zone_id": 2
+    },
+  {
+        "name": "Kid's Room",
+        "zone_id": 2
+    },
+    {
+        "name": "Recreation Room",
+        "zone_id": 2
+    },
+  {
+        "name": "Grandma's Room",
+        "zone_id": 2
+    },
+    {
+        "name": "Bathroom",
+        "zone_id": 2
+    },
+  {
+        "name": "Master Bedroom",
+        "zone_id": 2
+    },
+    {
+        "name": "Storage",
+        "zone_id": 2
+    },
+  {
+        "name": "Main House Attic",
+        "zone_id": 2
+    },
+    {
+        "name": "Yard",
+        "zone_id": 2
+    },
+  {
+        "name": "Entrance - Old House",
+        "zone_id": 2
+    },
+    {
+        "name": "Living Room - Old House",
+        "zone_id": 2
+    },
+  {
+        "name": "Cellar - Old House",
+        "zone_id": 2
+    },
+    {
+        "name": "Guest Room - Old House",
+        "zone_id": 2
+    },
+  {
+        "name": "Dining Room - Old House",
+        "zone_id": 2
+    },
+    {
+        "name": "Gallery - Old House",
+        "zone_id": 2
+    },
+  {
+        "name": "Water Station - Old House",
+        "zone_id": 2
+    },
+    {
+        "name": "Kid's Room - Old House",
+        "zone_id": 2
+    },
+  {
+        "name": "Detention Room - Old House",
+        "zone_id": 2
+    },
+    {
+        "name": "Contaminated Room - Old House",
+        "zone_id": 2
+    },
+  {
+        "name": "Altar - Old House",
+        "zone_id": 2
+    },
+    {
+        "name": "Greenhouse - Old House",
+        "zone_id": 2
+    },
+  {
+        "name": "Testing Area",
+        "zone_id": 2
+    },
+{
+        "name": "Boat House",
+        "zone_id": 2
+    }
+
+]
