@@ -14,6 +14,34 @@
         "progression": 0
     },
     {
+        "type": "Lore",
+        "name": "Ethan's Hand",
+        "id": "HandCutOff",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Lore",
+        "name": "Mia",
+        "id": "FoundFootage030",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Lore",
+        "name": "Happy Birthday",
+        "id": "FoundFootage040",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Lore",
+        "name": "Old Videotape",
+        "id": "FoundFootage050",
+        "count": 1,
+        "progression": 0
+    },
+    {
         "type": "Key",
         "name": "Blue Dogs Head",
         "id": "3CrestKeyA",
@@ -41,13 +69,7 @@
         "count": 1,
         "progression": 1
     },
-    {
-        "type": "Gating",
-        "name": "Lock Pick",
-        "id": "CylinderKey",
-        "count": 1,
-        "progression": 1
-    },
+
     {
         "type": "Key",
         "name": "Ox Statuette",
@@ -136,13 +158,6 @@
         "type": "Key",
         "name": "Stone Statuette",
         "id": "SilhouettePazzlePieceOldHouse",
-        "count": 1,
-        "progression": 1
-    },
-    {
-        "type": "Lore",
-        "name": "Ethan's Hand",
-        "id": "HandCutOff",
         "count": 1,
         "progression": 1
     },
@@ -253,6 +268,28 @@
         "progression": 0
     },
     {
+        "type": "Ammo",
+        "name": "Large-Caliber Handgun Ammo",
+        "id": "26",
+        "count": 6,
+        "progression": 0
+    },
+    {
+        "type": "Ammo",
+        "name": "Submachine Gun Ammo",
+        "id": "17",
+        "count": 100,
+        "progression": 0
+    },
+    {
+        "type": "Ammo",
+        "name": "M37 Shotgun",
+        "id": "Shotgun_M37",
+        "count": 5,
+        "progression": 0,
+        "ammo": "Shotgun Ammo"
+    },
+    {
         "type": "Recovery",
         "name": "Herb",
         "id": "Herb",
@@ -267,53 +304,18 @@
         "progression": 0
     },
     {
-        "type": "Gating",
+        "type": "Recovery",
         "name": "First Aid Med",
         "id": "RemedyM",
         "count": 1,
-        "progression": 1
-    },
-    {
-        "type": "Subweapon",
-        "name": "Crowbar",
-        "id": "Bar",
-        "count": 1,
         "progression": 0
     },
     {
-        "type": "Subweapon",
-        "name": "Chain Saw",
-        "id": "ChainSaw",
-        "count": 1,
-        "progression": 0
-    },
-    {
-        "type": "Subweapon",
-        "name": "Circular Saw",
-        "id": "CircularSaw",
-        "count": 1,
-        "progression": 0
-    },
-    {
-        "type": "Subweapon",
-        "name": "Axe",
-        "id": "HandAxe",
-        "count": 1,
-        "progression": 0
-    },
-    {
-        "type": "Key",
-        "name": "Knife",
-        "id": "Knife",
+        "type": "Gating",
+        "name": "Lock Pick",
+        "id": "CylinderKey",
         "count": 1,
         "progression": 1
-    },
-    {
-        "type": "Subweapon",
-        "name": "Survival Knife",
-        "id": "MiaKnife",
-        "count": 1,
-        "progression": 0
     },
     {
         "type": "Gating",
@@ -357,6 +359,13 @@
         "id": "Coin",
         "count": 1,
         "progression": 1
+    },
+    {
+        "type": "Consumable",
+        "name": "Psychostimulants",
+        "id": "EyeDrops",
+        "count": 1,
+        "progression": 0
     },
     {
         "type": "Consumable",
@@ -416,6 +425,13 @@
         "progression": 0
     },
     {
+        "type": "Consumable",
+        "name": "Cassette Tape (Save)",
+        "id": "SaveTape",
+        "count": 1,
+        "progression": 0
+    },
+    {
         "type": "Upgrade",
         "name": "Gun Repair Kit",
         "id": "RepairKit",
@@ -434,6 +450,48 @@
         "type": "Upgrade",
         "name": "Steroids",
         "id": "Stimulant",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Key",
+        "name": "Knife",
+        "id": "Knife",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Subweapon",
+        "name": "Crowbar",
+        "id": "Bar",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Subweapon",
+        "name": "Chain Saw",
+        "id": "ChainSaw",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Subweapon",
+        "name": "Circular Saw",
+        "id": "CircularSaw",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Subweapon",
+        "name": "Axe",
+        "id": "HandAxe",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Subweapon",
+        "name": "Survival Knife",
+        "id": "MiaKnife",
         "count": 1,
         "progression": 0
     },
@@ -516,63 +574,5 @@
         "count": 5,
         "progression": 0,
         "ammo": "Shotgun Ammo"
-    },
-    {
-        "type": "Ammo",
-        "name": "M37 Shotgun",
-        "id": "Shotgun_M37",
-        "count": 5,
-        "progression": 0,
-        "ammo": "Shotgun Ammo"
-    },
-    {
-        "type": "Consumable",
-        "name": "Psychostimulants",
-        "id": "EyeDrops",
-        "count": 1,
-        "progression": 0
-    },
-    {
-        "type": "Ammo",
-        "name": "Large-Caliber Handgun Ammo",
-        "id": "26",
-        "count": 6,
-        "progression": 0
-    },
-    {
-        "type": "Ammo",
-        "name": "Submachine Gun Ammo",
-        "id": "17",
-        "count": 100,
-        "progression": 0
-    },
-    {
-        "type": "Lore",
-        "name": "Mia",
-        "id": "FoundFootage030",
-        "count": 1,
-        "progression": 0
-    },
-    {
-        "type": "Lore",
-        "name": "Happy Birthday",
-        "id": "FoundFootage040",
-        "count": 1,
-        "progression": 0
-    },
-
-    {
-        "type": "Upgrade",
-        "name": "Old Videotape",
-        "id": "FoundFootage050",
-        "count": 1,
-        "progression": 0
-    },
-    {
-        "type": "Consumable",
-        "name": "Cassette Tape (Save)",
-        "id": "SaveTape",
-        "count": 1,
-        "progression": 0
     }
 ]
