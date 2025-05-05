@@ -1,7 +1,7 @@
 [
     { 
         "from": "Menu",
-        "to": "",
+        "to": "Outside",
         "condition": {}
     },
     { 

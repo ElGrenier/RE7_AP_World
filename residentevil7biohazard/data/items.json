@@ -1,0 +1,578 @@
+[
+    {
+        "type": "Lore",
+        "name": "Email from Mia",
+        "id": "MailMia",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Lore",
+        "name": "Mia Driving License",
+        "id": "MiaDriversLicense",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Key",
+        "name": "Blue Dogs Head",
+        "id": "3CrestKeyA",
+        "count": 1,
+        "progression": 1
+    },
+	{
+        "type": "Key",
+        "name": "White Dogs Head",
+        "id": "3CrestKeyB",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Red Dogs Head",
+        "id": "3CrestKeyC",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Captain's Cabin Locker Key",
+        "id": "CabinKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Gating",
+        "name": "Lock Pick",
+        "id": "CylinderKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Ox Statuette",
+        "id": "EntranceHallKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Car Key",
+        "id": "EthanCarKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Hatch Key",
+        "id": "FloorDoorKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Keycard - Blue",
+        "id": "LucasCardKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Keycard - Red",
+        "id": "LucasCardKey2",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Snake Key",
+        "id": "MasterKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Scorpion Key",
+        "id": "MorgueKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Corrosive",
+        "id": "SpareKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Crow Key",
+        "id": "TalismanKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Dissection Room Key",
+        "id": "WorkroomKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Lantern",
+        "id": "Lantern",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Wooden Statuette",
+        "id": "SilhouettePazzlePiece",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Stone Statuette",
+        "id": "SilhouettePazzlePieceOldHouse",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Lore",
+        "name": "Ethan's Hand",
+        "id": "HandCutOff",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "General Purpose Fuse",
+        "id": "FuseCh4",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Fuse",
+        "id": "Fuse",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "D-Series Arm",
+        "id": "SerumMaterialA",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "D-Series Head",
+        "id": "SerumMaterialB",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Power Cable",
+        "id": "EvCable",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Burner Grip",
+        "id": "BurnerPartsA",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Burner Nozzle",
+        "id": "BurnerPartsB",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Ammo",
+        "name": "Neuro Rounds",
+        "id": "AcidBulletS",
+        "count": 100,
+        "progression": 0
+    },
+    {
+        "type": "Ammo",
+        "name": "Burner Fuel",
+        "id": "BurnerBullet",
+        "count": 100,
+        "progression": 0
+    },
+    {
+        "type": "Ammo",
+        "name": "Flame Rounds",
+        "id": "FlameBulletS",
+        "count": 100,
+        "progression": 0
+    },
+
+    {
+        "type": "Ammo",
+        "name": "Handgun Ammo",
+        "id": "HandgunBullet",
+        "count": 5,
+        "progression": 0
+    },
+    {
+        "type": "Ammo",
+        "name": "Enhanced Handgun Ammo",
+        "id": "HandgunBulletL",
+        "count": 5,
+        "progression": 0
+    },
+    {
+        "type": "Ammo",
+        "name": "Machine Gun Ammo",
+        "id": "MachineGunBullet",
+        "count": 50,
+        "progression": 0
+    },
+    {
+        "type": "Ammo",
+        "name": "44 Mag Ammo",
+        "id": "MagnumBullet",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Ammo",
+        "name": "Shotgun Ammo",
+        "id": "ShotgunBullet",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Recovery",
+        "name": "Herb",
+        "id": "Herb",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Recovery",
+        "name": "Strong First Aid Med",
+        "id": "RemedyL",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Gating",
+        "name": "First Aid Med",
+        "id": "RemedyM",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Subweapon",
+        "name": "Crowbar",
+        "id": "Bar",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Subweapon",
+        "name": "Chain Saw",
+        "id": "ChainSaw",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Subweapon",
+        "name": "Circular Saw",
+        "id": "CircularSaw",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Subweapon",
+        "name": "Axe",
+        "id": "HandAxe",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Key",
+        "name": "Knife",
+        "id": "Knife",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Subweapon",
+        "name": "Survival Knife",
+        "id": "MiaKnife",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Gating",
+        "name": "Broken Handgun",
+        "id": "Survival Knife",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Gating",
+        "name": "Broken Shotgun",
+        "id": "BrokenShotgun_DB",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Gating",
+        "name": "Treasure Photo - Morgue",
+        "id": "TreasureMap01",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Gating",
+        "name": "Treasure Photo - Old House",
+        "id": "TreasureMap02",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Gating",
+        "name": "Treasure Photo - Master Bedroom",
+        "id": "TreasureMap03",
+        "count": 1,
+        "progression": 1
+    },
+
+    {
+        "type": "Gating",
+        "name": "Antique Coin",
+        "id": "Coin",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Consumable",
+        "name": "Solid Fuel",
+        "id": "Alcohol",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Consumable",
+        "name": "Chilled Chem Fluid",
+        "id": "AlloyClay",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Consumable",
+        "name": "Separating Agent",
+        "id": "ChemicalL",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Consumable",
+        "name": "Strong Chem Fluid",
+        "id": "ChemicalM",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Consumable",
+        "name": "Chem Fluid",
+        "id": "ChemicalS",
+        "count": 2,
+        "progression": 0
+    },
+
+    {
+        "type": "Consumable",
+        "name": "Supplements",
+        "id": "Flower",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Consumable",
+        "name": "Gun Powder",
+        "id": "Gunpowder",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Consumable",
+        "name": "Weak Acid",
+        "id": "Magnesium",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Upgrade",
+        "name": "Gun Repair Kit",
+        "id": "RepairKit",
+        "count": 1,
+        "progression": 0
+    },
+
+    {
+        "type": "Upgrade",
+        "name": "Stabilizer",
+        "id": "Depressant",
+        "count": 1,
+        "progression": 0
+    },
+	{
+        "type": "Upgrade",
+        "name": "Steroids",
+        "id": "Stimulant",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Weapon",
+        "name": "Flamethrower",
+        "id": "Burner",
+        "count": 50,
+        "progression": 0,
+        "ammo": "Burner Fuel"
+    },
+    {
+        "type": "Weapon",
+        "name": "Grenade Launcher",
+        "id": "GrenadeLauncher",
+        "count": 1,
+        "progression": 0,
+        "ammo": "FlameBulletS"
+    },
+    {
+        "type": "Weapon",
+        "name": "Albert-01",
+        "id": "Handgun_Albert",
+        "count": 24,
+        "progression": 0,
+        "ammo": ""
+    },
+    {
+        "type": "Weapon",
+        "name": "Albert-01 R",
+        "id": "Handgun_Albert_Reward",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Weapon",
+        "name": "G17 Handgun",
+        "id": "Handgun_G17",
+        "count": 5,
+        "progression": 0,
+        "ammo": "Handgun Ammo"
+    },
+    {
+        "type": "Weapon",
+        "name": "M19 Handgun",
+        "id": "Handgun_M19",
+        "count": 5,
+        "progression": 0,
+        "ammo": "Handgun Ammo"
+    },
+    {
+        "type": "Weapon",
+        "name": "MPM Handgun",
+        "id": "Handgun_MPM",
+        "count": 5,
+        "progression": 0,
+        "ammo": "Handgun Ammo"
+    },
+    {
+        "type": "Weapon",
+        "name": "P19 Machine Gun",
+        "id": "MachineGun",
+        "count": 20,
+        "progression": 0,
+        "ammo": "Machine Gun Ammo"
+    },
+    {
+        "type": "Weapon",
+        "name": "44 MAG",
+        "id": "Magnum",
+        "count": 5,
+        "progression": 0,
+        "ammo": "44 Mag Ammo"
+    },
+
+    {
+        "type": "Weapon",
+        "name": "M21 Shotgun",
+        "id": "Shotgun_DB",
+        "count": 5,
+        "progression": 0,
+        "ammo": "Shotgun Ammo"
+    },
+    {
+        "type": "Ammo",
+        "name": "M37 Shotgun",
+        "id": "Shotgun_M37",
+        "count": 5,
+        "progression": 0,
+        "ammo": "Shotgun Ammo"
+    },
+    {
+        "type": "Consumable",
+        "name": "Psychostimulants",
+        "id": "EyeDrops",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Ammo",
+        "name": "Large-Caliber Handgun Ammo",
+        "id": "26",
+        "count": 6,
+        "progression": 0
+    },
+    {
+        "type": "Ammo",
+        "name": "Submachine Gun Ammo",
+        "id": "17",
+        "count": 100,
+        "progression": 0
+    },
+    {
+        "type": "Lore",
+        "name": "Mia",
+        "id": "FoundFootage030",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Lore",
+        "name": "Happy Birthday",
+        "id": "FoundFootage040",
+        "count": 1,
+        "progression": 0
+    },
+
+    {
+        "type": "Upgrade",
+        "name": "Old Videotape",
+        "id": "FoundFootage050",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Consumable",
+        "name": "Cassette Tape (Save)",
+        "id": "SaveTape",
+        "count": 1,
+        "progression": 0
+    }
+]
