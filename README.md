@@ -26,7 +26,7 @@ There are multiple item types to choose from:
 - Weapon = These are weapons that consume ammunition (so the Combat Knife is not included)
 - Subweapon = These are weapons that do not consume ammunition, and many of these are throwable
 - Ammo = These are all the ammo types for use with the Weapon item type
-- Upgrade = These are all the weapon upgrades for use with the Weapon item type
+- Upgrade = These are all the weapon upgrades for use with the Weapon item type, it is also used for player upgrade (like Steroid or Stabilizer)
 - Lore = These are all non-progression, non-useful items that are classified as filler
 
 ##### Decimal
