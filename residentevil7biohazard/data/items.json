@@ -566,7 +566,6 @@
         "progression": 0,
         "ammo": "44 Mag Ammo"
     },
-
     {
         "type": "Weapon",
         "name": "M21 Shotgun",
@@ -574,5 +573,14 @@
         "count": 5,
         "progression": 0,
         "ammo": "Shotgun Ammo"
+    },
+    {
+        "type": "Key",
+        "name": "Clock Pendulum",
+        "id": "PendulumClock",
+        "count": 1,
+        "progression": 1
     }
 ]
+
+
