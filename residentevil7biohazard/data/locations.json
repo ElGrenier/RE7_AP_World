@@ -579,7 +579,7 @@
     },
     {
         "name":"In the Box on the Ground",
-        "original_item": "",
+        "original_item": "Handgun Ammo",
         "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
         "condition": {},
         "item_object": "InteractDetailSearch",
@@ -614,11 +614,693 @@
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Common/KeyItem"
     },
     {
+        "name":"In the secret stash (inside the chimney)",
+        "original_item": "Steroids",
+        "region": "Drawing Room",
+        "condition": {
+            "items": ["Treasure Photo - Morgue"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1927_Stimulant_Get",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoom1F/c03_RightArea1FParlor/c03_RightArea1FParlor_sm"
+    },
+    {
+        "name":"Inside the cage",
+        "original_item": "Herb",
+        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+    },
+    {
+        "name":"In the Green Armor",
+        "original_item": "Chem Fluid",
+        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal"
+    },
+    {
+        "name":"In the stairs next to the Serpent Door",
+        "original_item": "Psychostimulants",
+        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
+        "condition": {},
+        "item_object": "sm2179_Psychostimulant01A_InteractDetailSearch",
+        "parent_object": "sm2179_Psychostimulant01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+    },
+    {
+        "name":"In the stairs, in front of the Serpent door",
+        "original_item": "Shotgun Ammo",
+        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+    },
+    {
+        "name":"In the left bath next to the entrance",
+        "original_item": "Handgun Ammo",
+        "region": "Bathroom - Processing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+    },
+    {
+        "name":"In the front bath, next to the exit door",
+        "original_item": "Chem Fluid",
+        "region": "Bathroom - Processing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "ChemicalS",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+    },
+    {
+        "name":"In the wall",
+        "original_item": "Herb",
+        "region": "Bathroom - Processing Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+    },
+    {
+        "name":"On the Left table",
+        "original_item": "Shotgun Ammo",
+        "region": "Boiler Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+    },
+    {
+        "name":"In the red Shelf",
+        "original_item": "Strong Chem Fluid",
+        "region": "Boiler Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2037_ChemicalM01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal"
+    },
+    {
+        "name":"In the right locker",
+        "original_item": "Shotgun Ammo",
+        "region": "Dissection Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoomB1F/c03_RightAreaB1FStoreroom/c03_RightAreaB1FStoreroom_sm"
+    },
+    {
+        "name":"In the open Locker at the end of the hallway (on top)",
+        "original_item": "Shotgun Ammo",
+        "region": "Dissection Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/BOSSROOM"
+    },
+    {
+        "name":"In the open Locker at the end of the hallway (on the bottom)",
+        "original_item": "Herb",
+        "region": "Dissection Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/BOSSROOM"
+    },
+    {
+        "name":"In the Lower tray",
+        "original_item": "Chem Fluid",
+        "region": "Morgue",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/BOSSROOM"
+    },
+    {
+        "name":"Under the Stairs",
+        "original_item": "Gun Powder",
+        "region": "Morgue",
+        "condition": {},
+        "item_object": "GameObject",
+        "parent_object": "Gunpowder",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+    },
+    {
+        "name":"In the hole in the wall, next to the pallet",
+        "original_item": "Antic Coin",
+        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2164_Coin01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Coins"
+    },
+    {
+        "name":"In the bottom shelve, behind the pallet",
+        "original_item": "Herb",
+        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+    },
+    {
+        "name":"On the hanging hook",
+        "original_item": "Red Dogs Head",
+        "region": "Morgue",
+        "condition": {},
+        "item_object": "sm2011_TripleCrest01C_InteractSendFsm",
+        "parent_object": "sm2011_TripleCrest01C_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoomB1F/c03_RightAreaB1FFreezer/c03_RightAreaB1FFreezer_sm"
+    },
+    {
+        "name":"In the corpse",
+        "original_item": "Chainsaw",
+        "region": "Morgue",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp0060_ChainSaw_Get",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoomB1F/c03_RightAreaB1FFreezer/c03_RightAreaB1FFreezer_sm"
+    },
+    {
+        "name":"In the box, inside the arena",
+        "original_item": "Handgun Ammo",
+        "region": "Morgue",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/BOSSROOM"
+    },
+    {
+        "name":"In the corner, on top of a painting box",
+        "original_item": "First Aid Med",
+        "region": "Morgue",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1852_AntisepticSolutionMedium_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/BOSSROOM"
+    },
+    {
+        "name":"In the locked drawer, next to save spot",
+        "original_item": "",
+        "region": "Monitoring Room",
+        "condition": {
+            "items": ["Lock Pick"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoom1F/c03_RightArea1FStudy/c03_RightArea1FStudy_sm"
+    },
+    {
+        "name":"Next to the door",
+        "original_item": "Broken Shotgun",
+        "region": "Grandma Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1039_BrokenShotgun_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem"
+    },
+    {
+        "name":"In the Armoir",
+        "original_item": "Handgun Ammo",
+        "region": "Grandma Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FGrandma/c03_MainHouse2FGrandma_sm"
+    },
+    {
+        "name":"On top of the shelf, next to the windows",
+        "original_item": "Chem Fluid",
+        "region": "Grandma Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Sasori"
+    },
+    {
+        "name":"On top of the bed",
+        "original_item": "Shotgun Ammo",
+        "region": "Grandma Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Sasori"
+    },
+    {
+        "name":"Under the terrasse, in the box",
+        "original_item": "Repair Kit",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2290_RepairKit01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Box"
+    },
+    {
+        "name":"On the left of the TERASSE",
+        "original_item": "Herb",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item"
+    },
+    {
+        "name":"On the yellow Shelf",
+        "original_item": "Gun Powder",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "GameObject",
+        "parent_object": "Gunpowder",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item"
+    },
+    {
+        "name":"In the pot, on the right stairs",
+        "original_item": "Lockpick",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1796_KeyPick01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_Hall/Normal/Item"
+    },
+    {
+        "name":"On the hidden pot, on the right of the right stairs",
+        "original_item": "Antic Coin",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "parent_object": "_sm2164_Coin01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_Hall/Normal/Item"
+    },
+    {
+        "name":"in the pot on the left of the right stairs",
+        "original_item": "Herb",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item"
+    },
+    {
+        "name":"On the right of the Caravane Door",
+        "original_item": "Chem Fluid",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item"
+    },
+    {
+        "name":"In the orange box",
+        "original_item": "Shotgun Ammo",
+        "region": "Bathroom",
+        "condition": {
+            "items":["Lock Pick"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyPick"
+    },
+    {
+        "name":"In the Caravane, on the table",
+        "original_item": "Antic Coin",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "parent_object": "_sm2164_Coin01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Coins"
+    },
+    {
+        "name":"In the caravan, on the bed",
+        "original_item": "Broken handgun",
+        "region": "",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"In front of the Old House, in the box",
+        "original_item": "Shotgun Ammo",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Box"
+    },
+    {
+        "name":"In the hallway",
+        "original_item": "Old House Map",
+        "region": "Guest Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1718_Map02A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Common/KeyItem"
+    },
+    {
+        "name":"In the drawer, at the left of the entrance",
+        "original_item": "Solid Fuel",
+        "region": "Living Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2026_Alcohol01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FRoom01/c03_OldHouse1FRoom01_sm"
+    },
+    {
+        "name":"Inside a furniture",
+        "original_item": "Chem Fluid",
+        "region": "Living Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item/Chemical"
+    },
+    {
+        "name":"In the locked drawer, next to the sink",
+        "original_item": "First Aid Med",
+        "region": "Dining Room - Old House",
+        "condition": {
+            "items": ["Lock Pick"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1852_AntisepticSolutionMedium_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FKitchen01/c03_OldHouse1FKitchen01_sm"
+    },
+    {
+        "name":"In the shelf",
+        "original_item": "Chem Fluid",
+        "region": "Dining Room - Old House",
+        "condition": {
+            "items": ["Burner Nozzle","Burner Grip"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FKitchen01/c03_OldHouse1FKitchen01_sm"
+    },
+    {
+        "name":"In the shelf",
+        "original_item": "Strong Chem Fluid",
+        "region": "Dining Room - Old House",
+        "condition": {
+            "items": ["Burner Nozzle","Burner Grip"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2037_ChemicalM01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FKitchen01/c03_OldHouse1FKitchen01_sm"
+    },
+    {
+        "name":"In the Wooden Pallet",
+        "original_item": "Shotgun Ammo",
+        "region": "Dining Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"In the wardrobe",
+        "original_item": "Solid Fuel",
+        "region": "Dining Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2026_Alcohol01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FKitchen01/c03_OldHouse1FKitchen01_sm"
+    },
+    {
+        "name":"Outside, on the right end",
+        "original_item": "Psychostimulants",
+        "region": "Dining Room - Old House",
+        "condition": {},
+        "item_object": "sm2179_Psychostimulant01A_InteractDetailSearch",
+        "parent_object": "sm2179_Psychostimulant01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"Outside, on the right end, In the box",
+        "original_item": "Lockpick",
+        "region": "Dining Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1796_KeyPick01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/KeyPick"
+    },
+    {
+        "name":"Outside, on the left of the door",
+        "original_item": "Gun Powder",
+        "region": "Dining Room - Old House",
+        "condition": {},
+        "item_object": "sm2183_Gunpowder01A_InteractDetailSearch",
+        "parent_object": "_sm2183_Gunpowder01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"On the Table",
+        "original_item": "Burner Nozzle",
+        "region": "Water Station",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1691_GasBurnerPartsB_Gimmick",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Common/KeyItem"
+    },
+    {
+        "name":"on the left Shelf",
+        "original_item": "Herb",
+        "region": "Water Station",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"In the Wooden Pallet",
+        "original_item": "Burner Fuel",
+        "region": "Living Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_wp1001_GasCan_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"On the far left, behind the door, next to the big hole",
+        "original_item": "44 Mag Ammo",
+        "region": "Entrance - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1141_MagnumBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"In the yellow box",
+        "original_item": "Herb",
+        "region": "Guest Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"In the iron Shelf",
+        "original_item": "Burner Fuel",
+        "region": "Guest Room - Old House",
+        "condition": {
+            "items": ["Burner Nozzle","Burner Grip"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1001_GasCan_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FRoom02/c03_OldHouse1FRoom02_sm"
+    },
+    {
+        "name":"In the iron Shelf",
+        "original_item": "Burner Fuel",
+        "region": "Guest Room - Old House",
+        "condition": {
+            "items": ["Burner Nozzle","Burner Grip"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1001_GasCan_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FRoom02/c03_OldHouse1FRoom02_sm"
+    },
+    {
+        "name":"In the Hallway, under the furniture",
+        "original_item": "Burner Fuel",
+        "region": "Guest Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_wp1001_GasCan_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"Outside, in the trash on the right",
+        "original_item": "Chem Fluid",
+        "region": "Gallery - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouseOutside/c03_OldHouseOutside/c03_OldHouseOutside_sm"
+    },
+    {
+        "name":"Outside, in the cardboard box",
+        "original_item": "Chem Fluid",
+        "region": "Gallery - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item/Chemical"
+    },
+    {
+        "name":"Outside, in the trash on the left",
+        "original_item": "Burner Grip",
+        "region": "Gallery - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1690_GasBurnerPartsA_Gimmick",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Common/KeyItem"
+    },
+    {
+        "name":"Outside, On the table in the save spot",
+        "original_item": "Backpack",
+        "region": "Gallery - Old House",
+        "condition": {},
+        "item_object": "sm1857_InteractSendFsm",
+        "parent_object": "sm1857_InventoryExpansionItem_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Common/KeyItem"
+    },
+    {
+        "name":"on the corner of the shelve (in the stairs behind the chimney)",
+        "original_item": "Antic Coin",
+        "region": "Living Room - Old House",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "parent_object": "_sm2164_Coin01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Coins"
+    },
+    {
+        "name":"Behind the chimney, on the table",
+        "original_item": "Stone Statuette",
+        "region": "Living Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm9069_ShadowPiece01_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Common/KeyItem"
+    },
+    {
+        "name":"Past the big hole, in the trash",
+        "original_item": "Herb",
+        "region": "Entrance - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"Past the big hole, in the tire",
+        "original_item": "Solid Fuel",
+        "region": "Entrance - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm2026_Alcohol01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"Next to the Crow Door, in the drawer",
+        "original_item": "Chem Fluid",
+        "region": "Entrance - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FHole01/c03_OldHouse1FHole01_sm"
+    },
+    {
+        "name":"In the mini-hole, in the box",
+        "original_item": "Psychostimulants",
+        "region": "Entrance - Old House",
+        "condition": {},
+        "item_object": "sm2179_Psychostimulant01A_InteractDetailSearch",
+        "parent_object": "sm2179_Psychostimulant01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Box"
+    },
+    {
+        "name":"In the mini-hole, at the end of the hallway",
+        "original_item": "Crank",
+        "region": "Entrance - Old House",
+        "condition": {},
+        "item_object": "sm2058_Crank01A_InteractDetailSearch",
+        "parent_object": "sm2058_Crank01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FUnderFloor01/c03_OldHouse1FUnder"
+    },
+    {
+        "name":"In the mini-hole, Behind a palett",
+        "original_item": "Chem Fluid",
+        "region": "Entrance - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item/Chemical"
+    },
+    {
+        "name":"Outside, in front of the cabanon, in the faucet",
+        "original_item": "First Aid Med",
+        "region": "Dining Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm1852_AntisepticSolutionMedium_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"Outside, in the cabanon",
+        "original_item": "Crow Key",
+        "region": "Dining Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm0389_TalismanDoorKey01A_KeyGet",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Common/KeyItem"
+    },
+    {
+        "name":"Outside, in the cabanon, on the toilet",
+        "original_item": "Antic Coin",
+        "region": "Dining Room - Old House",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "parent_object": "_sm2164_Coin01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Coins"
+    },
+    {
+        "name":"Outside, in the cabanon, in the toilet",
+        "original_item": "Burner Fuel",
+        "region": "Dining Room - Old House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1001_GasCan_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+    },
+    {
+        "name":"In the piano room, in the shelf on the right",
+        "original_item": "Burner Fuel",
+        "region": "Altar",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1001_GasCan_Get",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse2F/c03_OldHouse2FHallway02/c03_OldHouse2FHallway02_sm"
+    },
+    {
+        "name":"In the shelf in the corner, near the lantern door",
+        "original_item": "Antic Coin",
+        "region": "Altar",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "parent_object": "sm2164_Coin01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse2F/c03_OldHouse2FHallway03/c03_OldHouse2FHallway03_sm"
+    },
+    {
         "name":"",
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -627,7 +1309,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -636,7 +1318,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -645,7 +1327,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -654,7 +1336,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -663,7 +1345,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -672,7 +1354,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -681,7 +1363,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -690,7 +1372,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -699,7 +1381,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -708,7 +1390,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -717,7 +1399,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -726,7 +1408,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -735,7 +1417,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -744,7 +1426,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -753,7 +1435,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -762,7 +1444,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -771,7 +1453,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -780,7 +1462,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -789,7 +1471,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -798,7 +1480,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -807,7 +1489,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -816,7 +1498,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -825,7 +1507,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -834,7 +1516,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -843,7 +1525,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -852,7 +1534,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -861,7 +1543,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -870,7 +1552,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -879,7 +1561,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -888,7 +1570,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -897,7 +1579,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -906,7 +1588,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -915,7 +1597,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -924,7 +1606,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -933,7 +1615,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -942,7 +1624,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -951,7 +1633,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -960,7 +1642,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -969,7 +1651,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -978,7 +1660,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -987,7 +1669,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -996,7 +1678,7 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     },
@@ -1005,7 +1687,322 @@
         "original_item": "",
         "region": "",
         "condition": {},
-        "item_object": "InteractDetailSearch",
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": ""
+    },
+    {
+        "name":"",
+        "original_item": "",
+        "region": "",
+        "condition": {},
+        "item_object": "",
         "parent_object": "",
         "folder_path": ""
     }

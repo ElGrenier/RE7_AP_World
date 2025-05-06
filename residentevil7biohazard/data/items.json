@@ -318,9 +318,9 @@
         "progression": 1
     },
     {
-        "type": "Gating",
-        "name": "Broken Handgun",
-        "id": "Survival Knife",
+        "type": "Subweapon",
+        "name": "Survival Knife",
+        "id": "[NEED TO EDIT]",
         "count": 1,
         "progression": 0
     },
@@ -438,7 +438,13 @@
         "count": 1,
         "progression": 0
     },
-
+    {
+        "type": "Upgrade",
+        "name": "Broken Handgun",
+        "id": "BrokenHandgun_M19",
+        "count": 1,
+        "progression": 0
+    },
     {
         "type": "Upgrade",
         "name": "Stabilizer",
