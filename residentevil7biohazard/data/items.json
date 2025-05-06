@@ -340,7 +340,7 @@
     },
     {
         "type": "Gating",
-        "name": "Treasure Photo - Old House",
+        "name": "Treasure Photo - Green House",
         "id": "TreasureMap02",
         "count": 1,
         "progression": 1
@@ -515,7 +515,7 @@
         "id": "GrenadeLauncher",
         "count": 1,
         "progression": 0,
-        "ammo": "FlameBulletS"
+        "ammo": "Flame Rounds"
     },
     {
         "type": "Weapon",

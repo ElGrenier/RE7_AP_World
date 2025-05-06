@@ -1296,283 +1296,287 @@
         "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse2F/c03_OldHouse2FHallway03/c03_OldHouse2FHallway03_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In the Big Bowl on the right of the caravane",
+        "original_item": "Gun Powder",
+        "region": "Yard",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "GameObject",
+        "parent_object": "Gunpowder",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"Entrance of the GreenHouse, on the pole",
+        "original_item": "Strong Chem Fluid",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2037_ChemicalM01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In front of the Door",
+        "original_item": "Grenade Launcher",
+        "region": "Supplies",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractWeapon",
+        "parent_object": "wp1110_PortableCannon_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/KeyItem"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In the shelf on the left",
+        "original_item": "Flame Rounds",
+        "region": "Supplies",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1111_FlameBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F/3-4"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"Behind the wooden box",
+        "original_item": "Strong Chem Fluid",
+        "region": "Supplies",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2037_ChemicalM01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F/3-4"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"Next to the Shelf on the right of the door",
+        "original_item": "Solid Fuel",
+        "region": "Supplies",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2026_Alcohol01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F/3-4"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In the shelf on the left of the door",
+        "original_item": "Gun Powder",
+        "region": "Supplies",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "GameObject",
+        "parent_object": "Gunpowder",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F/3-4"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"In the Caravane, in the Cage with 9 Coins Necessary",
+        "original_item": "44 Mag",
+        "region": "Yard",
+        "condition": {
+            "items": ["Antic Coin","Antic Coin","Antic Coin","Antic Coin","Antic Coin","Antic Coin","Antic Coin","Antic Coin","Antic Coin"]
+        },
+        "item_object": "InteractWeapon",
+        "parent_object": "wp1140_Magnum_Get",
+        "folder_path": "Chapter/Chapter3/c03_Garden/c03_TrailerHouse/c03_TrailerHouse_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"On the wall of the stairs",
+        "original_item": "Treasure Photo - Green House",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "sm2154_TreasureMap01B_InteractDetailSearch",
+        "parent_object": "sm2154_TreasureMap01B_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Common/KeyItem"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"In the Caravane, in the toilet",
+        "original_item": "44 Mag Ammo",
+        "region": "Yard",
+        "condition": {
+            "items": ["Treasure Photo - Green House"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1141_MagnumBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Common/Item"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"On the Right in the entrance",
+        "original_item": "Herb",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/2FRoom"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"On the Right in the entrance",
+        "original_item": "Herb",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/2FRoom"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In the shelf on the right in the entrance",
+        "original_item": "Solid Fuel",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2026_Alcohol01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/2FRoom"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"On the table in the entrance",
+        "original_item": "Separating Agent",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "sm2038_ChemicalL01A_InteractDetailSearch",
+        "parent_object": "_sm2038_ChemicalL01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/2FRoom"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"On Marguerite Dead Body",
+        "original_item": "Lantern",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "wp2080_Lantern_InteractDetailSearch",
+        "parent_object": "wp2080_Lantern_Get",
+        "folder_path": "Chapter/Chapter3/Enemy_c03/Enemy_c03_3/Lantern"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In the green drawer, in front of the normal entrance",
+        "original_item": "Handgun Ammo",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH1F/c03_GH1FEntrance01/c03_GH1FEntrance01_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In the box in the corner (1F)",
+        "original_item": "Handgun Ammo",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/Boss/Box"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In an iron shelf (1F)",
+        "original_item": "Shotgun Ammo",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH1F/c03_GH1FRoom02/c03_GH1FRoom02_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In an iron shelf (1F)",
+        "original_item": "Strong Chem Fluid",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2037_ChemicalM01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH1F/c03_GH1FRoom02/c03_GH1FRoom02_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In a Green drawer",
+        "original_item": "First Aid Med",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1852_AntisepticSolutionMedium_Get",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH1F/c03_GH1FRoom03/c03_GH1FRoom03_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In an iron shelf in the open area (1F)",
+        "original_item": "Solid Fuel",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2026_Alcohol01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH1F/c03_GH1FlowerRoom01/c03_GH1FlowerRoom01_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In an iron shelf in the open area (1F)",
+        "original_item": "Chem Fluid",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH1F/c03_GH1FlowerRoom01/c03_GH1FlowerRoom01_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In the box, in the open area",
+        "original_item": "Burner Fuel",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1001_GasCan_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/Boss/Box"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"Next to the plant in the open area (2F)",
+        "original_item": "Burner Fuel",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_wp1001_GasCan_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/Boss"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"On the table with the plant in the open area (2F)",
+        "original_item": "Handgun Ammo",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/Boss"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In the shelf next to the stairs (2F)",
+        "original_item": "Herb",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH2F/c03_GH2FHallway01/c03_GH2FHallway01_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In the shelf next to the stairs (2F)",
+        "original_item": "Solid Fuel",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2026_Alcohol01A_Get",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH2F/c03_GH2FHallway01/c03_GH2FHallway01_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In the box (2F)",
+        "original_item": "Shotgun Ammo",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/Boss/Box"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In the drawer next to the bath",
+        "original_item": "Burner Fuel",
+        "region": "Greenhouse",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1001_GasCan_Get",
+        "folder_path": "Chapter/Chapter3/c03_GH/c03_GH2F/c03_GH2FRoom01/c03_GH2FRoom01_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"On the dead corps",
+        "original_item": "D-Series Arm",
+        "region": "Detention Room",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm0379_MedicineMaterialA_DetailSearch",
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FStairs01/c03_OldHouse1FStairs01_"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"In the body of the cops",
+        "original_item": "Serpent Key",
+        "region": "Dissection Room",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "sm1787_DiamondDoorKey01A_InteractDetailSearch",
+        "parent_object": "sm1787_DiamondDoorKey01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoomB1F/c03_RightAreaB1FStoreroom/c03_RightAreaB1FStoreroom_sm"
     },
     {
         "name":"",
