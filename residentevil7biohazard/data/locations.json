@@ -1579,193 +1579,233 @@
         "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoomB1F/c03_RightAreaB1FStoreroom/c03_RightAreaB1FStoreroom_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"In the Armoir on the left",
+        "original_item": "First Aid Med",
+        "region": "Master Bedroom",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1852_AntisepticSolutionMedium_Get",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FBedRoom/c03_MainHouse2FBedRoom_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"In the orange box, next to the mirror",
+        "original_item": "Lockpick",
+        "region": "Master Bedroom",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1796_KeyPick01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_2F_3-4"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"In the drawer, under the photo",
+        "original_item": "Herb",
+        "region": "Master Bedroom",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FBedRoom/c03_MainHouse2FBedRoom_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"On the Shelf on the right of the door",
+        "original_item": "Herb",
+        "region": "Storage",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_2F_3-4"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"Under the pouch",
+        "original_item": "Shotgun Ammo",
+        "region": "Master Bedroom",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_2F_3-4"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"In front of the Door",
+        "original_item": "Backpack",
+        "region": "Storage",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "sm1857_InteractSendFsm",
+        "parent_object": "sm1857_InventoryExpansionItem_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Common/KeyItem"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"On the red seat on the left",
+        "original_item": "Treasure Photo - Master Bedroom",
+        "region": "Storage",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "sm2155_TreasureMap01C_InteractDetailSearch",
+        "parent_object": "sm2155_TreasureMap01C_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Common/KeyItem"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"On the Table",
+        "original_item": "Keycard (Red)",
+        "region": "Workshop",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "sm2080_CardKey01A_InteractDetailSearch",
+        "parent_object": "sm2439_CardKey01B_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Common/KeyItem"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"In the green storage",
+        "original_item": "Enhanced Handgun Ammo",
+        "region": "Workshop",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1013_HandgunBulletStrong_Get",
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoomB1F/c03_RightAreaB1FPowerroom/c03_RightAreaB1FPowerroom_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"Under the wardrobe",
+        "original_item": "Shotgun Ammo",
+        "region": "Kid's Room",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Kidsroom"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"In the little wardrobe next to the bed",
+        "original_item": "Handgun Ammo",
+        "region": "Kid's Room",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FKids/c03_MainHouse2FKids_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"On the A/C",
+        "original_item": "Supplement",
+        "region": "Kid's Room",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "sm2025_Flower01A_InteractDetailSearch",
+        "parent_object": "sm2025_Flower01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Kidsroom"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"In the flowerpot next to the windows",
+        "original_item": "Lockpick",
+        "region": "Kid's Room",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1796_KeyPick01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyPick"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"In the flowerpot, on the wardrobe",
+        "original_item": "Herb",
+        "region": "Kid's Room",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Kidsroom"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"In the wardrobe in front of the stairs",
+        "original_item": "Happy Birthday",
+        "region": "Attic",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "sm1785_Videotape01F_InteractDetailSearch",
+        "parent_object": "sm1785_Videotape01F_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FKids02/c03_MainHouse2FKids02_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"In the shelf next to the stairs",
+        "original_item": "Model Shotgun",
+        "region": "Attic",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1695_DummyShotgun_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyItem"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"In the shelf next to the stairs",
+        "original_item": "Toy Axe",
+        "region": "Attic",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2487_DummyAxe01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"on the Shelf behind the wardrobe",
+        "original_item": "Strong Chem Fluid",
+        "region": "Attic",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm2037_ChemicalM01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Kidsroom"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"After the Shadow puzzle",
+        "original_item": "Keycard (Blue)",
+        "region": "Attic",
+        "condition": {
+            "items":["Serpent Key"]
+        },
+        "item_object": "sm2080_CardKey01A_InteractDetailSearch",
+        "parent_object": "sm2080_CardKey01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "name":"In the chest after the shadow puzzle",
+        "original_item": "Stabilizer",
+        "region": "Yard",
+        "condition": {
+            "items":["Toy Axe"]
+        },
+        "item_object": "sm1928_Depressant_InteractDetailSearch",
+        "parent_object": "sm1928_Depressant_Get",
+        "folder_path": "Chapter/Chapter3/c03_Garden/c03_GardenArea1/c03_GardenArea1_sm"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
+        "name":"Next to Lucas Door",
+        "original_item": "Supplement",
+        "region": "Yard",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "item_object": "sm2025_Flower01A_InteractDetailSearch",
+        "parent_object": "sm2025_Flower01A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item"
     },
     {
         "name":"",
