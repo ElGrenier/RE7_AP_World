@@ -125,38 +125,50 @@
         "to": "Main Hall",
         "condition": {
 	        "items": ["Scorpion Key"]
-	    }
+	    },
+        "limitation": "ONE_SIDED_DOOR"
     },
     { 
-        "from": "Main Hall",
-        "to": "Incinerator Room",
+        "from": "Monitoring Room",
+        "to": "Main Room",
         "condition": {
             "items": ["Scorpion Key"]
         }
     },
+     { 
+        "from": "Main Room",
+        "to": "Incinerator Room",
+        "condition": {}
+    },
     { 
-        "from": "Incinerator Room",
+        "from": "Main Room",
+        "to": " Bathroom - Processing Area",
+        "condition": {}
+    },
+     { 
+        "from": "Bathroom - Processing Area",
         "to": "Boiler Room",
         "condition": {}
     },
     { 
-        "from": "Morgue",
-        "to": "Incinerator Room",
-        "condition": {
-	     "items": ["Snake Key"]	
-        }
+        "from": "Boiler Room",
+        "to": "Morgue",
+        "condition": {}
     },
     { 
-        "from": "Boiler Room",
+        "from": "Morgue",
         "to": "Dissection Room",
         "condition": {
             "items": ["Dissection Room Key"]
         }
     },
     { 
-        "from": "Dissection Room",
-        "to": "Morgue",
-        "condition": {}
+        "from": "Morgue",
+        "to": "Main Room",
+        "condition": {
+	     "items": ["Snake Key"]	
+        },
+        "limitation": "ONE_SIDED_DOOR"
     },
     { 
         "from": "Main Hall",

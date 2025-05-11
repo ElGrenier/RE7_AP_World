@@ -11,14 +11,14 @@
     {
         "name": "Derelict House Footage Tape Upstairs",
         "region": "Intro House",
-        "original_item": "",
+        "original_item": "Derelict House Footage",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm0584_Videotape01C_DetailSearchItem",
         "folder_path": "Chapter/Chapter1/2F/c01_2F/c01_2F_sm"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, its the first Chapter]",
         "original_item": "Chain Cutter",
         "region": "Intro House",
         "condition": {},
@@ -27,7 +27,7 @@
         "folder_path": "Chapter/Chapter1/B1/c01_B1f/c01_B1f_sm"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, its the first Chapter]",
         "original_item": "First Aid Med",
         "region": "Intro House",
         "condition": {},
@@ -36,7 +36,7 @@
         "folder_path": "Chapter/Chapter1/1F/c01_Bathroom01/c01_Bathroom01_sm"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, its the first Chapter]",
         "original_item": "First Aid Med",
         "region": "Intro House",
         "condition": {},
@@ -45,7 +45,7 @@
         "folder_path": "Chapter/Chapter1/1F/c01_Bathroom01/c01_Bathroom01_sm"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, its the first Chapter]",
         "original_item": "Axe",
         "region": "Intro House",
         "condition": {},
@@ -54,7 +54,7 @@
         "folder_path": "Chapter/Chapter1/1F/c01_Storeroom01/c01_Storeroom01_sm"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, its the first Chapter]",
         "original_item": "Fuse",
         "region": "Intro House",
         "condition": {
@@ -65,7 +65,7 @@
         "folder_path": "Chapter/Chapter1/1F/c01_Corridor01/c01_Corridor01_sm"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, its the first Chapter]",
         "original_item": "Hand",
         "region": "Intro House",
         "condition": {
@@ -76,7 +76,7 @@
         "folder_path": "Chapter/Chapter1/1F/c01_Corridor02/c01_Corridor02_sm"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, its the first Chapter]",
         "original_item": "Handgun Ammo",
         "region": "Intro House",
         "condition": {
@@ -87,7 +87,7 @@
         "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, its the first Chapter]",
         "original_item": "M19 Handgun",
         "region": "Intro House",
         "condition": {
@@ -98,7 +98,7 @@
         "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, its the first Chapter]",
         "original_item": "First Aid Med",
         "region": "Intro House",
         "condition": {
@@ -109,7 +109,7 @@
         "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, its the first Chapter]",
         "original_item": "Handgun Ammo",
         "region": "Intro House",
         "condition": {
@@ -120,7 +120,7 @@
         "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, its the first Chapter]",
         "original_item": "Handgun Ammo",
         "region": "Intro House",
         "condition": {
@@ -131,7 +131,7 @@
         "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, (forgot to add it)]",
         "original_item": "Handgun Ammo",
         "region": "Dining Area",
         "condition": {},
@@ -140,7 +140,7 @@
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FLiving/c03_MainHouse1FLiving_sm"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, (forgot to add it)]",
         "original_item": "Hatch Key",
         "region": "Dining Area",
         "condition": {},
@@ -149,7 +149,7 @@
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, (forgot to add it)]",
         "original_item": "Antic Coin",
         "region": "Dining Area",
         "condition": {
@@ -160,16 +160,7 @@
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Coins"
     },
     {
-        "name": "",
-        "original_item": "MainHouse Map",
-        "region": "Laundry Room",
-        "condition": {},
-        "item_object": "InteractDetailSearch",
-        "parent_object": "sm1808_Map03A_DetailSearchItem",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem"
-    },
-    {
-        "name": "",
+        "name": "[Sorry No Name, (forgot to add it)]",
         "original_item": "Chem Fluid",
         "region": "Laundry Room",
         "condition": {},
@@ -178,7 +169,7 @@
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FWash/c03_MainHouse1FWash_sm"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, (forgot to add it)]",
         "original_item": "Herb",
         "region": "Laundry Room",
         "condition": {},
@@ -187,7 +178,7 @@
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FWash/c03_MainHouse1FWash_sm"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, (forgot to add it)]",
         "original_item": "Lockpick",
         "region": "Laundry Room",
         "condition": {},
@@ -196,7 +187,7 @@
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyPick"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, (forgot to add it)]",
         "original_item": "Knife",
         "region": "Laundry Room",
         "condition": {},
@@ -205,7 +196,7 @@
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, (forgot to add it)]",
         "original_item": "Handgun Ammo",
         "region": "Garage",
         "condition": {},
@@ -214,7 +205,7 @@
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FGarageHallway/c03_MainHouse1FGarageHallway_sm"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, (forgot to add it)]",
         "original_item": "G17 Handgun",
         "region": "Garage",
         "condition": {},
@@ -223,7 +214,7 @@
         "folder_path": "Chapter/Chapter3/Event_c03/Event_c03_1/evProps"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, (forgot to add it)]",
         "original_item": "Car Key",
         "region": "Garage",
         "condition": {},
@@ -232,7 +223,7 @@
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyItem"
     },
     {
-        "name": "",
+        "name": "[Sorry No Name, Second Chapter (forgot to add it)]",
         "original_item": "Shotgun Ammo",
         "region": "Garage",
         "condition": {},
@@ -560,18 +551,9 @@
         "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoomB1F/c03_RightAreaB1FMorgue/c03_RightAreaB1FMorgue_sm"
     },
     {
-        "name":"Hanged on the Shelf",
-        "original_item": "Treatment Zone Map",
-        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
-        "condition": {},
-        "item_object": "InteractDetailSearch",
-        "parent_object": "sm1809_Map04A_DetailSearchItem",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Common/KeyItem"
-    },
-    {
         "name":"In the Shelf",
         "original_item": "First Aid Med",
-        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
+        "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm1852_AntisepticSolutionMedium_Get",
@@ -580,7 +562,7 @@
     {
         "name":"In the Box on the Ground",
         "original_item": "Handgun Ammo",
-        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
+        "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "wp1011_HandgunBullet_Get",
@@ -589,7 +571,7 @@
     {
         "name":"Stuck in the meat",
         "original_item": "Scorpion Key",
-        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
+        "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm1732_FatherKey01A_DetailSearchItem",
@@ -598,7 +580,7 @@
     {
         "name":"In the Fridge",
         "original_item": "Lockpick",
-        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
+        "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm1796_KeyPick01A_DetailSearchItem",
@@ -606,8 +588,8 @@
     },
     {
         "name":"On the Iron Shelve",
-        "original_item": "Treasure Map 01",
-        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
+        "original_item": "Treasure Photo - Morgue",
+        "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm2153_TreasureMap01A_DetailSearchItem",
@@ -627,7 +609,7 @@
     {
         "name":"Inside the cage",
         "original_item": "Herb",
-        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
+        "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "_sm1800_Herb00A_Get",
@@ -636,25 +618,25 @@
     {
         "name":"In the Green Armor",
         "original_item": "Chem Fluid",
-        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
+        "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm2036_ChemicalS01A_Get",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal"
     },
     {
-        "name":"In the stairs next to the Serpent Door",
+        "name":"In the stairs next to the Snake Door",
         "original_item": "Psychostimulants",
-        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
+        "region": "Main Room",
         "condition": {},
         "item_object": "sm2179_Psychostimulant01A_InteractDetailSearch",
         "parent_object": "sm2179_Psychostimulant01A_Get",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
     },
     {
-        "name":"In the stairs, in front of the Serpent door",
+        "name":"In the stairs, in front of the Snake door",
         "original_item": "Shotgun Ammo",
-        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
+        "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "wp1031_ShotgunBullet_Get",
@@ -753,7 +735,7 @@
     {
         "name":"In the hole in the wall, next to the pallet",
         "original_item": "Antic Coin",
-        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
+        "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm2164_Coin01A_DetailSearchItem",
@@ -762,7 +744,7 @@
     {
         "name":"In the bottom shelve, behind the pallet",
         "original_item": "Herb",
-        "region": "[NEED TO EDIT TO CREATE A CORRIDOR ROOM]",
+        "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "_sm1800_Herb00A_Get",
@@ -806,7 +788,7 @@
     },
     {
         "name":"In the locked drawer, next to save spot",
-        "original_item": "",
+        "original_item": "Handgun Ammo",
         "region": "Monitoring Room",
         "condition": {
             "items": ["Lock Pick"]
@@ -926,22 +908,13 @@
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyPick"
     },
     {
-        "name":"In the Caravane, on the table",
+        "name":"In the caravan, on the table",
         "original_item": "Antic Coin",
         "region": "Yard",
         "condition": {},
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
         "parent_object": "_sm2164_Coin01A_DetailSearchItem",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Coins"
-    },
-    {
-        "name":"In the caravan, on the bed",
-        "original_item": "Broken handgun",
-        "region": "",
-        "condition": {},
-        "item_object": "InteractDetailSearch",
-        "parent_object": "",
-        "folder_path": ""
     },
     {
         "name":"In front of the Old House, in the box",
@@ -951,15 +924,6 @@
         "item_object": "InteractDetailSearch",
         "parent_object": "wp1031_ShotgunBullet_Get",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Box"
-    },
-    {
-        "name":"In the hallway",
-        "original_item": "Old House Map",
-        "region": "Guest Room - Old House",
-        "condition": {},
-        "item_object": "InteractDetailSearch",
-        "parent_object": "sm1718_Map02A_DetailSearchItem",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Common/KeyItem"
     },
     {
         "name":"In the drawer, at the left of the entrance",
@@ -1296,7 +1260,7 @@
         "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse2F/c03_OldHouse2FHallway03/c03_OldHouse2FHallway03_sm"
     },
     {
-        "name":"In the Big Bowl on the right of the caravane",
+        "name":"In the Big Bowl on the right of the caravan",
         "original_item": "Gun Powder",
         "region": "Yard",
         "condition": {},
@@ -1571,7 +1535,7 @@
     },
     {
         "name":"In the body of the cops",
-        "original_item": "Serpent Key",
+        "original_item": "Snake Key",
         "region": "Dissection Room",
         "condition": {},
         "item_object": "sm1787_DiamondDoorKey01A_InteractDetailSearch",
@@ -1583,7 +1547,7 @@
         "original_item": "First Aid Med",
         "region": "Master Bedroom",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "InteractDetailSearch",
         "parent_object": "sm1852_AntisepticSolutionMedium_Get",
@@ -1594,7 +1558,7 @@
         "original_item": "Lockpick",
         "region": "Master Bedroom",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "InteractDetailSearch",
         "parent_object": "sm1796_KeyPick01A_DetailSearchItem",
@@ -1605,7 +1569,7 @@
         "original_item": "Herb",
         "region": "Master Bedroom",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "InteractDetailSearch",
         "parent_object": "sm1800_Herb00A_Get",
@@ -1616,7 +1580,7 @@
         "original_item": "Herb",
         "region": "Storage",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "InteractDetailSearch",
         "parent_object": "_sm1800_Herb00A_Get",
@@ -1627,7 +1591,7 @@
         "original_item": "Shotgun Ammo",
         "region": "Master Bedroom",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "InteractDetailSearch",
         "parent_object": "wp1031_ShotgunBullet_Get",
@@ -1638,7 +1602,7 @@
         "original_item": "Backpack",
         "region": "Storage",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "sm1857_InteractSendFsm",
         "parent_object": "sm1857_InventoryExpansionItem_Get",
@@ -1649,7 +1613,7 @@
         "original_item": "Treasure Photo - Master Bedroom",
         "region": "Storage",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "sm2155_TreasureMap01C_InteractDetailSearch",
         "parent_object": "sm2155_TreasureMap01C_DetailSearchItem",
@@ -1660,7 +1624,7 @@
         "original_item": "Keycard (Red)",
         "region": "Workshop",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "sm2080_CardKey01A_InteractDetailSearch",
         "parent_object": "sm2439_CardKey01B_DetailSearchItem",
@@ -1671,7 +1635,7 @@
         "original_item": "Enhanced Handgun Ammo",
         "region": "Workshop",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "InteractDetailSearch",
         "parent_object": "wp1013_HandgunBulletStrong_Get",
@@ -1682,7 +1646,7 @@
         "original_item": "Shotgun Ammo",
         "region": "Kid's Room",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "InteractDetailSearch",
         "parent_object": "wp1031_ShotgunBullet_Get",
@@ -1693,7 +1657,7 @@
         "original_item": "Handgun Ammo",
         "region": "Kid's Room",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "InteractDetailSearch",
         "parent_object": "wp1011_HandgunBullet_Get",
@@ -1704,7 +1668,7 @@
         "original_item": "Supplement",
         "region": "Kid's Room",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "sm2025_Flower01A_InteractDetailSearch",
         "parent_object": "sm2025_Flower01A_Get",
@@ -1715,7 +1679,7 @@
         "original_item": "Lockpick",
         "region": "Kid's Room",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "InteractDetailSearch",
         "parent_object": "sm1796_KeyPick01A_DetailSearchItem",
@@ -1726,7 +1690,7 @@
         "original_item": "Herb",
         "region": "Kid's Room",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "InteractDetailSearch",
         "parent_object": "_sm1800_Herb00A_Get",
@@ -1737,7 +1701,7 @@
         "original_item": "Happy Birthday",
         "region": "Attic",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "sm1785_Videotape01F_InteractDetailSearch",
         "parent_object": "sm1785_Videotape01F_DetailSearchItem",
@@ -1748,7 +1712,7 @@
         "original_item": "Model Shotgun",
         "region": "Attic",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "InteractDetailSearch",
         "parent_object": "sm1695_DummyShotgun_Get",
@@ -1759,7 +1723,7 @@
         "original_item": "Toy Axe",
         "region": "Attic",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "InteractDetailSearch",
         "parent_object": "sm2487_DummyAxe01A_Get",
@@ -1770,7 +1734,7 @@
         "original_item": "Strong Chem Fluid",
         "region": "Attic",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "InteractDetailSearch",
         "parent_object": "_sm2037_ChemicalM01A_Get",
@@ -1781,7 +1745,7 @@
         "original_item": "Keycard (Blue)",
         "region": "Attic",
         "condition": {
-            "items":["Serpent Key"]
+            "items":["Snake Key"]
         },
         "item_object": "sm2080_CardKey01A_InteractDetailSearch",
         "parent_object": "sm2080_CardKey01A_DetailSearchItem",
@@ -1808,246 +1772,18 @@
         "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item"
     },
     {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
+        "name": "Victory",
+        "region": "Testing Area",
+        "condition": {
+            "items": [
+                "Snake Key", "Hatch Key", "Crow Key", "Blue Dogs Head", "White Dogs Head","Red Dogs Head","Ox Statuette", 
+                "Keycard - Blue","Keycard - Red","Scorpion Key","Dissection Room Key","Lantern","Wooden Statuette","Stone Statuette","Burner Grip","Burner Nozzle"
+                    ]
+        },
+        "item_object": "sm1754_InteractSendFsm",
         "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
-    },
-    {
-        "name":"",
-        "original_item": "",
-        "region": "",
-        "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": ""
+        "folder_path": "Chapter/Chapter3/c03_Lucasarea/c03_LeftArea2F/c03_LeftArea2FTvRoom/c03_LeftArea2FTvRoom_sm",
+        "id": null,
+        "victory": true
     }
 ]
