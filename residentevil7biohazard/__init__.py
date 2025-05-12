@@ -35,7 +35,7 @@ class RE7Location(Location):
 
 class ResidentEvil7(World):
     """
-    'Welcom to the Family Son.' - The Dad, probably
+    'Welcome to the Family Son.' - The Dad, probably
     """
     game: str = "Resident Evil 7"
 
@@ -419,7 +419,7 @@ class ResidentEvil7(World):
         return new_item
 
     def get_filler_item_name(self) -> str:
-        return "Wooden Boards"
+        return "Hands"
 
     def fill_slot_data(self) -> Dict[str, Any]:
         slot_data = {
