@@ -2,70 +2,70 @@
     {
         "type": "Lore",
         "name": "Email from Mia",
-        "id": "MailMia",
+        "game_id": "MailMia",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Lore",
         "name": "Mia Driving License",
-        "id": "MiaDriversLicense",
+        "game_id": "MiaDriversLicense",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Lore",
         "name": "Ethan's Hand",
-        "id": "HandCutOff",
+        "game_id": "HandCutOff",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Lore",
         "name": "Mia",
-        "id": "FoundFootage030",
+        "game_id": "FoundFootage030",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Lore",
         "name": "Happy Birthday",
-        "id": "FoundFootage040",
+        "game_id": "FoundFootage040",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Lore",
         "name": "Old Videotape",
-        "id": "FoundFootage050",
+        "game_id": "FoundFootage050",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Key",
         "name": "Blue Dogs Head",
-        "id": "3CrestKeyA",
+        "game_id": "3CrestKeyA",
         "count": 1,
         "progression": 1
     },
 	{
         "type": "Key",
         "name": "White Dogs Head",
-        "id": "3CrestKeyB",
+        "game_id": "3CrestKeyB",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Red Dogs Head",
-        "id": "3CrestKeyC",
+        "game_id": "3CrestKeyC",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Captain's Cabin Locker Key",
-        "id": "CabinKey",
+        "game_id": "CabinKey",
         "count": 1,
         "progression": 1
     },
@@ -73,161 +73,161 @@
     {
         "type": "Key",
         "name": "Ox Statuette",
-        "id": "EntranceHallKey",
+        "game_id": "EntranceHallKey",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Car Key",
-        "id": "EthanCarKey",
+        "game_id": "EthanCarKey",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Hatch Key",
-        "id": "FloorDoorKey",
+        "game_id": "FloorDoorKey",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Keycard - Blue",
-        "id": "LucasCardKey",
+        "game_id": "LucasCardKey",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Keycard - Red",
-        "id": "LucasCardKey2",
+        "game_id": "LucasCardKey2",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Snake Key",
-        "id": "MasterKey",
+        "game_id": "MasterKey",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Scorpion Key",
-        "id": "MorgueKey",
+        "game_id": "MorgueKey",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Corrosive",
-        "id": "SpareKey",
+        "game_id": "SpareKey",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Crow Key",
-        "id": "TalismanKey",
+        "game_id": "TalismanKey",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Dissection Room Key",
-        "id": "WorkroomKey",
+        "game_id": "WorkroomKey",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Lantern",
-        "id": "Lantern",
+        "game_id": "Lantern",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Wooden Statuette",
-        "id": "SilhouettePazzlePiece",
+        "game_id": "SilhouettePazzlePiece",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Stone Statuette",
-        "id": "SilhouettePazzlePieceOldHouse",
+        "game_id": "SilhouettePazzlePieceOldHouse",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "General Purpose Fuse",
-        "id": "FuseCh4",
+        "game_id": "FuseCh4",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Fuse",
-        "id": "Fuse",
+        "game_id": "Fuse",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "D-Series Arm",
-        "id": "SerumMaterialA",
+        "game_id": "SerumMaterialA",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "D-Series Head",
-        "id": "SerumMaterialB",
+        "game_id": "SerumMaterialB",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Power Cable",
-        "id": "EvCable",
+        "game_id": "EvCable",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Burner Grip",
-        "id": "BurnerPartsA",
+        "game_id": "BurnerPartsA",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
         "name": "Burner Nozzle",
-        "id": "BurnerPartsB",
+        "game_id": "BurnerPartsB",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Ammo",
         "name": "Neuro Rounds",
-        "id": "AcidBulletS",
+        "game_id": "AcidBulletS",
         "count": 100,
         "progression": 0
     },
     {
         "type": "Ammo",
         "name": "Burner Fuel",
-        "id": "BurnerBullet",
+        "game_id": "BurnerBullet",
         "count": 100,
         "progression": 0
     },
     {
         "type": "Ammo",
         "name": "Flame Rounds",
-        "id": "FlameBulletS",
+        "game_id": "FlameBulletS",
         "count": 100,
         "progression": 0
     },
@@ -235,56 +235,56 @@
     {
         "type": "Ammo",
         "name": "Handgun Ammo",
-        "id": "HandgunBullet",
+        "game_id": "HandgunBullet",
         "count": 5,
         "progression": 0
     },
     {
         "type": "Ammo",
         "name": "Enhanced Handgun Ammo",
-        "id": "HandgunBulletL",
+        "game_id": "HandgunBulletL",
         "count": 5,
         "progression": 0
     },
     {
         "type": "Ammo",
         "name": "Machine Gun Ammo",
-        "id": "MachineGunBullet",
+        "game_id": "MachineGunBullet",
         "count": 50,
         "progression": 0
     },
     {
         "type": "Ammo",
         "name": "44 Mag Ammo",
-        "id": "MagnumBullet",
+        "game_id": "MagnumBullet",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Ammo",
         "name": "Shotgun Ammo",
-        "id": "ShotgunBullet",
+        "game_id": "ShotgunBullet",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Ammo",
         "name": "Large-Caliber Handgun Ammo",
-        "id": "26",
+        "game_id": "26",
         "count": 6,
         "progression": 0
     },
     {
         "type": "Ammo",
         "name": "Submachine Gun Ammo",
-        "id": "17",
+        "game_id": "17",
         "count": 100,
         "progression": 0
     },
     {
         "type": "Ammo",
         "name": "M37 Shotgun",
-        "id": "Shotgun_M37",
+        "game_id": "Shotgun_M37",
         "count": 5,
         "progression": 0,
         "ammo": "Shotgun Ammo"
@@ -292,63 +292,63 @@
     {
         "type": "Recovery",
         "name": "Herb",
-        "id": "Herb",
+        "game_id": "Herb",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Recovery",
         "name": "Strong First Aid Med",
-        "id": "RemedyL",
+        "game_id": "RemedyL",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Recovery",
         "name": "First Aid Med",
-        "id": "RemedyM",
+        "game_id": "RemedyM",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Gating",
         "name": "Lock Pick",
-        "id": "CylinderKey",
+        "game_id": "CylinderKey",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Subweapon",
         "name": "Survival Knife",
-        "id": "[NEED TO EDIT]",
+        "game_id": "[NEED TO EDIT]",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Gating",
         "name": "Broken Shotgun",
-        "id": "BrokenShotgun_DB",
+        "game_id": "BrokenShotgun_DB",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Gating",
         "name": "Treasure Photo - Morgue",
-        "id": "TreasureMap01",
+        "game_id": "TreasureMap01",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Gating",
         "name": "Treasure Photo - Green House",
-        "id": "TreasureMap02",
+        "game_id": "TreasureMap02",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Gating",
         "name": "Treasure Photo - Master Bedroom",
-        "id": "TreasureMap03",
+        "game_id": "TreasureMap03",
         "count": 1,
         "progression": 1
     },
@@ -356,49 +356,49 @@
     {
         "type": "Gating",
         "name": "Antique Coin",
-        "id": "Coin",
+        "game_id": "Coin",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Consumable",
         "name": "Psychostimulants",
-        "id": "EyeDrops",
+        "game_id": "EyeDrops",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Consumable",
         "name": "Solid Fuel",
-        "id": "Alcohol",
+        "game_id": "Alcohol",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Consumable",
         "name": "Chilled Chem Fluid",
-        "id": "AlloyClay",
+        "game_id": "AlloyClay",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Consumable",
         "name": "Separating Agent",
-        "id": "ChemicalL",
+        "game_id": "ChemicalL",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Consumable",
         "name": "Strong Chem Fluid",
-        "id": "ChemicalM",
+        "game_id": "ChemicalM",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Consumable",
         "name": "Chem Fluid",
-        "id": "ChemicalS",
+        "game_id": "ChemicalS",
         "count": 2,
         "progression": 0
     },
@@ -406,105 +406,105 @@
     {
         "type": "Consumable",
         "name": "Supplements",
-        "id": "Flower",
+        "game_id": "Flower",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Consumable",
         "name": "Gun Powder",
-        "id": "Gunpowder",
+        "game_id": "Gunpowder",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Consumable",
         "name": "Weak Acid",
-        "id": "Magnesium",
+        "game_id": "Magnesium",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Consumable",
         "name": "Cassette Tape (Save)",
-        "id": "SaveTape",
+        "game_id": "SaveTape",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Upgrade",
         "name": "Gun Repair Kit",
-        "id": "RepairKit",
+        "game_id": "RepairKit",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Upgrade",
         "name": "Broken Handgun",
-        "id": "BrokenHandgun_M19",
+        "game_id": "BrokenHandgun_M19",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Upgrade",
         "name": "Stabilizer",
-        "id": "Depressant",
+        "game_id": "Depressant",
         "count": 1,
         "progression": 0
     },
 	{
         "type": "Upgrade",
         "name": "Steroids",
-        "id": "Stimulant",
+        "game_id": "Stimulant",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Key",
         "name": "Knife",
-        "id": "Knife",
+        "game_id": "Knife",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Subweapon",
         "name": "Crowbar",
-        "id": "Bar",
+        "game_id": "Bar",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Subweapon",
         "name": "Chain Saw",
-        "id": "ChainSaw",
+        "game_id": "ChainSaw",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Subweapon",
         "name": "Circular Saw",
-        "id": "CircularSaw",
+        "game_id": "CircularSaw",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Subweapon",
         "name": "Axe",
-        "id": "HandAxe",
+        "game_id": "HandAxe",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Subweapon",
         "name": "Survival Knife",
-        "id": "MiaKnife",
+        "game_id": "MiaKnife",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Weapon",
         "name": "Flamethrower",
-        "id": "Burner",
+        "game_id": "Burner",
         "count": 50,
         "progression": 0,
         "ammo": "Burner Fuel"
@@ -512,7 +512,7 @@
     {
         "type": "Weapon",
         "name": "Grenade Launcher",
-        "id": "GrenadeLauncher",
+        "game_id": "GrenadeLauncher",
         "count": 1,
         "progression": 0,
         "ammo": "Flame Rounds"
@@ -520,7 +520,7 @@
     {
         "type": "Weapon",
         "name": "Albert-01",
-        "id": "Handgun_Albert",
+        "game_id": "Handgun_Albert",
         "count": 24,
         "progression": 0,
         "ammo": ""
@@ -528,14 +528,14 @@
     {
         "type": "Weapon",
         "name": "Albert-01 R",
-        "id": "Handgun_Albert_Reward",
+        "game_id": "Handgun_Albert_Reward",
         "count": 1,
         "progression": 0
     },
     {
         "type": "Weapon",
         "name": "G17 Handgun",
-        "id": "Handgun_G17",
+        "game_id": "Handgun_G17",
         "count": 5,
         "progression": 0,
         "ammo": "Handgun Ammo"
@@ -543,7 +543,7 @@
     {
         "type": "Weapon",
         "name": "M19 Handgun",
-        "id": "Handgun_M19",
+        "game_id": "Handgun_M19",
         "count": 5,
         "progression": 0,
         "ammo": "Handgun Ammo"
@@ -551,7 +551,7 @@
     {
         "type": "Weapon",
         "name": "MPM Handgun",
-        "id": "Handgun_MPM",
+        "game_id": "Handgun_MPM",
         "count": 5,
         "progression": 0,
         "ammo": "Handgun Ammo"
@@ -559,7 +559,7 @@
     {
         "type": "Weapon",
         "name": "P19 Machine Gun",
-        "id": "MachineGun",
+        "game_id": "MachineGun",
         "count": 20,
         "progression": 0,
         "ammo": "Machine Gun Ammo"
@@ -567,7 +567,7 @@
     {
         "type": "Weapon",
         "name": "44 MAG",
-        "id": "Magnum",
+        "game_id": "Magnum",
         "count": 5,
         "progression": 0,
         "ammo": "44 Mag Ammo"
@@ -575,7 +575,7 @@
     {
         "type": "Weapon",
         "name": "M21 Shotgun",
-        "id": "Shotgun_DB",
+        "game_id": "Shotgun_DB",
         "count": 5,
         "progression": 0,
         "ammo": "Shotgun Ammo"
@@ -583,8 +583,14 @@
     {
         "type": "Key",
         "name": "Clock Pendulum",
-        "id": "PendulumClock",
+        "game_id": "PendulumClock",
         "count": 1,
+        "progression": 1
+    },
+    
+    {
+        "name": "Victory",
+        "id": null,
         "progression": 1
     }
 ]

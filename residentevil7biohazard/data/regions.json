@@ -8,19 +8,7 @@
         "zone_id": 1
     },
     {
-        "name": "",
-        "zone_id": 1
-    },
-    {
-        "name": "",
-        "zone_id": 1
-    },
-    {
-        "name": "",
-        "zone_id": 1
-    },
-    {
-        "name": "",
+        "name": "Intro House",
         "zone_id": 1
     },
     {
@@ -51,7 +39,7 @@
         "name": "Main Hall",
         "zone_id": 2
     },
-  {
+    {
         "name": "Monitoring Room",
         "zone_id": 2
     },
@@ -59,16 +47,24 @@
         "name": "Drawing Room",
         "zone_id": 2
     },
-  {
+    {
         "name": "Supplies",
+        "zone_id": 2
+    },
+    {
+        "name": "Main Room",
         "zone_id": 2
     },
     {
         "name": "Morgue",
         "zone_id": 2
     },
-  {
+    {
         "name": "Dissection Room",
+        "zone_id": 2
+    },
+    {
+        "name": "Bathroom - Processing Area",
         "zone_id": 2
     },
     {
@@ -156,11 +152,11 @@
         "zone_id": 2
     },
   {
-        "name": "Altar - Old House",
+        "name": "Altar",
         "zone_id": 2
     },
     {
-        "name": "Greenhouse - Old House",
+        "name": "Greenhouse",
         "zone_id": 2
     },
   {

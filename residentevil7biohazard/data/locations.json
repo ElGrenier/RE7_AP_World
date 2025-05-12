@@ -2,16 +2,16 @@
     {
         "name": "Purse with License Inside",
         "region": "Intro House",
-        "original_item": "License",
+        "original_item": "Mia Driving License",
         "condition": {},
         "item_object": "sm7011_Lisence_InteractDetailSearch",
         "parent_object": "sm7011_Lisence_Props",
         "folder_path": "Chapter/Chapter1/Outside/c01_Outside11/c01_Outside11_sm"
     },
     {
-        "name": "Derelict House Footage Tape Upstairs",
+        "name": "Old Videotape Upstairs",
         "region": "Intro House",
-        "original_item": "Derelict House Footage",
+        "original_item": "Old Videotape",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm0584_Videotape01C_DetailSearchItem",
@@ -645,7 +645,7 @@
     {
         "name":"In the left bath next to the entrance",
         "original_item": "Handgun Ammo",
-        "region": "Bathroom - Processing Area",
+        "region": "Bathroom - Processing Area Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "_wp1011_HandgunBullet_Get",
@@ -654,7 +654,7 @@
     {
         "name":"In the front bath, next to the exit door",
         "original_item": "Chem Fluid",
-        "region": "Bathroom - Processing Area",
+        "region": "Bathroom - Processing Area Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "ChemicalS",
@@ -663,7 +663,7 @@
     {
         "name":"In the wall",
         "original_item": "Herb",
-        "region": "Bathroom - Processing Area",
+        "region": "Bathroom - Processing Area Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm1800_Herb00A_Get",

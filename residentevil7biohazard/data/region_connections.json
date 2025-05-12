@@ -5,22 +5,12 @@
         "condition": {}
     },
     { 
-        "from": "",
-        "to": "",
+        "from": "Outside",
+        "to": "Intro House",
         "condition": {}
     },
     { 
-        "from": "",
-        "to": "",
-        "condition": {}
-    },
-    { 
-        "from": "",
-        "to": "",
-        "condition": {}
-    },
-    { 
-        "from": "",
+        "from": "Intro House",
         "to": "Dining Area",
         "condition": {}
     },
@@ -142,7 +132,7 @@
     },
     { 
         "from": "Main Room",
-        "to": " Bathroom - Processing Area",
+        "to": "Bathroom - Processing Area",
         "condition": {}
     },
      { 
@@ -255,47 +245,5 @@
         "condition": {
             "items": ["Crank"]
         }
-    },
-    { 
-        "from": "Boat House",
-        "to": "",
-        "condition": {}
-    },
-    { 
-        "from": "",
-        "to": "",
-        "condition": {}
-    },
-    { 
-        "from": "",
-        "to": "",
-        "condition": {}
-    },
-    { 
-        "from": "",
-        "to": "",
-        "condition": {}
-    },
-    { 
-        "from": "",
-        "to": "",
-        "condition": {}
-    },
-    { 
-        "from": "",
-        "to": "",
-        "condition": {}
-    },
-    { 
-        "from": "",
-        "to": "",
-        "condition": {
-            "items": ["Diamond Key"]
-        }
-    },
-    { 
-        "from": "",
-        "to": "",
-        "condition": {}
     }
 ]
