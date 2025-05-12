@@ -120,43 +120,43 @@ class BonusStart(Choice):
 #     option_true = 1
 #     default = 0
 
-class CrossScenarioWeapons(Choice):
-    """This option, when set, will randomize the weapons in your scenario, choosing from weapons in all 4 scenarios (LA, LB, CA, CB). 
-    This includes weapon upgrades as well.
+# class CrossScenarioWeapons(Choice):
+#     """This option, when set, will randomize the weapons in your scenario, choosing from weapons in all 4 scenarios (LA, LB, CA, CB). 
+#     This includes weapon upgrades as well.
 
-    This DOES NOT include boss weapons like the Anti-tank Rocket and the Minigun. This DOES include your starting weapon.
-    This also DOES affect the Bonus Start option, if set.
+#     This DOES NOT include boss weapons like the Anti-tank Rocket and the Minigun. This DOES include your starting weapon.
+#     This also DOES affect the Bonus Start option, if set.
     
-    The available options are:
+#     The available options are:
 
-    None: You have thought better of randomizing your weapons, and balance is restored in the galaxy.
-    Starting: Only your starting weapon is randomized. It can be randomized to any other weapon.
-    Match: Weapon randomization will match light weapons (like pistols) to other light weapons, 
-            medium weapons (like shotguns) to other medium weapons (like grenade launcher), etc. 
-            Includes their upgrades. Ammo is matched by type (light, medium, etc.).
-    Full: Weapon randomization will just pick at random. This can make you have all weak weapons or all strong weapons, or something in between. 
-            Includes their upgrades. Ammo is split as it normally was by type (light, medium, etc.).
-    All: Weapon randomization will add every available weapon and their upgrades. 
-            Ammo is matched by type (light, medium, etc.) and split evenly in each type.
-    Full Ammo: Same as Full (picks weapons at random), and will also randomize how much ammo is placed for each in the world.
-    All Ammo: Same as All (adds every weapon from all 4 scenarios), and randomizes how much ammo is placed for each in the world.
-    Troll: Same as AllAmmo (every weapon + random ammo), except the randomizer removes all but a few weapons. 
-            Ammo and upgrades for the removed weapons are still included to troll you.
-    Troll Starting: Same as Troll, except the randomizer removes all weapons except for your starting weapon.
-            Ammo and upgrades for the removed weapons are still included as in Troll.
+#     None: You have thought better of randomizing your weapons, and balance is restored in the galaxy.
+#     Starting: Only your starting weapon is randomized. It can be randomized to any other weapon.
+#     Match: Weapon randomization will match light weapons (like pistols) to other light weapons, 
+#             medium weapons (like shotguns) to other medium weapons (like grenade launcher), etc. 
+#             Includes their upgrades. Ammo is matched by type (light, medium, etc.).
+#     Full: Weapon randomization will just pick at random. This can make you have all weak weapons or all strong weapons, or something in between. 
+#             Includes their upgrades. Ammo is split as it normally was by type (light, medium, etc.).
+#     All: Weapon randomization will add every available weapon and their upgrades. 
+#             Ammo is matched by type (light, medium, etc.) and split evenly in each type.
+#     Full Ammo: Same as Full (picks weapons at random), and will also randomize how much ammo is placed for each in the world.
+#     All Ammo: Same as All (adds every weapon from all 4 scenarios), and randomizes how much ammo is placed for each in the world.
+#     Troll: Same as AllAmmo (every weapon + random ammo), except the randomizer removes all but a few weapons. 
+#             Ammo and upgrades for the removed weapons are still included to troll you.
+#     Troll Starting: Same as Troll, except the randomizer removes all weapons except for your starting weapon.
+#             Ammo and upgrades for the removed weapons are still included as in Troll.
 
-    NOTE: The options for "Full Ammo", "All Ammo", and "Troll" / "Troll Starting" are not guaranteed to be reasonably beatable. Especially the Troll ones. >:)"""
-    display_name = "Cross-Scenario Weapons"
-    option_none = 0
-    option_starting = 1
-    option_match = 2
-    option_full = 3
-    option_all = 4
-    option_full_ammo = 5
-    option_all_ammo = 6   
-    option_troll = 7
-    option_troll_starting = 8
-    default = 0
+#     NOTE: The options for "Full Ammo", "All Ammo", and "Troll" / "Troll Starting" are not guaranteed to be reasonably beatable. Especially the Troll ones. >:)"""
+#     display_name = "Cross-Scenario Weapons"
+#     option_none = 0
+#     option_starting = 1
+#     option_match = 2
+#     option_full = 3
+#     option_all = 4
+#     option_full_ammo = 5
+#     option_all_ammo = 6   
+#     option_troll = 7
+#     option_troll_starting = 8
+#     default = 0
 
 class AmmoPackModifier(Choice):
     """This option, when set, will modify the quantity of ammo in each ammo pack. This can make the game easier or much, much harder.
@@ -186,37 +186,37 @@ class AmmoPackModifier(Choice):
     option_random_by_type = 7
     option_random_always = 8
 
-class OopsAllRockets(Choice):
-    """Enabling this swaps all weapons, weapon ammo, and subweapons to Rocket Launchers. 
-    (Except progression weapons, of course.)"""
-    display_name = "Oops! All Rockets"
-    option_false = 0
-    option_true = 1
-    default = 0
+# class OopsAllRockets(Choice):
+#     """Enabling this swaps all weapons, weapon ammo, and subweapons to Rocket Launchers. 
+#     (Except progression weapons, of course.)"""
+#     display_name = "Oops! All Rockets"
+#     option_false = 0
+#     option_true = 1
+#     default = 0
 
-class OopsAllMiniguns(Choice):
-    """Enabling this swaps all weapons, weapon ammo, and subweapons to Miniguns. 
-    (Except progression weapons, of course.)"""
-    display_name = "Oops! All Miniguns"
-    option_false = 0
-    option_true = 1
-    default = 0
+# class OopsAllMiniguns(Choice):
+#     """Enabling this swaps all weapons, weapon ammo, and subweapons to Miniguns. 
+#     (Except progression weapons, of course.)"""
+#     display_name = "Oops! All Miniguns"
+#     option_false = 0
+#     option_true = 1
+#     default = 0
 
-class OopsAllGrenades(Choice):
-    """Enabling this swaps all weapons, weapon ammo, and subweapons to Grenades. 
-    (Except progression weapons, of course.)"""
-    display_name = "Oops! All Grenades"
-    option_false = 0
-    option_true = 1
-    default = 0
+# class OopsAllGrenades(Choice):
+#     """Enabling this swaps all weapons, weapon ammo, and subweapons to Grenades. 
+#     (Except progression weapons, of course.)"""
+#     display_name = "Oops! All Grenades"
+#     option_false = 0
+#     option_true = 1
+#     default = 0
 
-class OopsAllKnives(Choice):
-    """Enabling this swaps all weapons, weapon ammo, and subweapons to Knives. 
-    (Except progression weapons, of course.)"""
-    display_name = "Oops! All Knives"
-    option_false = 0
-    option_true = 1
-    default = 0
+# class OopsAllKnives(Choice):
+#     """Enabling this swaps all weapons, weapon ammo, and subweapons to Knives. 
+#     (Except progression weapons, of course.)"""
+#     display_name = "Oops! All Knives"
+#     option_false = 0
+#     option_true = 1
+#     default = 0
 
 
 class NoFirstAidSpray(Choice):
@@ -324,10 +324,10 @@ class RE7Options(StartInventoryFromPoolMixin, DeathLinkMixin, PerGameCommonOptio
     # allow_progression_in_labs: AllowProgressionInLabs
     # cross_scenario_weapons: CrossScenarioWeapons
     ammo_pack_modifier: AmmoPackModifier
-    oops_all_rockets: OopsAllRockets
-    oops_all_miniguns: OopsAllMiniguns
-    oops_all_grenades: OopsAllGrenades
-    oops_all_knives: OopsAllKnives
+    # oops_all_rockets: OopsAllRockets
+    # oops_all_miniguns: OopsAllMiniguns
+    # oops_all_grenades: OopsAllGrenades
+    # oops_all_knives: OopsAllKnives
     no_first_aid_spray: NoFirstAidSpray
     no_green_herb: NoGreenHerb
     no_red_herb: NoRedHerb
