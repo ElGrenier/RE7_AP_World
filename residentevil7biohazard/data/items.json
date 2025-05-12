@@ -1,13 +1,6 @@
 [
     {
         "type": "Lore",
-        "name": "Email from Mia",
-        "game_id": "MailMia",
-        "count": 1,
-        "progression": 0
-    },
-    {
-        "type": "Lore",
         "name": "Mia Driving License",
         "game_id": "MiaDriversLicense",
         "count": 1,
@@ -59,13 +52,6 @@
         "type": "Key",
         "name": "Red Dogs Head",
         "game_id": "3CrestKeyC",
-        "count": 1,
-        "progression": 1
-    },
-    {
-        "type": "Key",
-        "name": "Captain's Cabin Locker Key",
-        "game_id": "CabinKey",
         "count": 1,
         "progression": 1
     },
@@ -127,13 +113,6 @@
     },
     {
         "type": "Key",
-        "name": "Corrosive",
-        "game_id": "SpareKey",
-        "count": 1,
-        "progression": 1
-    },
-    {
-        "type": "Key",
         "name": "Crow Key",
         "game_id": "TalismanKey",
         "count": 1,
@@ -169,13 +148,6 @@
     },
     {
         "type": "Key",
-        "name": "General Purpose Fuse",
-        "game_id": "FuseCh4",
-        "count": 1,
-        "progression": 1
-    },
-    {
-        "type": "Key",
         "name": "Fuse",
         "game_id": "Fuse",
         "count": 1,
@@ -185,20 +157,6 @@
         "type": "Key",
         "name": "D-Series Arm",
         "game_id": "SerumMaterialA",
-        "count": 1,
-        "progression": 1
-    },
-    {
-        "type": "Key",
-        "name": "D-Series Head",
-        "game_id": "SerumMaterialB",
-        "count": 1,
-        "progression": 1
-    },
-    {
-        "type": "Key",
-        "name": "Power Cable",
-        "game_id": "EvCable",
         "count": 1,
         "progression": 1
     },
@@ -222,14 +180,6 @@
         "game_id": "Crank",
         "count": 1,
         "progression": 1
-    },
-    
-    {
-        "type": "Ammo",
-        "name": "Neuro Rounds",
-        "game_id": "AcidBulletS",
-        "count": 100,
-        "progression": 0
     },
     {
         "type": "Ammo",
@@ -262,13 +212,6 @@
     },
     {
         "type": "Ammo",
-        "name": "Machine Gun Ammo",
-        "game_id": "MachineGunBullet",
-        "count": 50,
-        "progression": 0
-    },
-    {
-        "type": "Ammo",
         "name": "44 Mag Ammo",
         "game_id": "MagnumBullet",
         "count": 1,
@@ -282,38 +225,9 @@
         "progression": 0
     },
     {
-        "type": "Ammo",
-        "name": "Large-Caliber Handgun Ammo",
-        "game_id": "26",
-        "count": 6,
-        "progression": 0
-    },
-    {
-        "type": "Ammo",
-        "name": "Submachine Gun Ammo",
-        "game_id": "17",
-        "count": 100,
-        "progression": 0
-    },
-    {
-        "type": "Ammo",
-        "name": "M37 Shotgun",
-        "game_id": "Shotgun_M37",
-        "count": 5,
-        "progression": 0,
-        "ammo": "Shotgun Ammo"
-    },
-    {
         "type": "Recovery",
         "name": "Herb",
         "game_id": "Herb",
-        "count": 1,
-        "progression": 0
-    },
-    {
-        "type": "Recovery",
-        "name": "Strong First Aid Med",
-        "game_id": "RemedyL",
         "count": 1,
         "progression": 0
     },
@@ -330,13 +244,6 @@
         "game_id": "CylinderKey",
         "count": 1,
         "progression": 1
-    },
-    {
-        "type": "Subweapon",
-        "name": "Survival Knife",
-        "game_id": "MiaKnife",
-        "count": 1,
-        "progression": 0
     },
     {
         "type": "Gating",
@@ -403,13 +310,6 @@
     },
     {
         "type": "Consumable",
-        "name": "Chilled Chem Fluid",
-        "game_id": "AlloyClay",
-        "count": 1,
-        "progression": 0
-    },
-    {
-        "type": "Consumable",
         "name": "Separating Agent",
         "game_id": "ChemicalL",
         "count": 1,
@@ -444,30 +344,9 @@
         "progression": 0
     },
     {
-        "type": "Consumable",
-        "name": "Weak Acid",
-        "game_id": "Magnesium",
-        "count": 1,
-        "progression": 0
-    },
-    {
-        "type": "Consumable",
-        "name": "Cassette Tape (Save)",
-        "game_id": "SaveTape",
-        "count": 1,
-        "progression": 0
-    },
-    {
         "type": "Upgrade",
         "name": "Repair Kit",
         "game_id": "RepairKit",
-        "count": 1,
-        "progression": 0
-    },
-    {
-        "type": "Upgrade",
-        "name": "Broken Handgun",
-        "game_id": "BrokenHandgun_M19",
         "count": 1,
         "progression": 0
     },
@@ -494,22 +373,8 @@
     },
     {
         "type": "Subweapon",
-        "name": "Crowbar",
-        "game_id": "Bar",
-        "count": 1,
-        "progression": 0
-    },
-    {
-        "type": "Subweapon",
         "name": "Chain Saw",
         "game_id": "ChainSaw",
-        "count": 1,
-        "progression": 0
-    },
-    {
-        "type": "Subweapon",
-        "name": "Circular Saw",
-        "game_id": "CircularSaw",
         "count": 1,
         "progression": 0
     },
@@ -521,42 +386,12 @@
         "progression": 0
     },
     {
-        "type": "Subweapon",
-        "name": "Survival Knife",
-        "game_id": "MiaKnife",
-        "count": 1,
-        "progression": 0
-    },
-    {
-        "type": "Weapon",
-        "name": "Flamethrower",
-        "game_id": "Burner",
-        "count": 50,
-        "progression": 0,
-        "ammo": "Burner Fuel"
-    },
-    {
         "type": "Weapon",
         "name": "Grenade Launcher",
         "game_id": "GrenadeLauncher",
         "count": 1,
         "progression": 0,
         "ammo": "Flame Rounds"
-    },
-    {
-        "type": "Weapon",
-        "name": "Albert-01",
-        "game_id": "Handgun_Albert",
-        "count": 24,
-        "progression": 0,
-        "ammo": ""
-    },
-    {
-        "type": "Weapon",
-        "name": "Albert-01 R",
-        "game_id": "Handgun_Albert_Reward",
-        "count": 1,
-        "progression": 0
     },
     {
         "type": "Weapon",
@@ -576,35 +411,11 @@
     },
     {
         "type": "Weapon",
-        "name": "MPM Handgun",
-        "game_id": "Handgun_MPM",
-        "count": 5,
-        "progression": 0,
-        "ammo": "Handgun Ammo"
-    },
-    {
-        "type": "Weapon",
-        "name": "P19 Machine Gun",
-        "game_id": "MachineGun",
-        "count": 20,
-        "progression": 0,
-        "ammo": "Machine Gun Ammo"
-    },
-    {
-        "type": "Weapon",
         "name": "44 MAG",
         "game_id": "Magnum",
         "count": 5,
         "progression": 0,
         "ammo": "44 Mag Ammo"
-    },
-    {
-        "type": "Weapon",
-        "name": "M21 Shotgun",
-        "game_id": "Shotgun_DB",
-        "count": 5,
-        "progression": 0,
-        "ammo": "Shotgun Ammo"
     },
     {
         "type": "Key",

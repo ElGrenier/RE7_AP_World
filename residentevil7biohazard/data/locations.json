@@ -1753,11 +1753,10 @@
     },
     {
         "name": "Victory",
-        "region": "Victory Zone",
+        "region": "Yard",
         "condition": {
             "items": [
-                "Snake Key", "Hatch Key", "Crow Key", "Blue Dogs Head", "White Dogs Head","Red Dogs Head","Ox Statuette", 
-                "Keycard - Blue","Keycard - Red","Scorpion Key","Dissection Room Key","Lantern","Wooden Statuette","Stone Statuette","Burner Grip","Burner Nozzle"
+                "Snake Key", "Hatch Key", "Crow Key", "Blue Dogs Head", "White Dogs Head","Red Dogs Head"
                     ]
         },
         "item_object": "sm1754_InteractSendFsm",
