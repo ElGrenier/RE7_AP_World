@@ -83,6 +83,11 @@
     },
     { 
         "from": "Master Bedroom",
+        "to": "Workshop",
+        "condition": {}
+    },
+    { 
+        "from": "Master Bedroom",
         "to": "Storage",
         "condition": {}
     },
@@ -95,15 +100,15 @@
         "from": "Main Hall",
         "to": "Drawing Room",
         "condition": {
-	"items": ["Wooden Statuette"]	
+	    "items": ["Wooden Statuette"]
         }
     },
     { 
         "from": "Drawing Room",
         "to": "Supplies",
         "condition": {
-	"items": ["Crow Key"]
-}
+	    "items": ["Crow Key"]
+        }
     },
     { 
         "from": "Drawing Room",
@@ -241,9 +246,7 @@
     },
     { 
         "from": "Testing Area",
-        "to": "Boat House",
-        "condition": {
-            "items": ["Crank"]
-        }
+        "to": "Victory Zone",
+        "condition": {}
     }
 ]

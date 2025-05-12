@@ -71,7 +71,7 @@
         "name": "Boiler Room",
         "zone_id": 2
     },
-  {
+    {
         "name": "Incinerator Room",
         "zone_id": 2
     },
@@ -79,7 +79,7 @@
         "name": "Workshop",
         "zone_id": 2
     },
-  {
+    {
         "name": "Kid's Room",
         "zone_id": 2
     },
@@ -87,7 +87,7 @@
         "name": "Recreation Room",
         "zone_id": 2
     },
-  {
+    {
         "name": "Grandma's Room",
         "zone_id": 2
     },
@@ -95,7 +95,7 @@
         "name": "Bathroom",
         "zone_id": 2
     },
-  {
+    {
         "name": "Master Bedroom",
         "zone_id": 2
     },
@@ -103,7 +103,7 @@
         "name": "Storage",
         "zone_id": 2
     },
-  {
+    {
         "name": "Main House Attic",
         "zone_id": 2
     },
@@ -111,7 +111,7 @@
         "name": "Yard",
         "zone_id": 2
     },
-  {
+    {
         "name": "Entrance - Old House",
         "zone_id": 2
     },
@@ -119,7 +119,7 @@
         "name": "Living Room - Old House",
         "zone_id": 2
     },
-  {
+    {
         "name": "Cellar - Old House",
         "zone_id": 2
     },
@@ -127,7 +127,7 @@
         "name": "Guest Room - Old House",
         "zone_id": 2
     },
-  {
+    {
         "name": "Dining Room - Old House",
         "zone_id": 2
     },
@@ -135,7 +135,7 @@
         "name": "Gallery - Old House",
         "zone_id": 2
     },
-  {
+    {
         "name": "Water Station - Old House",
         "zone_id": 2
     },
@@ -143,7 +143,7 @@
         "name": "Kid's Room - Old House",
         "zone_id": 2
     },
-  {
+    {
         "name": "Detention Room - Old House",
         "zone_id": 2
     },
@@ -151,7 +151,7 @@
         "name": "Contaminated Room - Old House",
         "zone_id": 2
     },
-  {
+    {
         "name": "Altar",
         "zone_id": 2
     },
@@ -159,13 +159,12 @@
         "name": "Greenhouse",
         "zone_id": 2
     },
-  {
+    {
         "name": "Testing Area",
         "zone_id": 2
     },
-{
-        "name": "Boat House",
+    {
+        "name": "Victory Zone",
         "zone_id": 2
     }
-
 ]

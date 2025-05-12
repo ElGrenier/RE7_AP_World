@@ -69,7 +69,13 @@
         "count": 1,
         "progression": 1
     },
-
+    {
+        "type": "Key",
+        "name": "Bolt Cutters",
+        "game_id": "ChainCutter",
+        "count": 1,
+        "progression": 1
+    },
     {
         "type": "Key",
         "name": "Ox Statuette",
@@ -93,14 +99,14 @@
     },
     {
         "type": "Key",
-        "name": "Keycard - Blue",
+        "name": "Keycard (Blue)",
         "game_id": "LucasCardKey",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
-        "name": "Keycard - Red",
+        "name": "Keycard (Red)",
         "game_id": "LucasCardKey2",
         "count": 1,
         "progression": 1
@@ -211,6 +217,14 @@
         "progression": 1
     },
     {
+        "type": "Key",
+        "name": "Crank",
+        "game_id": "Crank",
+        "count": 1,
+        "progression": 1
+    },
+    
+    {
         "type": "Ammo",
         "name": "Neuro Rounds",
         "game_id": "AcidBulletS",
@@ -312,7 +326,7 @@
     },
     {
         "type": "Gating",
-        "name": "Lock Pick",
+        "name": "Lockpick",
         "game_id": "CylinderKey",
         "count": 1,
         "progression": 1
@@ -320,7 +334,7 @@
     {
         "type": "Subweapon",
         "name": "Survival Knife",
-        "game_id": "[NEED TO EDIT]",
+        "game_id": "MiaKnife",
         "count": 1,
         "progression": 0
     },
@@ -352,7 +366,20 @@
         "count": 1,
         "progression": 1
     },
-
+    {
+        "type": "Gating",
+        "name": "Toy Axe",
+        "game_id": "DummyAxe",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Gating",
+        "name": "Model Shotgun",
+        "game_id": "ToyShotgun",
+        "count": 1,
+        "progression": 1
+    },
     {
         "type": "Gating",
         "name": "Antique Coin",
@@ -402,10 +429,9 @@
         "count": 2,
         "progression": 0
     },
-
     {
         "type": "Consumable",
-        "name": "Supplements",
+        "name": "Supplement",
         "game_id": "Flower",
         "count": 1,
         "progression": 0
@@ -433,7 +459,7 @@
     },
     {
         "type": "Upgrade",
-        "name": "Gun Repair Kit",
+        "name": "Repair Kit",
         "game_id": "RepairKit",
         "count": 1,
         "progression": 0
@@ -587,7 +613,6 @@
         "count": 1,
         "progression": 1
     },
-    
     {
         "name": "Victory",
         "id": null,
