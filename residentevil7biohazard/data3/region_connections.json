@@ -1,6 +1,23 @@
 [
     { 
         "from": "Menu",
+        "to": "Outside",
+        "condition": {}
+    },
+    { 
+        "from": "Outside",
+        "to": "Intro House Entrance",
+        "condition": {}
+    },
+    { 
+        "from": "Intro House Entrance",
+        "to": "Intro House Dungeon",
+        "condition": {
+            "items": ["Bolt Cutter"]
+        }
+    },
+    { 
+        "from": "Intro House",
         "to": "Dining Area",
         "condition": {}
     },

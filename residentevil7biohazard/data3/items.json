@@ -1,0 +1,434 @@
+[
+    {
+        "type": "Lore",
+        "name": "Mia Driving License",
+        "game_id": "MiaDriversLicense",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Lore",
+        "name": "Ethan's Hand",
+        "game_id": "HandCutOff",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Lore",
+        "name": "Mia",
+        "game_id": "FoundFootage030",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Lore",
+        "name": "Happy Birthday",
+        "game_id": "FoundFootage040",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Lore",
+        "name": "Old Videotape",
+        "game_id": "FoundFootage050",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Key",
+        "name": "Blue Dogs Head",
+        "game_id": "3CrestKeyA",
+        "count": 1,
+        "progression": 1
+    },
+	{
+        "type": "Key",
+        "name": "White Dogs Head",
+        "game_id": "3CrestKeyB",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Red Dogs Head",
+        "game_id": "3CrestKeyC",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Bolt Cutters",
+        "game_id": "ChainCutter",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Ox Statuette",
+        "game_id": "EntranceHallKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Car Key",
+        "game_id": "EthanCarKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Hatch Key",
+        "game_id": "FloorDoorKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Keycard (Blue)",
+        "game_id": "LucasCardKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Keycard (Red)",
+        "game_id": "LucasCardKey2",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Snake Key",
+        "game_id": "MasterKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Scorpion Key",
+        "game_id": "MorgueKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Crow Key",
+        "game_id": "TalismanKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Dissection Room Key",
+        "game_id": "WorkroomKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Lantern",
+        "game_id": "Lantern",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Wooden Statuette",
+        "game_id": "SilhouettePazzlePiece",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Stone Statuette",
+        "game_id": "SilhouettePazzlePieceOldHouse",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Fuse",
+        "game_id": "Fuse",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "D-Series Arm",
+        "game_id": "SerumMaterialA",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Burner Grip",
+        "game_id": "BurnerPartsA",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Burner Nozzle",
+        "game_id": "BurnerPartsB",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Crank",
+        "game_id": "Crank",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Ammo",
+        "name": "Burner Fuel",
+        "game_id": "BurnerBullet",
+        "count": 100,
+        "progression": 0
+    },
+    {
+        "type": "Ammo",
+        "name": "Flame Rounds",
+        "game_id": "FlameBulletS",
+        "count": 100,
+        "progression": 0
+    },
+
+    {
+        "type": "Ammo",
+        "name": "Handgun Ammo",
+        "game_id": "HandgunBullet",
+        "count": 5,
+        "progression": 0
+    },
+    {
+        "type": "Ammo",
+        "name": "Enhanced Handgun Ammo",
+        "game_id": "HandgunBulletL",
+        "count": 5,
+        "progression": 0
+    },
+    {
+        "type": "Ammo",
+        "name": "44 Mag Ammo",
+        "game_id": "MagnumBullet",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Ammo",
+        "name": "Shotgun Ammo",
+        "game_id": "ShotgunBullet",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Recovery",
+        "name": "Herb",
+        "game_id": "Herb",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Recovery",
+        "name": "First Aid Med",
+        "game_id": "RemedyM",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Gating",
+        "name": "Lockpick",
+        "game_id": "CylinderKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Gating",
+        "name": "Broken Shotgun",
+        "game_id": "BrokenShotgun_DB",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Gating",
+        "name": "Treasure Photo - Morgue",
+        "game_id": "TreasureMap01",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Gating",
+        "name": "Treasure Photo - Green House",
+        "game_id": "TreasureMap02",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Gating",
+        "name": "Treasure Photo - Master Bedroom",
+        "game_id": "TreasureMap03",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Gating",
+        "name": "Toy Axe",
+        "game_id": "DummyAxe",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Gating",
+        "name": "Model Shotgun",
+        "game_id": "ToyShotgun",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Gating",
+        "name": "Antique Coin",
+        "game_id": "Coin",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Consumable",
+        "name": "Psychostimulants",
+        "game_id": "EyeDrops",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Consumable",
+        "name": "Solid Fuel",
+        "game_id": "Alcohol",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Consumable",
+        "name": "Separating Agent",
+        "game_id": "ChemicalL",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Consumable",
+        "name": "Strong Chem Fluid",
+        "game_id": "ChemicalM",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Consumable",
+        "name": "Chem Fluid",
+        "game_id": "ChemicalS",
+        "count": 2,
+        "progression": 0
+    },
+    {
+        "type": "Consumable",
+        "name": "Supplement",
+        "game_id": "Flower",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Consumable",
+        "name": "Gun Powder",
+        "game_id": "Gunpowder",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Upgrade",
+        "name": "Repair Kit",
+        "game_id": "RepairKit",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Upgrade",
+        "name": "Stabilizer",
+        "game_id": "Depressant",
+        "count": 1,
+        "progression": 0
+    },
+	{
+        "type": "Upgrade",
+        "name": "Steroids",
+        "game_id": "Stimulant",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Key",
+        "name": "Knife",
+        "game_id": "Knife",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Subweapon",
+        "name": "Chain Saw",
+        "game_id": "ChainSaw",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Subweapon",
+        "name": "Axe",
+        "game_id": "HandAxe",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Weapon",
+        "name": "Grenade Launcher",
+        "game_id": "GrenadeLauncher",
+        "count": 1,
+        "progression": 0,
+        "ammo": "Flame Rounds"
+    },
+    {
+        "type": "Weapon",
+        "name": "G17 Handgun",
+        "game_id": "Handgun_G17",
+        "count": 5,
+        "progression": 0,
+        "ammo": "Handgun Ammo"
+    },
+    {
+        "type": "Weapon",
+        "name": "M19 Handgun",
+        "game_id": "Handgun_M19",
+        "count": 5,
+        "progression": 0,
+        "ammo": "Handgun Ammo"
+    },
+    {
+        "type": "Weapon",
+        "name": "44 MAG",
+        "game_id": "Magnum",
+        "count": 5,
+        "progression": 0,
+        "ammo": "44 Mag Ammo"
+    },
+    {
+        "type": "Key",
+        "name": "Clock Pendulum",
+        "game_id": "PendulumClock",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "name": "Victory",
+        "id": null,
+        "progression": 1
+    }
+]
+
+
