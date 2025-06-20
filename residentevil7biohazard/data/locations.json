@@ -1,5 +1,141 @@
 [
     {
+        "name": "Purse with License Inside",
+        "region": "Intro House",
+        "original_item": "Mia Driving License",
+        "condition": {},
+        "item_object": "sm7011_Lisence_InteractDetailSearch",
+        "parent_object": "sm7011_Lisence_Props",
+        "folder_path": "Chapter/Chapter1/Outside/c01_Outside11/c01_Outside11_sm"
+    },
+    {
+        "name": "Old Videotape Upstairs",
+        "region": "Intro House",
+        "original_item": "Old Videotape",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm0584_Videotape01C_DetailSearchItem",
+        "folder_path": "Chapter/Chapter1/2F/c01_2F/c01_2F_sm"
+    },
+    {
+        "name": "[Sorry No Name, its the first Chapter]1",
+        "original_item": "Bolt Cutters",
+        "region": "Intro House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "ChainCutter",
+        "folder_path": "Chapter/Chapter1/B1/c01_B1f/c01_B1f_sm",
+	"randomized": 0
+    },
+    {
+        "name": "[Sorry No Name, its the first Chapter]2",
+        "original_item": "First Aid Med",
+        "region": "Intro House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1852_AntisepticSolutionMedium_Get",
+        "folder_path": "Chapter/Chapter1/1F/c01_Bathroom01/c01_Bathroom01_sm"
+    },
+    {
+        "name": "[Sorry No Name, its the first Chapter]3",
+        "original_item": "First Aid Med",
+        "region": "Intro House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1852_AntisepticSolutionMedium_Get",
+        "folder_path": "Chapter/Chapter1/1F/c01_Bathroom01/c01_Bathroom01_sm"
+    },
+    {
+        "name": "[Sorry No Name, its the first Chapter]4",
+        "original_item": "Axe",
+        "region": "Intro House",
+        "condition": {},
+        "item_object": "InteractWeapon",
+        "parent_object": "wp0040_Axe_Get",
+        "folder_path": "Chapter/Chapter1/1F/c01_Storeroom01/c01_Storeroom01_sm",
+	"randomized": 0
+    },
+    {
+        "name": "[Sorry No Name, its the first Chapter]5",
+        "original_item": "Fuse",
+        "region": "Intro House",
+        "condition": {
+            "items": ["Bolt Cutters"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm0246_Fuse01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter1/1F/c01_Corridor01/c01_Corridor01_sm",
+	"randomized": 0
+    },
+    {
+        "name": "[Sorry No Name, its the first Chapter]6",
+        "original_item": "Ethan's Hand",
+        "region": "Intro House",
+        "condition": {
+            "items": ["Fuse"]
+        },
+        "item_object": "sm1649_EthanLHand_InteractDetailSearch",
+        "parent_object": "sm1649_EthanLHand_DetailSearchItem",
+        "folder_path": "Chapter/Chapter1/1F/c01_Corridor02/c01_Corridor02_sm"
+    },
+    {
+        "name": "[Sorry No Name, its the first Chapter]7",
+        "original_item": "Handgun Ammo",
+        "region": "Intro House",
+        "condition": {
+            "items": ["Fuse"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
+	"randomized": 0
+    },
+    {
+        "name": "[Sorry No Name, its the first Chapter]8",
+        "original_item": "M19 Handgun",
+        "region": "Intro House",
+        "condition": {
+            "items": ["Fuse"]
+        },
+        "item_object": "InteractWeapon",
+        "parent_object": "wp1010_Handgun_GetEvent",
+        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
+	"randomized": 0
+    },
+    {
+        "name": "[Sorry No Name, its the first Chapter]9",
+        "original_item": "First Aid Med",
+        "region": "Intro House",
+        "condition": {
+            "items": ["Fuse"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1852_AntisepticSolutionMedium_Get",
+        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm"
+    },
+    {
+        "name": "[Sorry No Name, its the first Chapter]10",
+        "original_item": "Handgun Ammo",
+        "region": "Intro House",
+        "condition": {
+            "items": ["Fuse"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm"
+    },
+    {
+        "name": "[Sorry No Name, its the first Chapter]11",
+        "original_item": "Handgun Ammo",
+        "region": "Intro House",
+        "condition": {
+            "items": ["Fuse"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm"
+    },
+    {
         "name": "[Sorry No Name, (forgot to add it)]12",
         "original_item": "Handgun Ammo",
         "region": "Dining Area",
@@ -15,7 +151,8 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm2287_UndeFloorDoorKey01A_DetailSearchItem",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem",
+	"randomized": 0
     },
     {
         "name": "[Sorry No Name, (forgot to add it)]14",
@@ -90,6 +227,7 @@
         "item_object": "InteractDetailSearch",
         "parent_object": "sm2242_EthanCarKey_DetailSearchItem",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyItem"
+	
     },
     {
         "name": "[Sorry No Name, Second Chapter (forgot to add it)]22",

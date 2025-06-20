@@ -4,6 +4,14 @@
         "zone_id": 1
     },
     {
+        "name": "Outside",
+        "zone_id": 1
+    },
+    {
+        "name": "Intro House",
+        "zone_id": 1
+    },
+    {
         "name": "Dining Area",
         "zone_id": 2
     },

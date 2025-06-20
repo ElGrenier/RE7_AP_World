@@ -1,6 +1,16 @@
 [
     { 
         "from": "Menu",
+        "to": "Outside",
+        "condition": {}
+    },
+    { 
+        "from": "Outside",
+        "to": "Intro House",
+        "condition": {}
+    },
+    { 
+        "from": "Intro House",
         "to": "Dining Area",
         "condition": {}
     },
