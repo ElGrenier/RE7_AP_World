@@ -8,7 +8,11 @@
         "zone_id": 1
     },
     {
-        "name": "Intro House",
+        "name": "Intro House Entrance",
+        "zone_id": 1
+    },
+    {
+        "name": "Intro House Dungeon",
         "zone_id": 1
     },
     {

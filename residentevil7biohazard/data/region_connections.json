@@ -6,8 +6,15 @@
     },
     { 
         "from": "Outside",
-        "to": "Intro House",
+        "to": "Intro House Entrance",
         "condition": {}
+    },
+    { 
+        "from": "Intro House Entrance",
+        "to": "Intro House Dungeon",
+        "condition": {
+            "items": ["Bolt Cutters"]
+        }
     },
     { 
         "from": "Intro House",
