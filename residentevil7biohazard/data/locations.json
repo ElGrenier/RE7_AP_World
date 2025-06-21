@@ -28,22 +28,24 @@
 	"randomized": 0
     },
     {
-        "name": "[Sorry No Name, its the first Chapter]2",
+        "name": "In the drawer, left of the sink",
         "original_item": "First Aid Med",
         "region": "Intro House",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm1852_AntisepticSolutionMedium_Get",
-        "folder_path": "Chapter/Chapter1/1F/c01_Bathroom01/c01_Bathroom01_sm"
+        "folder_path": "Chapter/Chapter1/1F/c01_Bathroom01/c01_Bathroom01_sm",
+	"item_position": [-2.29,0.86,-2.89]
     },
     {
-        "name": "[Sorry No Name, its the first Chapter]3",
+        "name": "On the shelf, right of the sink",
         "original_item": "First Aid Med",
         "region": "Intro House",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm1852_AntisepticSolutionMedium_Get",
-        "folder_path": "Chapter/Chapter1/1F/c01_Bathroom01/c01_Bathroom01_sm"
+        "folder_path": "Chapter/Chapter1/1F/c01_Bathroom01/c01_Bathroom01_sm",
+	"item_position": [-2.57,0.95,-4.59]
     },
     {
         "name": "[Sorry No Name, its the first Chapter]4",
@@ -56,7 +58,7 @@
 	"randomized": 0
     },
     {
-        "name": "[Sorry No Name, its the first Chapter]5",
+        "name": "In the armory, using the Bolt Cutters",
         "original_item": "Fuse",
         "region": "Intro House",
         "condition": {
@@ -79,19 +81,7 @@
         "folder_path": "Chapter/Chapter1/1F/c01_Corridor02/c01_Corridor02_sm"
     },
     {
-        "name": "[Sorry No Name, its the first Chapter]7",
-        "original_item": "Handgun Ammo",
-        "region": "Intro House",
-        "condition": {
-            "items": ["Fuse"]
-        },
-        "item_object": "InteractDetailSearch",
-        "parent_object": "wp1011_HandgunBullet_Get",
-        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
-	"randomized": 0
-    },
-    {
-        "name": "[Sorry No Name, its the first Chapter]8",
+        "name": "On the table, in the attic",
         "original_item": "M19 Handgun",
         "region": "Intro House",
         "condition": {
@@ -103,37 +93,51 @@
 	"randomized": 0
     },
     {
-        "name": "[Sorry No Name, its the first Chapter]9",
+        "name": "On the table, left to the gun, in the attic",
         "original_item": "First Aid Med",
         "region": "Intro House",
         "condition": {
             "items": ["Fuse"]
         },
         "item_object": "InteractDetailSearch",
-        "parent_object": "sm1852_AntisepticSolutionMedium_Get",
-        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm"
+        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
+	"item_position": [12,7,12]
+
     },
     {
-        "name": "[Sorry No Name, its the first Chapter]10",
+        "name": "On the table, right of the gun, in the attic",
         "original_item": "Handgun Ammo",
         "region": "Intro House",
         "condition": {
             "items": ["Fuse"]
         },
         "item_object": "InteractDetailSearch",
-        "parent_object": "wp1011_HandgunBullet_Get",
-        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm"
+        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
+	"item_position": [12,7,11],
+	"randomized": 0
     },
     {
-        "name": "[Sorry No Name, its the first Chapter]11",
+        "name": "On the table, next to the bed",
         "original_item": "Handgun Ammo",
         "region": "Intro House",
         "condition": {
             "items": ["Fuse"]
         },
         "item_object": "InteractDetailSearch",
-        "parent_object": "wp1011_HandgunBullet_Get",
-        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm"
+        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
+	"item_position": [18,7,17]
+    },
+    {
+        "name": "On the table, in the battle zone against Mia",
+        "original_item": "Handgun Ammo",
+        "region": "Intro House",
+        "condition": {
+            "items": ["Fuse"]
+        },
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
+	"item_position": [7,7,7]
+
     },
     {
         "name": "[Sorry No Name, (forgot to add it)]12",
