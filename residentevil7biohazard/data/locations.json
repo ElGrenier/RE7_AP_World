@@ -35,7 +35,7 @@
         "item_object": "InteractDetailSearch",
         "parent_object": "sm1852_AntisepticSolutionMedium_Get",
         "folder_path": "Chapter/Chapter1/1F/c01_Bathroom01/c01_Bathroom01_sm",
-	"item_position": [-2.29,0.86,-2.89]
+	"item_position": [-3,0,-3]
     },
     {
         "name": "On the shelf, right of the sink",
@@ -45,10 +45,10 @@
         "item_object": "InteractDetailSearch",
         "parent_object": "sm1852_AntisepticSolutionMedium_Get",
         "folder_path": "Chapter/Chapter1/1F/c01_Bathroom01/c01_Bathroom01_sm",
-	"item_position": [-2.57,0.95,-4.59]
+	"item_position": [-3,0,-5]
     },
     {
-        "name": "[Sorry No Name, its the first Chapter]4",
+        "name": "On The Floor",
         "original_item": "Axe",
         "region": "Intro House",
         "condition": {},
@@ -70,7 +70,7 @@
 	"randomized": 0
     },
     {
-        "name": "[Sorry No Name, its the first Chapter]6",
+        "name": "On the ground, in the corridor",
         "original_item": "Ethan's Hand",
         "region": "Intro House",
         "condition": {
@@ -149,13 +149,33 @@
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FLiving/c03_MainHouse1FLiving_sm"
     },
     {
-        "name": "[Sorry No Name, (forgot to add it)]13",
+        "name": "On the table at the end of the corridor",
         "original_item": "Hatch Key",
         "region": "Dining Area",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm2287_UndeFloorDoorKey01A_DetailSearchItem",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem",
+	"randomized": 0
+    },
+    {
+        "name": "In dad Cinematic - Leg",
+        "original_item": "Ethan's Leg",
+        "region": "Dining Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm2241_EthanLeg_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FPantry/c03_MainHouse1FPantry_sm",
+	"randomized": 0
+    },
+    {
+        "name": "In dad Cinematic - Heal",
+        "original_item": "First Aid Med",
+        "region": "Dining Area",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1853_AntisepticSolutionStrong_Get",
+        "folder_path": "Chapter/Chapter3/Enemy_c03/Enemy_c03_1/c03_Soft_1",
 	"randomized": 0
     },
     {
@@ -203,7 +223,8 @@
         "condition": {},
         "item_object": "InteractWeapon",
         "parent_object": "wp1190_Knife_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem",
+	"randomized": 0
     },
     {
         "name": "[Sorry No Name, (forgot to add it)]19",
@@ -224,13 +245,14 @@
         "folder_path": "Chapter/Chapter3/Event_c03/Event_c03_1/evProps"
     },
     {
-        "name": "[Sorry No Name, (forgot to add it)]21",
+        "name": "In the garage, next to the car",
         "original_item": "Car Key",
         "region": "Garage",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm2242_EthanCarKey_DetailSearchItem",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyItem"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyItem",
+	"randomized": 0
 	
     },
     {
