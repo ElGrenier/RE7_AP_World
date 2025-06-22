@@ -33,7 +33,6 @@
         "region": "Intro House",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "sm1852_AntisepticSolutionMedium_Get",
         "folder_path": "Chapter/Chapter1/1F/c01_Bathroom01/c01_Bathroom01_sm",
 	"item_position": [-3,0,-3]
     },
@@ -43,7 +42,6 @@
         "region": "Intro House",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "sm1852_AntisepticSolutionMedium_Get",
         "folder_path": "Chapter/Chapter1/1F/c01_Bathroom01/c01_Bathroom01_sm",
 	"item_position": [-3,0,-5]
     },
