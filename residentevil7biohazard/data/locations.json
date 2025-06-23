@@ -99,7 +99,8 @@
         },
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
-	"item_position": [12,7,12]
+	"item_position": [12,7,12],
+	"randomized": 0
 
     },
     {
@@ -138,7 +139,7 @@
 
     },
     {
-        "name": "[Sorry No Name, (forgot to add it)]12",
+        "name": "In the drawer, next to the right speaker",
         "original_item": "Handgun Ammo",
         "region": "Dining Area",
         "condition": {},
@@ -188,7 +189,7 @@
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Coins"
     },
     {
-        "name": "[Sorry No Name, (forgot to add it)]15",
+        "name": "In the blue drawer, on the left",
         "original_item": "Chem Fluid",
         "region": "Laundry Room",
         "condition": {},
@@ -197,7 +198,7 @@
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FWash/c03_MainHouse1FWash_sm"
     },
     {
-        "name": "[Sorry No Name, (forgot to add it)]16",
+        "name": "In the blue drawer, on the right",
         "original_item": "Herb",
         "region": "Laundry Room",
         "condition": {},
@@ -206,7 +207,7 @@
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FWash/c03_MainHouse1FWash_sm"
     },
     {
-        "name": "[Sorry No Name, (forgot to add it)]17",
+        "name": "In the yellow box next to the door",
         "original_item": "Lockpick",
         "region": "Laundry Room",
         "condition": {},
@@ -215,7 +216,7 @@
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyPick"
     },
     {
-        "name": "[Sorry No Name, (forgot to add it)]18",
+        "name": "Cops cinematic",
         "original_item": "Knife",
         "region": "Laundry Room",
         "condition": {},
@@ -234,13 +235,14 @@
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FGarageHallway/c03_MainHouse1FGarageHallway_sm"
     },
     {
-        "name": "[Sorry No Name, (forgot to add it)]20",
+        "name": "On the floor, next to the dad",
         "original_item": "G17 Handgun",
         "region": "Garage",
         "condition": {},
         "item_object": "InteractWeapon",
         "parent_object": "wp1210_Handgun_Get",
-        "folder_path": "Chapter/Chapter3/Event_c03/Event_c03_1/evProps"
+        "folder_path": "Chapter/Chapter3/Event_c03/Event_c03_1/evProps",
+	"randomized": 0
     },
     {
         "name": "In the garage, next to the car",
