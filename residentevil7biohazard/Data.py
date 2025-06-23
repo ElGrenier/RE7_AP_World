@@ -23,10 +23,7 @@ class Data:
     item_name_groups = {}
 
     def load_data():
-        # character_offsets = { 'ethan': 0}        
-        # scenario_offsets = { 'a': 0}
         hardcore_offset = 400 # put all hardcore-only locations in the last 100 location spots for each scenario
-        # scenario_suffix = ' ({}{})'.format(character[0].upper(), scenario.upper())
         scenario_suffix_hardcore = ' ({}{}H)' # makes hardcore location variations unique
 
         location_start = item_start = 3000000000
@@ -40,8 +37,6 @@ class Data:
             {
                 **reg,
                 'name': reg['name'] if reg['name'] != 'Menu' else reg['name'], # add the scenario abbreviation so they're unique
-                # 'character': character,
-                # 'scenario': scenario
             }
             for reg in new_region_table
         ])
@@ -57,8 +52,6 @@ class Data:
             Data.region_table.extend([
                 {
                     'name': reg + scenario_suffix_hardcore, # add the scenario abbreviation so they're unique
-                    # 'character': character,
-                    # 'scenario': scenario,
                     'zone_id': [regular['zone_id'] for regular in new_region_table if regular['name'] == reg][0]
                 }
                 for reg in hardcore_regions # instead of using region definitions, we're using the hardcore region additions from the locations themselves
@@ -84,8 +77,6 @@ class Data:
                     **conn,
                     'from': conn['from'] if conn['from'] != 'Menu' else conn['from'], # add the scenario abbreviation so they're unique
                     'to': conn['to'] if conn['to'] != 'Menu' else conn['to'], # add the scenario abbreviation so they're unique
-                    # 'character': character,
-                    # 'scenario': scenario
                 }
             )
 
@@ -113,8 +104,6 @@ class Data:
                         **conn,
                         'from': connection_from_name, 
                         'to': connection_to_name, 
-                        # 'character': character,
-                        # 'scenario': scenario    
                     }
 
                     Data.region_connections_table.append(new_region_connection)
@@ -155,8 +144,6 @@ class Data:
                 **loc, 
                 'id': loc['id'] if loc.get('id') else location_start + key,
                 'region': loc['region'], # add the scenario abbreviation so they're unique
-                # 'character': character,
-                # 'scenario': scenario,
                 'difficulty': None
             }
             for key, loc in enumerate(new_location_table)
@@ -174,8 +161,6 @@ class Data:
                     **loc, 
                     'id': loc['id'] if loc.get('id') else location_start + key + hardcore_offset,
                     'region': loc['region'] + scenario_suffix_hardcore, # add the scenario abbreviation so they're unique
-                    # 'character': character,
-                    # 'scenario': scenario,
                     'difficulty': 'hardcore'
                 }
                 for key, loc in enumerate(hardcore_location_table)
