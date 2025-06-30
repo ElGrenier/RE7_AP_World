@@ -1381,7 +1381,7 @@
     },
     {
         "name":"In the Caravane, Steroid in the Cage with 3 Coins Necessary",
-        "original_item": "Steroid",
+        "original_item": "Steroids",
         "region": "Yard",
         "condition": {
             "items": ["Antique Coin","Antique Coin","Antique Coin"]
