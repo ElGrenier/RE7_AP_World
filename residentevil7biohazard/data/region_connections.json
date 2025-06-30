@@ -178,7 +178,7 @@
         "from": "Yard",
         "to": "Entrance - Old House",
         "condition": {
-		"items": ["knife","Wooden Statuette", "Dissection Room Key"]
+		"items": ["Knife","Wooden Statuette", "Dissection Room Key"]
     	}
     },
     { 
