@@ -94,7 +94,9 @@
     { 
         "from": "Kid's Room",
         "to": "Main House Attic",
-        "condition": {}
+        "condition": {
+	"items": ["Knife","Wooden Statuette","Dissection Room Key","Stone Statuette","Burner Grip","Burner Nozzle"]
+    	}
     },
     { 
         "from": "Main Hall",
@@ -175,7 +177,9 @@
     { 
         "from": "Yard",
         "to": "Entrance - Old House",
-        "condition": {}
+        "condition": {
+		"items": ["knife","Wooden Statuette", "Dissection Room Key"]
+    	}
     },
     { 
         "from": "Entrance - Old House",

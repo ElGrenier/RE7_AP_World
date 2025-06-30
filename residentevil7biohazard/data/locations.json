@@ -29,7 +29,7 @@
     },
     {
         "name": "In the locked drawer",
-        "original_item": "Antique Coin",
+        "original_item": "Ancient Coin",
         "region": "Intro House",
         "condition": {},
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
@@ -232,7 +232,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyPick",
-        "item_position": []
+        "item_position": [27,1,11]
     },
     {
         "name": "Cops cinematic",
@@ -251,7 +251,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FGarageHallway/c03_MainHouse1FGarageHallway_sm",
-	    "item_position": [] 
+	    "item_position": [28,0,3]
     },
     {
         "name": "On the floor, next to the dad",
@@ -316,9 +316,8 @@
         "region": "Garage",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "wp1011_HandgunBullet_Get",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/West_1F/Boss/Box",
-	"item_position": [31,0,7]
+	    "item_position": [31,0,7]
     },
     {
         "name":"Locked Locker",
@@ -402,8 +401,8 @@
         "region": "Recreation Room",
         "condition": {},
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
-        "parent_object": "sm2164_Coin01A_DetailSearchItem",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Coins"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Coins",
+        "item_position":[]
     },
     {
         "name":"On the Bar",
@@ -447,8 +446,8 @@
         "region": "Bathroom",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "sm2036_ChemicalS01A_Get",
-        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FHallway2/c03_MainHouse2FHallway2_sm"
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FHallway2/c03_MainHouse2FHallway2_sm",
+        "item_position": [24,4,6]
     },
     {
         "name":"Outside, in the box",
@@ -456,8 +455,8 @@
         "region": "Bathroom",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "wp1011_HandgunBullet_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/Box"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/Box",
+        "item_position":[27,4,14]
     },
     {
         "name":"Outside (2F), behind the mess",
@@ -483,14 +482,27 @@
         "region": "Bathroom",
         "condition": {},
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
-        "parent_object": "sm2164_Coin01A_DetailSearchItem",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Coins"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Coins",
+        "item_position": [31,4,5]
+    },
+    {
+        "name":"In the orange box",
+        "original_item": "Shotgun Ammo",
+        "region": "Bathroom",
+        "condition": {
+            "items":["Lockpick"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyPick"
     },
     {
         "name":"In the Bath",
         "original_item": "Wooden Statuette",
         "region": "Bathroom",
-        "condition": {},
+        "condition": {
+	"items":["Knife"]
+},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm9092_ShadowPiece02_DetailSearchItem",
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FBath/c03_MainHouse2FBath_sm"
@@ -646,7 +658,8 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm2153_TreasureMap01A_DetailSearchItem",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Common/KeyItem"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Common/KeyItem",
+	"randomized": 0
     },
     {
         "name":"In the secret stash (inside the chimney)",
@@ -701,8 +714,8 @@
         "region": "Bathroom - Processing Area Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "_wp1011_HandgunBullet_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
+	"item_position":[-33,-5,6]
     },
     {
         "name":"In the front bath, next to the exit door",
@@ -710,8 +723,8 @@
         "region": "Bathroom - Processing Area Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "ChemicalS",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
+	"item_position": [-33,-5,-3]
     },
     {
         "name":"In the wall",
@@ -719,8 +732,8 @@
         "region": "Bathroom - Processing Area Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "sm1800_Herb00A_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
+	"item_position": [-24,-3,-3]
     },
     {
         "name":"On the Left table",
@@ -902,7 +915,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item",
-        "item_position":[]
+        "item_position":[22,0,14]
     },
     {
         "name":"On the yellow Shelf",
@@ -911,7 +924,7 @@
         "condition": {},
         "item_object": "GameObject",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item",
-        "item_position": []
+        "item_position": [25,1,15]
     },
     {
         "name":"In the pot, on the right stairs",
@@ -928,8 +941,8 @@
         "region": "Yard",
         "condition": {},
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
-        "parent_object": "_sm2164_Coin01A_DetailSearchItem",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_Hall/Normal/Item"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_Hall/Normal/Item",
+	"item_position": [-4,-1,15]
     },
     {
         "name":"in the pot on the left of the right stairs",
@@ -950,17 +963,6 @@
         "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item"
     },
     {
-        "name":"In the orange box",
-        "original_item": "Shotgun Ammo",
-        "region": "Bathroom",
-        "condition": {
-            "items":["Lockpick"]
-        },
-        "item_object": "InteractDetailSearch",
-        "parent_object": "wp1031_ShotgunBullet_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyPick"
-    },
-    {
         "name":"In the caravan, on the table",
         "original_item": "Antique Coin",
         "region": "Yard",
@@ -975,8 +977,8 @@
         "region": "Yard",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "wp1031_ShotgunBullet_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Box"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Box",
+	"item_position": []
     },
     {
         "name":"In the drawer, at the left of the entrance",
@@ -1378,13 +1380,36 @@
         "folder_path": "Chapter/Chapter3/c03_Garden/c03_TrailerHouse/c03_TrailerHouse_sm"
     },
     {
+        "name":"In the Caravane, Steroid in the Cage with 3 Coins Necessary",
+        "original_item": "Steroid",
+        "region": "Yard",
+        "condition": {
+            "items": ["Antique Coin","Antique Coin","Antique Coin"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1927_Stimulant_Get",
+        "folder_path": "Chapter/Chapter3/c03_Garden/c03_TrailerHouse/c03_TrailerHouse_sm"
+    },
+    {
+        "name":"In the Caravane, Stabilizer in the Cage with 5 Coins Necessary",
+        "original_item": "Stabilizer",
+        "region": "Yard",
+        "condition": {
+            "items": ["Antique Coin","Antique Coin","Antique Coin","Antique Coin","Antique Coin","Antique Coin"]
+        },
+        "item_object": "sm1928_Depressant_InteractDetailSearch",
+        "parent_object": "sm1928_Depressant_Get",
+        "folder_path": "Chapter/Chapter3/c03_Garden/c03_TrailerHouse/c03_TrailerHouse_sm"
+    },
+    {
         "name":"On the wall of the stairs",
         "original_item": "Treasure Photo - Green House",
         "region": "Greenhouse",
         "condition": {},
         "item_object": "sm2154_TreasureMap01B_InteractDetailSearch",
         "parent_object": "sm2154_TreasureMap01B_DetailSearchItem",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Common/KeyItem"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Common/KeyItem",
+	"randomized": 0
     },
     {
         "name":"In the Caravane, in the toilet",
@@ -1620,17 +1645,6 @@
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FBedRoom/c03_MainHouse2FBedRoom_sm"
     },
     {
-        "name":"On the Shelf on the right of the door",
-        "original_item": "Herb",
-        "region": "Storage",
-        "condition": {
-            "items":["Snake Key"]
-        },
-        "item_object": "InteractDetailSearch",
-        "parent_object": "_sm1800_Herb00A_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_2F_3-4"
-    },
-    {
         "name":"Under the pouch",
         "original_item": "Shotgun Ammo",
         "region": "Master Bedroom",
@@ -1642,6 +1656,17 @@
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_2F_3-4"
     },
     {
+        "name":"On the Shelf on the right of the door",
+        "original_item": "Herb",
+        "region": "Storage",
+        "condition": {
+            "items":["Snake Key"]
+        },
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_2F_3-4"
+    },
+    {
         "name":"On the red seat on the left",
         "original_item": "Treasure Photo - Master Bedroom",
         "region": "Storage",
@@ -1650,7 +1675,8 @@
         },
         "item_object": "sm2155_TreasureMap01C_InteractDetailSearch",
         "parent_object": "sm2155_TreasureMap01C_DetailSearchItem",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Common/KeyItem"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Common/KeyItem",
+	"randomized": 0
     },
     {
         "name":"On the Table (2)",
@@ -1693,8 +1719,8 @@
             "items":["Snake Key"]
         },
         "item_object": "InteractDetailSearch",
-        "parent_object": "wp1011_HandgunBullet_Get",
-        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FKids/c03_MainHouse2FKids_sm"
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FKids/c03_MainHouse2FKids_sm",
+        "item_position": [8,5,-4]
     },
     {
         "name":"On the A/C",
@@ -1716,7 +1742,7 @@
         },
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyPick",
-        "item_position": []
+        "item_position": [14,5,-3]
     },
     {
         "name":"In the flowerpot, on the wardrobe",
