@@ -29,7 +29,7 @@
     },
     {
         "name": "In the locked drawer",
-        "original_item": "Ancient Coin",
+        "original_item": "Antique Coin",
         "region": "Intro House",
         "condition": {},
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
