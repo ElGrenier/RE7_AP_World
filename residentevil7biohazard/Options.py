@@ -55,6 +55,50 @@ class BonusStart(Choice):
     option_true = 1
     default = 0
 
+class StartAtChapter2(Choice):
+    """With this, the first chapter is not randomized, so you will start "directly" to chapter 2 (just interact with the door bell at the start)
+
+    False: (Default) Normal, you start the game as normal
+    True: The first chapter is not randomized."""
+    display_name = "Bonus Start"
+    option_false = 0
+    option_true = 1
+    default = 0
+
+
+class AllowMissableLocations(Choice):
+    """Accidentally skipping item locations early can lead to softlocking as certain story triggers make it impossible to backtrack. 
+    This option seeks to avoid that by limiting item placements.
+
+    False: (Default) Will place items so they are not permanently missable.
+    This severely limits where progression can be to prevent softlocking of any kind. 
+    Will also remove progression for others if multiworld.
+    
+    True: Progression can be placed in locations that can be missed if story progresses too far, you've been warned.
+
+    NOTE - This option only affects *YOUR* game. Your progression can still be in someone else's if they have this option enabled."""
+    display_name = "Allow Missable Locations"
+    option_false = 0
+    option_true = 1
+    default = 0
+
+class RandomizeCoins(Choice):
+    """This option permit you to choose how you Randomize Antique Coins (but not what is unlocked with it)
+    None: (Default) Won't Randomize Antique Coins
+    This will make you able to find coins more easily, and make that no item will be behind Coinss
+    
+    No_progression: The coins will be randomized but won't contains Progression items.
+
+    All : The coins will be randomized, and can contains anything.
+
+    NOTE - This option only affects *YOUR* game. Your progression can still be in someone else's if they have this option enabled."""
+    display_name = "Randomized Coins"
+    option_none = 0
+    option_no_progression = 1
+    option_all = 2
+    default = 0
+
+
 # class ExtraClockTowerItems(Choice):
 #     """The gears and jack handle required for Clock Tower can leave players BK for a while. 
 #     This option adds an extra set of these items so the odds of BK are lower.
@@ -244,13 +288,14 @@ class StartInventoryFromPoolMixin:
 
 @dataclass
 class RE7Options(StartInventoryFromPoolMixin, DeathLinkMixin, PerGameCommonOptions):
-    # character: Character
-    # scenario: Scenario
     difficulty: Difficulty
     unlocked_typewriters: UnlockedTypewriters
     starting_hip_pouches: StartingHipPouches
     starting_ink_ribbons: StartingInkRibbons
     bonus_start: BonusStart
+    start_at_chapter_2: StartAtChapter2
+    randomize_coins: RandomizeCoins
+    allow_missable_locations: AllowMissableLocations
     # extra_clock_tower_items: ExtraClockTowerItems
     # extra_medallions: ExtraMedallions
     # early_medallions: EarlyMedallions

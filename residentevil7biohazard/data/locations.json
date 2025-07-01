@@ -179,22 +179,21 @@
     {
         "name": "In dad Cinematic - Leg",
         "original_item": "Ethan's Leg",
-        "region": "Dining Area",
+        "region": "Dad Cinematic",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm2241_EthanLeg_DetailSearchItem",
-        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FPantry/c03_MainHouse1FPantry_sm",
-	"randomized": 0
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FPantry/c03_MainHouse1FPantry_sm"
     },
     {
         "name": "In dad Cinematic - Heal",
         "original_item": "First Aid Med",
-        "region": "Dining Area",
+        "region": "Dad Cinematic",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm1853_AntisepticSolutionStrong_Get",
         "folder_path": "Chapter/Chapter3/Enemy_c03/Enemy_c03_1/c03_Soft_1",
-	"randomized": 0
+        "randomized":0
     },
     {
         "name": "In the tunnel",
@@ -355,7 +354,7 @@
         "condition": {},
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouseHall/c03_MainHouseHall_sm",
-	"item_position": [4,0,10]
+	    "item_position": [4,0,10]
     },
     {
         "name":"Left Table",

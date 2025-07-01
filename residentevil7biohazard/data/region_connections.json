@@ -21,7 +21,13 @@
     },
     { 
         "from": "Dining Area",
-        "to": "Kitchen"
+        "to": "Dad Cinematic",
+        "condition": {}
+    },
+    { 
+        "from": "Dining Area",
+        "to": "Kitchen",
+        "condition": {}
     },
     { 
         "from": "Kitchen",
