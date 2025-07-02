@@ -174,7 +174,16 @@
         "item_object": "InteractDetailSearch",
         "parent_object": "sm2287_UndeFloorDoorKey01A_DetailSearchItem",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem",
-	"randomized": 0
+	    "randomized": 0
+    },
+    {
+        "name": "behind a wooden planks, next to the ox door",
+        "original_item": "Gun Powder",
+        "region": "Dining Area",
+        "condition": {},
+        "item_object": "GameObject",
+        "parent_object": "Gunpowder",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/West_1F"
     },
     {
         "name": "In dad Cinematic - Leg",
@@ -401,7 +410,7 @@
         "condition": {},
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Coins",
-        "item_position":[]
+        "item_position":[15,5,12]
     },
     {
         "name":"On the Bar",
@@ -439,6 +448,15 @@
         "parent_object": "sm1800_Herb00A_Get",
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FHallway/c03_MainHouse2FHallway_sm"
     },
+        {
+        "name":"In the bin",
+        "original_item": "Handgun Ammo",
+        "region": "Recreation Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F"
+    },
     {
         "name":"In the corridor, next to the broken stairs",
         "original_item": "Chem Fluid",
@@ -455,7 +473,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/Box",
-        "item_position":[27,4,14]
+        "item_position":[26,4,14]
     },
     {
         "name":"Outside (2F), behind the mess",
@@ -500,8 +518,8 @@
         "original_item": "Wooden Statuette",
         "region": "Bathroom",
         "condition": {
-	"items":["Knife"]
-},
+	        "items":["Knife"]
+        },
         "item_object": "InteractDetailSearch",
         "parent_object": "sm9092_ShadowPiece02_DetailSearchItem",
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FBath/c03_MainHouse2FBath_sm"
@@ -566,8 +584,8 @@
         "region": "Drawing Room",
         "condition": {},
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
-        "parent_object": "sm2164_Coin01A_DetailSearchItem",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Coins"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Coins",
+        "item_position":[-11,0,-1]
     },
     {
         "name":"In the bottom Rack",
@@ -575,8 +593,8 @@
         "region": "Drawing Room",
         "condition": {},
         "item_object": "GameObject",
-        "parent_object": "Gunpowder",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F",
+        "item_position":[-10,0,-3]
     },
     {
         "name":"In the bottom Rack",
@@ -624,13 +642,13 @@
         "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoomB1F/c03_RightAreaB1FMorgue/c03_RightAreaB1FMorgue_sm"
     },
     {
-        "name":"In the shelf",
+        "name":"In the box in the shelf",
         "original_item": "First Aid Med",
         "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "sm1852_AntisepticSolutionMedium_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/Box"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/Box",
+        "item_position":[-19,-4,9]
     },
     {
         "name":"In the Box on the Ground",
@@ -638,8 +656,8 @@
         "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "wp1011_HandgunBullet_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/Box"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/Box",
+        "item_position":[-19,-5,10]
     },
     {
         "name":"Stuck in the meat",
@@ -667,7 +685,7 @@
         "item_object": "InteractDetailSearch",
         "parent_object": "sm2153_TreasureMap01A_DetailSearchItem",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Common/KeyItem",
-	"randomized": 0
+	    "randomized": 0
     },
     {
         "name":"In the secret stash (inside the chimney)",
@@ -686,8 +704,8 @@
         "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "_sm1800_Herb00A_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
+        "item_position":[-13,-4,14]
     },
     {
         "name":"In the Green Armor",
@@ -812,8 +830,8 @@
         "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "sm2164_Coin01A_DetailSearchItem",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Coins"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Coins",
+        "item_position":[-22,-4,7]
     },
     {
         "name":"In the bottom shelve, behind the pallet",
@@ -821,8 +839,8 @@
         "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "_sm1800_Herb00A_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
+        "item_position":[-19,-4,9]
     },
     {
         "name":"On the hanging hook",

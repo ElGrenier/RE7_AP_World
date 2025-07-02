@@ -101,7 +101,8 @@
         "from": "Kid's Room",
         "to": "Main House Attic",
         "condition": {
-	"items": ["Knife","Wooden Statuette","Dissection Room Key","Stone Statuette","Burner Grip","Burner Nozzle"]
+	"items": ["Knife","Wooden Statuette","Dissection Room Key","Stone Statuette",
+            "Burner Grip","Burner Nozzle","Blue Dogs Head", "White Dogs Head", "Red Dogs Head"]
     	}
     },
     { 
@@ -186,6 +187,11 @@
         "condition": {
 		"items": ["Knife","Wooden Statuette", "Dissection Room Key"]
     	}
+    },
+     { 
+        "from": "Yard",
+        "to": "Coin Cages",
+        "condition": {}
     },
     { 
         "from": "Entrance - Old House",

@@ -56,7 +56,7 @@ class BonusStart(Choice):
     default = 0
 
 class StartAtChapter2(Choice):
-    """With this, the first chapter is not randomized, so you will start "directly" to chapter 2 (just interact with the door bell at the start)
+    """With this, the first chapter is not randomized, so you will start "directly" to chapter 2 (just interact with the door bell at the start to start Chapter 2)
 
     False: (Default) Normal, you start the game as normal
     True: The first chapter is not randomized."""
@@ -85,11 +85,27 @@ class AllowMissableLocations(Choice):
 class RandomizeCoins(Choice):
     """This option permit you to choose how you Randomize Antique Coins (but not what is unlocked with it)
     None: (Default) Won't Randomize Antique Coins
-    This will make you able to find coins more easily, and make that no item will be behind Coinss
+    This will make you able to find coins as default, and make that no item will be behind Coinss
     
     No_progression: The coins will be randomized but won't contains Progression items.
 
     All : The coins will be randomized, and can contains anything.
+
+    NOTE - This option only affects *YOUR* game. Your progression can still be in someone else's if they have this option enabled."""
+    display_name = "Randomized Coins"
+    option_none = 0
+    option_no_progression = 1
+    option_all = 2
+    default = 0
+
+class RandomizeCoinsCages(Choice):
+    """This option permit you to choose how you Randomize Coins Cages (Not Coins see randomize_coins for that)
+    None: (Default) Won't Randomize Randomize Coins Cages
+    The content of coins cage will be as default
+    
+    No_progression: The coins cage will be randomized but won't contains Progression items.
+
+    All : The coins cage will be randomized, and can contains anything.
 
     NOTE - This option only affects *YOUR* game. Your progression can still be in someone else's if they have this option enabled."""
     display_name = "Randomized Coins"
@@ -296,6 +312,7 @@ class RE7Options(StartInventoryFromPoolMixin, DeathLinkMixin, PerGameCommonOptio
     start_at_chapter_2: StartAtChapter2
     randomize_coins: RandomizeCoins
     allow_missable_locations: AllowMissableLocations
+    randomize_coins_cages: RandomizeCoinsCages
     # extra_clock_tower_items: ExtraClockTowerItems
     # extra_medallions: ExtraMedallions
     # early_medallions: EarlyMedallions
