@@ -741,7 +741,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
-	"item_position":[-33,-5,6]
+	    "item_position": [-33,-5,6]
     },
     {
         "name":"In the front bath, next to the exit door",
@@ -750,7 +750,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
-	"item_position": [-33,-5,-3]
+	    "item_position": [-33,-5,-3]
     },
     {
         "name":"In the wall",
