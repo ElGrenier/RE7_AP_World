@@ -816,13 +816,13 @@
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/BOSSROOM"
     },
     {
-        "name":"Under the Stairs (2)",
+        "name":"Under the Stairs, on the table",
         "original_item": "Gun Powder",
         "region": "Morgue",
         "condition": {},
         "item_object": "GameObject",
-        "parent_object": "Gunpowder",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
+        "item_position": [-1,-6,16]
     },
     {
         "name":"In the hole in the wall, next to the pallet",
@@ -866,8 +866,8 @@
         "region": "Morgue",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "wp1011_HandgunBullet_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/BOSSROOM"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/BOSSROOM",
+        "item_position": [-1,-7,3]
     },
     {
         "name":"In the corner, on top of a painting box",
@@ -977,7 +977,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item",
-        "item_position": []
+        "item_position": [2,0,18]
     },
     {
         "name":"On the right of the Caravane Door",
@@ -1004,7 +1004,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Box",
-	"item_position": []
+	"item_position": [-23,-2,73]
     },
     {
         "name":"In the drawer, at the left of the entrance",
@@ -1016,13 +1016,13 @@
         "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FRoom01/c03_OldHouse1FRoom01_sm"
     },
     {
-        "name":"Inside a furniture",
-        "original_item": "Chem Fluid",
+        "name":"Inside a drawer, under a cat cage",
+        "original_item": "Solid Fuel",
         "region": "Living Room - Old House",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item/Chemical",
-        "item_position": []
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FRoom01/c03_OldHouse1FRoom01_sm",
+        "item_position": [-32,-2,79]
     },
     {
         "name":"In the locked drawer, next to the sink",
@@ -1121,7 +1121,7 @@
         "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
     },
     {
-        "name":"In the Wooden Pallet (2)",
+        "name":"In the Wooden Pallet right of the windows",
         "original_item": "Burner Fuel",
         "region": "Living Room - Old House",
         "condition": {},
@@ -1155,8 +1155,8 @@
             "items": ["Burner Nozzle","Burner Grip"]
         },
         "item_object": "InteractDetailSearch",
-        "parent_object": "wp1001_GasCan_Get",
-        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FRoom02/c03_OldHouse1FRoom02_sm"
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FRoom02/c03_OldHouse1FRoom02_sm",
+        "item_position": [-27,-1,87]
     },
     {
         "name":"In the iron Shelf (2)",
@@ -1166,8 +1166,8 @@
             "items": ["Burner Nozzle","Burner Grip"]
         },
         "item_object": "InteractDetailSearch",
-        "parent_object": "wp1001_GasCan_Get",
-        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FRoom02/c03_OldHouse1FRoom02_sm"
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FRoom02/c03_OldHouse1FRoom02_sm",
+        "item_position": [-27,-1,86]
     },
     {
         "name":"In the Hallway, under the furniture",
@@ -1194,7 +1194,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item/Chemical",
-        "item_position": []
+        "item_position": [-23,-2,96]
     },
     {
         "name":"Outside, in the trash on the left",
@@ -1212,7 +1212,7 @@
         "condition": {},
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Coins",
-        "item_position": []
+        "item_position": [-47,-4,78]
     },
     {
         "name":"Behind the chimney, on the table",
@@ -1272,16 +1272,20 @@
         "name":"In the mini-hole, Behind a palett",
         "original_item": "Chem Fluid",
         "region": "Entrance - Old House",
-        "condition": {},
+        "condition": {
+            "items":["Crank"]
+        },
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item/Chemical",
-        "item_position": []
+        "item_position": [1,-4,87]
     },
     {
         "name":"Outside, in front of the cabanon, in the faucet",
         "original_item": "First Aid Med",
         "region": "Dining Room - Old House",
-        "condition": {},
+        "condition": {
+            "items":["Crank"]
+        },
         "item_object": "InteractDetailSearch",
         "parent_object": "_sm1852_AntisepticSolutionMedium_Get",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
@@ -1290,7 +1294,9 @@
         "name":"Outside, in the cabanon",
         "original_item": "Crow Key",
         "region": "Dining Room - Old House",
-        "condition": {},
+        "condition": {
+            "items":["Crank"]
+        },
         "item_object": "InteractDetailSearch",
         "parent_object": "sm0389_TalismanDoorKey01A_KeyGet",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Common/KeyItem"
@@ -1299,16 +1305,20 @@
         "name":"Outside, in the cabanon, on the toilet",
         "original_item": "Antique Coin",
         "region": "Dining Room - Old House",
-        "condition": {},
+        "condition": {
+            "items":["Crank"]
+        },
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Coins",
-        "item_position": []
+        "item_position": [-42,-2,108]
     },
     {
         "name":"Outside, in the cabanon, in the toilet",
         "original_item": "Burner Fuel",
         "region": "Dining Room - Old House",
-        "condition": {},
+        "condition": {
+            "items":["Crank"]
+        },
         "item_object": "InteractDetailSearch",
         "parent_object": "wp1001_GasCan_Get",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
@@ -1331,15 +1341,7 @@
         "parent_object": "sm2164_Coin01A_DetailSearchItem",
         "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse2F/c03_OldHouse2FHallway03/c03_OldHouse2FHallway03_sm"
     },
-    {
-        "name":"In the Big Bowl on the right of the caravan",
-        "original_item": "Gun Powder",
-        "region": "Yard",
-        "condition": {},
-        "item_object": "GameObject",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item",
-        "item_position": []
-    },
+
     {
         "name":"Entrance of the GreenHouse, on the pole",
         "original_item": "Strong Chem Fluid",
@@ -1405,6 +1407,24 @@
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F/3-4"
     },
     {
+        "name":"In the Big Bowl on the right of the caravan",
+        "original_item": "Gun Powder",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "GameObject",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal/Item",
+        "item_position": [4,0,37]
+    },
+    {
+        "name":"In the Big Bowl on the right of the caravan",
+        "original_item": "Broken Handgun",
+        "region": "Yard",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "wp1019_BrokenHandgun_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Normal"
+    },
+    {
         "name":"In the Caravane, in the Cage with 9 Coins Necessary",
         "original_item": "44 MAG",
         "region": "Yard",
@@ -1438,16 +1458,6 @@
         "folder_path": "Chapter/Chapter3/c03_Garden/c03_TrailerHouse/c03_TrailerHouse_sm"
     },
     {
-        "name":"On the wall of the stairs",
-        "original_item": "Treasure Photo - Green House",
-        "region": "Greenhouse",
-        "condition": {},
-        "item_object": "sm2154_TreasureMap01B_InteractDetailSearch",
-        "parent_object": "sm2154_TreasureMap01B_DetailSearchItem",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Common/KeyItem",
-	"randomized": 0
-    },
-    {
         "name":"In the Caravane, in the toilet",
         "original_item": "44 Mag Ammo",
         "region": "Yard",
@@ -1459,22 +1469,23 @@
         "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Common/Item"
     },
     {
+        "name":"On the wall of the stairs",
+        "original_item": "Treasure Photo - Green House",
+        "region": "Greenhouse",
+        "condition": {},
+        "item_object": "sm2154_TreasureMap01B_InteractDetailSearch",
+        "parent_object": "sm2154_TreasureMap01B_DetailSearchItem",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/GardenArea/Common/KeyItem",
+	    "randomized": 0
+    },
+    {
         "name":"On the Right in the entrance",
         "original_item": "Herb",
         "region": "Greenhouse",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/2FRoom",
-        "item_position": []
-    },
-    {
-        "name":"On the Right in the entrance (2)",
-        "original_item": "Herb",
-        "region": "Greenhouse",
-        "condition": {},
-        "item_object": "InteractDetailSearch",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/GreenHouse/Normal/Item/2FRoom",
-        "item_position": []
+        "item_position": [14,2,79]
     },
     {
         "name":"In the shelf on the right in the entrance",
