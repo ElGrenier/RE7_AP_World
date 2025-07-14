@@ -311,11 +311,8 @@ class RE7Options(StartInventoryFromPoolMixin, DeathLinkMixin, PerGameCommonOptio
     bonus_start: BonusStart
     start_at_chapter_2: StartAtChapter2
     randomize_coins: RandomizeCoins
-    allow_missable_locations: AllowMissableLocations
     randomize_coins_cages: RandomizeCoinsCages
-    # extra_clock_tower_items: ExtraClockTowerItems
-    # extra_medallions: ExtraMedallions
-    # early_medallions: EarlyMedallions
+
     # allow_progression_in_labs: AllowProgressionInLabs
     # cross_scenario_weapons: CrossScenarioWeapons
     ammo_pack_modifier: AmmoPackModifier

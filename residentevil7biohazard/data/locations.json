@@ -174,7 +174,7 @@
         "item_object": "InteractDetailSearch",
         "parent_object": "sm2287_UndeFloorDoorKey01A_DetailSearchItem",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem",
-	    "randomized": 0
+	"randomized": 0
     },
     {
         "name": "behind a wooden planks, next to the ox door",
@@ -182,22 +182,23 @@
         "region": "Dining Area",
         "condition": {},
         "item_object": "GameObject",
-        "parent_object": "Gunpowder",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/West_1F"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/West_1F",
+	"item_position": [8.77,0.0,-2.99]
     },
     {
         "name": "In dad Cinematic - Leg",
         "original_item": "Ethan's Leg",
-        "region": "Dad Cinematic",
+        "region": "Dining Area",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm2241_EthanLeg_DetailSearchItem",
-        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FPantry/c03_MainHouse1FPantry_sm"
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FPantry/c03_MainHouse1FPantry_sm",
+	"randomized": 0
     },
     {
         "name": "In dad Cinematic - Heal",
         "original_item": "First Aid Med",
-        "region": "Dad Cinematic",
+        "region": "Dining Area",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object": "sm1853_AntisepticSolutionStrong_Get",
@@ -213,7 +214,7 @@
         },
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Coins",
-	    "item_position": [16,-1,13]
+	    "item_position": [16.87,-1.63,13.43]
     },
     {
         "name": "In the blue drawer, on the left",
@@ -240,7 +241,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/KeyPick",
-        "item_position": [27,1,11]
+        "item_position": [27.93,1.16,11.59]
     },
     {
         "name": "Cops cinematic",
@@ -258,7 +259,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FGarageHallway/c03_MainHouse1FGarageHallway_sm",
-	    "item_position": [28,0,3]
+	    "item_position": [28.07,0.9,3.61]
     },
     {
         "name": "On the floor, next to the dad",
@@ -286,7 +287,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/West_1F",
-	    "item_position": [29,2,4]
+	    "item_position": [29.57,2.74,4.83]
     },
     {
         "name": "Inside the Ox Display",
@@ -323,7 +324,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/West_1F/Boss/Box",
-	    "item_position": [31,0,-7]
+	    "item_position": [31.77,-0.8,-7.2]
     },
     {
         "name":"Locked Locker",
@@ -361,7 +362,7 @@
         "condition": {},
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouseHall/c03_MainHouseHall_sm",
-	    "item_position": [4,0,10]
+	    "item_position": [4.58,0.65,10.3]
     },
     {
         "name":"Left Table",
@@ -402,13 +403,23 @@
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse1F/c03_MainHouse1FLiving/c03_MainHouse1FLiving_sm"
     },
     {
+        "name":"Behind the Right Speaker",
+        "original_item": "Herb",
+        "region": "Living Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/West_1F"
+    },
+
+    {
         "name":"Next to Statue",
         "original_item": "Antique Coin",
         "region": "Recreation Room",
         "condition": {},
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Coins",
-        "item_position":[15,5,12]
+        "item_position":[15.21,5.27,12.38]
     },
     {
         "name":"On the Bar",
@@ -462,7 +473,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FHallway2/c03_MainHouse2FHallway2_sm",
-        "item_position": [24,4,6]
+        "item_position": [24.36,4.67,6.88]
     },
     {
         "name":"Outside, in the box",
@@ -471,7 +482,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/Box",
-        "item_position":[26,4,14]
+        "item_position":[26.82,4.04,14.92]
     },
     {
         "name":"Outside (2F), behind the mess",
@@ -498,7 +509,7 @@
         "condition": {},
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Coins",
-        "item_position": [31,4,5]
+        "item_position": [31.02,4.26,5.13]
     },
     {
         "name":"In the orange box",
@@ -537,8 +548,8 @@
         "region": "Drawing Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "sm2036_ChemicalS01A_Get",
-        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoom1F/c03_RightArea1FParlor/c03_RightArea1FParlor_sm"
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoom1F/c03_RightArea1FParlor/c03_RightArea1FParlor_sm",
+	"item_position": [-23.24,0.72,-3.36]
     },
     {
         "name":"On the Table",
@@ -556,7 +567,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F/Box",
-        "item_position":[-20,0,0]
+        "item_position":[-20.48,0.04,-0.36]
     },
     {
         "name":"In the Fridge",
@@ -583,7 +594,7 @@
         "condition": {},
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Coins",
-        "item_position":[-11,0,-1]
+        "item_position":[-11.47,1.0,-1.99]
     },
     {
         "name":"In the bottom Rack",
@@ -592,16 +603,7 @@
         "condition": {},
         "item_object": "GameObject",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F",
-        "item_position":[-10,0,-3]
-    },
-    {
-        "name":"In the bottom Rack",
-        "original_item": "Shotgun Ammo",
-        "region": "Drawing Room",
-        "condition": {},
-        "item_object": "InteractDetailSearch",
-        "parent_object": "_wp1031_ShotgunBullet_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F"
+        "item_position":[-10.33,0.54,-3.59]
     },
     {
         "name":"In the Shelve",
@@ -609,8 +611,8 @@
         "region": "Monitoring Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "sm1852_AntisepticSolutionMedium_Get",
-        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoom1F/c03_RightArea1FStudy/c03_RightArea1FStudy_sm"
+        "folder_path": "Chapter/Chapter3/c03_TaxidermyRoom/c03_TaxidermyRoom1F/c03_RightArea1FStudy/c03_RightArea1FStudy_sm",
+	"item_position": [-17.01,1.07,22.5]
     },
     {
         "name":"Under the Table",
@@ -646,7 +648,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/Box",
-        "item_position":[-19,-4,9]
+        "item_position":[-19.66,-4.05,9.16]
     },
     {
         "name":"In the Box on the Ground",
@@ -655,7 +657,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/Box",
-        "item_position":[-19,-5,10]
+        "item_position":[-19.38,-5.23,10.8]
     },
     {
         "name":"Stuck in the meat",
@@ -683,7 +685,7 @@
         "item_object": "InteractDetailSearch",
         "parent_object": "sm2153_TreasureMap01A_DetailSearchItem",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Common/KeyItem",
-	    "randomized": 0
+	"randomized": 0
     },
     {
         "name":"In the secret stash (inside the chimney)",
@@ -703,7 +705,16 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
-        "item_position":[-13,-4,14]
+        "item_position":[-14.17,-4.99,14.98]
+    },
+    {
+        "name":"Behind the wooden pallet",
+        "original_item": "Herb",
+        "region": "Main Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
+        "item_position":[-19.81,-5.03,9.15]
     },
     {
         "name":"In the Green Armor",
@@ -729,8 +740,8 @@
         "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "wp1031_ShotgunBullet_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
+	"item_position": [-6.77,-7.29,22.7]
     },
     {
         "name":"In the left bath next to the entrance",
@@ -739,7 +750,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
-	    "item_position": [-33,-5,6]
+	    "item_position": [-30.51,-5.24,7.12]
     },
     {
         "name":"In the front bath, next to the exit door",
@@ -748,7 +759,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
-	    "item_position": [-33,-5,-3]
+	    "item_position": [-33.32,-5.75,-3.62]
     },
     {
         "name":"In the wall",
@@ -757,7 +768,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F",
-	"item_position": [-24,-3,-3]
+	"item_position": [-24.82,-4.16,-3.42]
     },
     {
         "name":"On the Left table",
@@ -792,8 +803,8 @@
         "region": "Dissection Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "wp1031_ShotgunBullet_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/BOSSROOM"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/BOSSROOM",
+	"item_position":[-2.08,-6.06,-1.07]
     },
     {
         "name":"In the open Locker at the end of the hallway (on the bottom)",
@@ -801,8 +812,8 @@
         "region": "Dissection Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "sm1800_Herb00A_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/BOSSROOM"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_B1F/BOSSROOM",
+	"item_position":[-2.08,-7.01,-0.77]
     },
     {
         "name":"In the Lower tray",
@@ -829,7 +840,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Coins",
-        "item_position":[-22,-4,7]
+        "item_position":[-22.76,-4.9,7.98]
     },
     {
         "name":"In the bottom shelve, behind the pallet",
@@ -902,8 +913,8 @@
         "region": "Grandma Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "wp1011_HandgunBullet_Get",
-        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FGrandma/c03_MainHouse2FGrandma_sm"
+        "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FGrandma/c03_MainHouse2FGrandma_sm",
+	"item_position": "[12.32,5.35,13.12]"
     },
     {
         "name":"On top of the shelf, next to the windows",
@@ -911,8 +922,8 @@
         "region": "Grandma Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "sm2036_ChemicalS01A_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Sasori"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Sasori",
+	"item_position":[10.89,4.88,13.37]
     },
     {
         "name":"On top of the bed",
@@ -920,8 +931,17 @@
         "region": "Grandma Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "_wp1031_ShotgunBullet_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Sasori"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Sasori",
+	    "item_position":[9.9,4.72,7.68]
+    },
+    {
+        "name":"On the ground, right of the table",
+        "original_item": "Burner Fuel",
+        "region": "Grandma Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/WEST_2F/Sasori",
+	    "item_position":[12.4,4.0,12.62]
     },
     {
         "name":"Under the terrasse, in the box",

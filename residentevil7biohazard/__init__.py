@@ -139,8 +139,6 @@ class ResidentEvil7(World):
                 # if/elif here allows force_item + randomized=0, since a forced item is technically not randomized, but don't need to trigger both.
                 elif 'randomized' in location_data and location_data['randomized'] == 0:
                     location.place_locked_item(self.create_item(location_data["original_item"]))
-                elif self._format_option_text(self.options.allow_missable_locations) == 'False' and region_data['zone_id'] >= 5:
-                    location.item_rule = lambda item: not item.advancement
                 # if the coins are not randomized
                 elif self.options.randomize_coins == 0 and "original_item" in location_data and location_data['original_item'] == "Antique Coin":
                     location.place_locked_item(self.create_item(location_data["original_item"]))

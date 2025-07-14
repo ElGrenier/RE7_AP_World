@@ -262,6 +262,13 @@
     },
     {
         "type": "Gating",
+        "name": "Broken Handgun",
+        "game_id": "BrokenHandgun_DB",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Gating",
         "name": "Treasure Photo - Morgue",
         "game_id": "TreasureMap01",
         "count": 1,
