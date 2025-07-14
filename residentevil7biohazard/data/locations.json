@@ -249,8 +249,7 @@
         "condition": {},
         "item_object": "InteractWeapon",
         "parent_object": "wp1190_Knife_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem",
-	"randomized": 0
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem"
     },
     {
         "name": "in the wooden box, at the entrance",
@@ -268,8 +267,7 @@
         "condition": {},
         "item_object": "InteractWeapon",
         "parent_object": "wp1210_Handgun_Get",
-        "folder_path": "Chapter/Chapter3/Event_c03/Event_c03_1/evProps",
-	    "randomized": 0
+        "folder_path": "Chapter/Chapter3/Event_c03/Event_c03_1/evProps"
     },
     {
         "name": "In the garage, next to the car",
@@ -1370,8 +1368,7 @@
         "condition": {},
         "item_object": "InteractWeapon",
         "parent_object": "wp1110_PortableCannon_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/KeyItem",
-        "randomized":0
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/KeyItem"
     },
     {
         "name":"In the shelf on the left",
