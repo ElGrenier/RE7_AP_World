@@ -1016,13 +1016,25 @@
         "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FRoom01/c03_OldHouse1FRoom01_sm"
     },
     {
+        "name":"In the shelf, next to the hive nest",
+        "original_item": "Solid Fuel",
+        "region": "Living Room - Old House",
+        "condition": {
+		"items": ["Burner Nozzle","Burner Grip"]
+	},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item/Chemical",
+	"item_position": [-34.11,-2.37,76.65]
+    },
+
+    {
         "name":"Inside a drawer, under a cat cage",
         "original_item": "Solid Fuel",
         "region": "Living Room - Old House",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FRoom01/c03_OldHouse1FRoom01_sm",
-        "item_position": [-32,-2,79]
+        "item_position": [-32.15,-2.35,79.04]
     },
     {
         "name":"In the locked drawer, next to the sink",
@@ -1144,8 +1156,8 @@
         "region": "Guest Room - Old House",
         "condition": {},
         "item_object": "InteractDetailSearch",
-        "parent_object": "sm1800_Herb00A_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item",
+	"item_position": [-42.44,-2.06,108.41]
     },
     {
         "name":"In the iron Shelf",
@@ -1212,7 +1224,7 @@
         "condition": {},
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Coins",
-        "item_position": [-47,-4,78]
+        "item_position": [-47.33,-4.15,78.06]
     },
     {
         "name":"Behind the chimney, on the table",
@@ -1266,7 +1278,7 @@
         "condition": {},
         "item_object": "sm2058_Crank01A_InteractDetailSearch",
         "parent_object": "sm2058_Crank01A_Get",
-        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FUnderFloor01/c03_OldHouse1FUnder"
+        "folder_path": "Chapter/Chapter3/c03_OldHouse/c03_OldHouse1F/c03_OldHouse1FUnderFloor01/c03_OldHouse1FUnderFloor01_sm"
     },
     {
         "name":"In the mini-hole, Behind a palett",
@@ -1287,8 +1299,8 @@
             "items":["Crank"]
         },
         "item_object": "InteractDetailSearch",
-        "parent_object": "_sm1852_AntisepticSolutionMedium_Get",
-        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item",
+	"item_position": [-42.61,-2.43,105.07]
     },
     {
         "name":"Outside, in the cabanon",
@@ -1310,7 +1322,7 @@
         },
         "item_object": "sm2164_Coin01A_InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Coins",
-        "item_position": [-42,-2,108]
+        "item_position": [-42.44,-2.06,108.41]
     },
     {
         "name":"Outside, in the cabanon, in the toilet",
