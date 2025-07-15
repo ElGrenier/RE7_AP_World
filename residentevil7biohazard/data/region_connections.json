@@ -68,7 +68,7 @@
     },
     { 
         "from": "Recreation Room",
-        "to": "Grandma's Room",
+        "to": "Grandma Room",
         "condition": {
 	"items": ["Scorpion Key"]	
         }
@@ -262,7 +262,16 @@
     },
     { 
         "from": "Testing Area",
-        "to": "Victory Zone",
-        "condition": {}
+        "to": "Boat House",
+        "condition": {
+	   "items": ["Crank"]
+	}
+    },
+    { 
+        "from": "Boat House",
+        "to": "Dad Bossroom",
+        "condition": {
+	   "items": ["D-Series Arm","D-Series Head"]
+	}
     }
 ]

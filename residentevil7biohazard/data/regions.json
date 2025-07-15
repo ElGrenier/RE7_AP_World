@@ -92,7 +92,7 @@
         "zone_id": 2
     },
     {
-        "name": "Grandma's Room",
+        "name": "Grandma Room",
         "zone_id": 2
     },
     {
@@ -171,6 +171,11 @@
         "name": "Testing Area",
         "zone_id": 2
     },
+    {
+        "name": "Dad Bossroom",
+        "zone_id": 2
+    },
+
     {
         "name": "Victory Zone",
         "zone_id": 2
