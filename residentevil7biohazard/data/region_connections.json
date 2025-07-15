@@ -21,11 +21,6 @@
     },
     { 
         "from": "Dining Area",
-        "to": "Dad Cinematic",
-        "condition": {}
-    },
-    { 
-        "from": "Dining Area",
         "to": "Kitchen",
         "condition": {}
     },
@@ -257,7 +252,7 @@
         "from": "Yard",
         "to": "Testing Area",
         "condition": {
-            "items": ["Keycard - Blue","Keycard - Red"]
+            "items": ["Keycard (Blue)","Keycard (Red)"]
         }
     },
     { 

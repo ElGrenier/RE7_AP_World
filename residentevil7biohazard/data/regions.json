@@ -16,10 +16,6 @@
         "zone_id": 2
     },
     {
-        "name": "Dad Cinematic",
-        "zone_id": 5
-    },
-    {
         "name": "Living Room",
         "zone_id": 2
     },
@@ -172,10 +168,13 @@
         "zone_id": 2
     },
     {
+        "name": "Boat House",
+        "zone_id": 2
+    },
+    {
         "name": "Dad Bossroom",
         "zone_id": 2
     },
-
     {
         "name": "Victory Zone",
         "zone_id": 2

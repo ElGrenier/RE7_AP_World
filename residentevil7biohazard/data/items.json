@@ -20,7 +20,6 @@
         "count": 1,
         "progression": 0
     },
-
     {
         "type": "Lore",
         "name": "Mia",
@@ -41,6 +40,13 @@
         "game_id": "FoundFootage050",
         "count": 1,
         "progression": 0
+    },
+    {
+        "type": "Key",
+        "name": "Battery",
+        "game_id": "Battery",
+        "count": 1,
+        "progression": 1
     },
     {
         "type": "Key",
@@ -170,6 +176,13 @@
     },
     {
         "type": "Key",
+        "name": "D-Series Head",
+        "game_id": "SerumMaterialB",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
         "name": "Burner Grip",
         "game_id": "BurnerPartsA",
         "count": 1,
@@ -203,7 +216,13 @@
         "count": 100,
         "progression": 0
     },
-
+    {
+        "type": "Ammo",
+        "name": "Neuro Rounds",
+        "game_id": "AcidBulletS",
+        "count": 100,
+        "progression": 0
+    },
     {
         "type": "Ammo",
         "name": "Handgun Ammo",
@@ -250,7 +269,7 @@
         "type": "Gating",
         "name": "Lockpick",
         "game_id": "CylinderKey",
-        "count": 1,
+        "count": 20,
         "progression": 1
     },
     {

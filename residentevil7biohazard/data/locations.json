@@ -476,7 +476,7 @@
         "item_position": [24.36,4.67,6.88]
     },
     {
-        "name":"Outside, in the box",
+        "name":"Outside, in the box (2F)",
         "original_item": "Handgun Ammo",
         "region": "Bathroom",
         "condition": {},
@@ -1053,7 +1053,7 @@
         "item_position": [17.69,-2.11,39.55]
     },
     {
-        "name":"In the Big Bowl on the right of the caravan",
+        "name":"In the bed inside the caravane",
         "original_item": "Broken Handgun",
         "region": "Yard",
         "condition": {},
@@ -1853,7 +1853,7 @@
     },
     {
         "name":"Behind the painting on the ground",
-        "original_item": "Neuro Round",
+        "original_item": "Neuro Rounds",
         "region": "Storage",
         "condition": {
             "items":["Snake Key"]
@@ -2062,7 +2062,7 @@
     },
     {
         "name":"In the barrow on the right room after the code trap",
-        "original_item": "Shotgun Shell",
+        "original_item": "Shotgun Ammo",
         "region": "Testing Area",
         "condition": {},
         "item_object": "InteractDetailSearch",
@@ -2243,7 +2243,7 @@
     },
     {
         "name":"In the Suitcase",
-        "original_item": "D-Series Arm",
+        "original_item": "D-Series Head",
         "region": "Testing Area",
         "condition": {},
         "item_object": "InteractDetailSearch",
@@ -2417,16 +2417,13 @@
         "name": "Victory",
         "region": "Dad Bossroom",
         "condition": {
-            "items": [
-                "Snake Key", "Hatch Key", "Crow Key", "Blue Dogs Head", "White Dogs Head","Red Dogs Head","Keycard (Red)","Keycard (Blue)"
-                    ]
+            "items": ["Snake Key", "Hatch Key", "Crow Key", "Blue Dogs Head", "White Dogs Head","Red Dogs Head","Keycard (Red)","Keycard (Blue)"]
         },
         "item_object": "Interact_SerumFinishPoint",
         "parent_object": "",
         "folder_path": "Chapter/Chapter3/Enemy_c03/Enemy_c03_5",
         "id": null,
         "victory": true
-
     }
 
 ]
