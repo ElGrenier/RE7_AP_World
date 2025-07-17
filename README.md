@@ -4,6 +4,8 @@ An Archipelago (AP) randomizer world for Resident Evil 7 Biohazard. Designed for
 ## How to generate and play an RE7 randomized world
 Follow the visual setup guide here: 
 
+https://elgrenier.github.io/RE7_AP_SetupGuide/
+
 ## How is the  data structured?
 All of the data lives in the `data` folder. The structure of the data is:
 
