@@ -183,7 +183,7 @@
         "condition": {},
         "item_object": "GameObject",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/West_1F",
-	    "item_position": [8.77,0.0,-2.99]
+	"item_position": [8.77,0.0,-2.99]
     },
     {
         "name": "In dad Cinematic - Leg",
@@ -482,7 +482,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Normal/Item/Box",
-        "item_position":[26.82,4.04,14.92]
+        "item_position":[26.91,4.03,15.02]
     },
     {
         "name":"Outside (2F), behind the mess",
