@@ -213,19 +213,19 @@ class ResidentEvil7(World):
                 pool.remove(filled_location.item)
 
         # check the starting hip pouches option and add as precollected, removing from pool and replacing with junk
-        starting_hip_pouches = int(self.options.starting_hip_pouches)
+        # starting_hip_pouches = int(self.options.starting_hip_pouches)
 
-        if starting_hip_pouches > 0:
-            hip_pouches = [item for item in pool if item.name == 'Hip Pouch'] # 6 total in every campaign, I think
+        # if starting_hip_pouches > 0:
+        #     hip_pouches = [item for item in pool if item.name == 'Hip Pouch'] # 6 total in every campaign, I think
 
-            # if the hip pouches option exceeds the number of hip pouches in the pool, reduce it to the number in the pool
-            if starting_hip_pouches > len(hip_pouches):
-                starting_hip_pouches = len(hip_pouches)
-                self.options.starting_hip_pouches.value = len(hip_pouches)
+        #     # if the hip pouches option exceeds the number of hip pouches in the pool, reduce it to the number in the pool
+        #     if starting_hip_pouches > len(hip_pouches):
+        #         starting_hip_pouches = len(hip_pouches)
+        #         self.options.starting_hip_pouches.value = len(hip_pouches)
 
-            for x in range(starting_hip_pouches):
-                self.multiworld.push_precollected(hip_pouches[x]) # starting inv
-                pool.remove(hip_pouches[x])
+        #     for x in range(starting_hip_pouches):
+        #         self.multiworld.push_precollected(hip_pouches[x]) # starting inv
+        #         pool.remove(hip_pouches[x])
 
         # check the starting ink ribbons option and add as precollected, removing from pool and replacing with junk
         starting_ink_ribbons = int(self.options.starting_ink_ribbons)
