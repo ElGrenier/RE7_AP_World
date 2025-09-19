@@ -18,18 +18,18 @@ class UnlockedTypewriters(OptionList):
     """
     display_name = "Unlocked Typewriters"
 
-class StartingHipPouches(NamedRange):
-    """The number of hip pouches you want to start the game with, to a max of 6 (or 5 for Hardcore). 
-    Any that you start with are taken out of the item pool and replaced with junk."""
-    default = 0
-    range_start = 0
-    range_end = 6
-    display_name = "Starting Hip Pouches"
-    special_range_names = {
-        "disabled": 0,
-        "half": 3,
-        "all": 6
-    }
+# class StartingHipPouches(NamedRange):
+#     """The number of hip pouches you want to start the game with, to a max of 6 (or 5 for Hardcore). 
+#     Any that you start with are taken out of the item pool and replaced with junk."""
+#     default = 0
+#     range_start = 0
+#     range_end = 6
+#     display_name = "Starting Hip Pouches"
+#     special_range_names = {
+#         "disabled": 0,
+#         "half": 3,
+#         "all": 6
+#     }
 
 class StartingInkRibbons(NamedRange):
     """If playing Hardcore, the number of ink ribbons you want to start the game with, to a max of 12.
@@ -46,7 +46,6 @@ class StartingInkRibbons(NamedRange):
 
 class BonusStart(Choice):
     """Some players might want to start with a little help in the way of a few extra heal items and packs of ammo.
-    This option IS affected by cross-scenario weapon randomization, if that option is set.
 
     False: Normal, don't start with extra heal items and packs of ammo.
     True: Start with those helper items."""
@@ -151,56 +150,6 @@ class RandomizeCoinsCages(Choice):
 #     option_true = 1
 #     default = 0
 
-# class AllowProgressionInLabs(Choice):
-#     """The randomizer has a tendency to put other player's progression towards the end in Labs, which can cause some lengthy BK. 
-#     This option seeks to avoid that.
-
-#     False: (Default) The only progression in Labs -- and the final fight area(s) -- will be the non-randomized upgraded bracelets for Labs.
-#     True: Progression can be placed in Labs and the final fight area(s). This can, but won't always, lead to some BK.
-
-#     NOTE - This option only affects *YOUR* Labs. Your progression can still be in someone else's Labs if they have this option enabled."""
-#     display_name = "Allow Progression in Labs"
-#     option_false = 0
-#     option_true = 1
-#     default = 0
-
-# class CrossScenarioWeapons(Choice):
-#     """This option, when set, will randomize the weapons in your scenario, choosing from weapons in all 4 scenarios (LA, LB, CA, CB). 
-#     This includes weapon upgrades as well.
-
-#     This DOES NOT include boss weapons like the Anti-tank Rocket and the Minigun. This DOES include your starting weapon.
-#     This also DOES affect the Bonus Start option, if set.
-    
-#     The available options are:
-
-#     None: You have thought better of randomizing your weapons, and balance is restored in the galaxy.
-#     Starting: Only your starting weapon is randomized. It can be randomized to any other weapon.
-#     Match: Weapon randomization will match light weapons (like pistols) to other light weapons, 
-#             medium weapons (like shotguns) to other medium weapons (like grenade launcher), etc. 
-#             Includes their upgrades. Ammo is matched by type (light, medium, etc.).
-#     Full: Weapon randomization will just pick at random. This can make you have all weak weapons or all strong weapons, or something in between. 
-#             Includes their upgrades. Ammo is split as it normally was by type (light, medium, etc.).
-#     All: Weapon randomization will add every available weapon and their upgrades. 
-#             Ammo is matched by type (light, medium, etc.) and split evenly in each type.
-#     Full Ammo: Same as Full (picks weapons at random), and will also randomize how much ammo is placed for each in the world.
-#     All Ammo: Same as All (adds every weapon from all 4 scenarios), and randomizes how much ammo is placed for each in the world.
-#     Troll: Same as AllAmmo (every weapon + random ammo), except the randomizer removes all but a few weapons. 
-#             Ammo and upgrades for the removed weapons are still included to troll you.
-#     Troll Starting: Same as Troll, except the randomizer removes all weapons except for your starting weapon.
-#             Ammo and upgrades for the removed weapons are still included as in Troll.
-
-#     NOTE: The options for "Full Ammo", "All Ammo", and "Troll" / "Troll Starting" are not guaranteed to be reasonably beatable. Especially the Troll ones. >:)"""
-#     display_name = "Cross-Scenario Weapons"
-#     option_none = 0
-#     option_starting = 1
-#     option_match = 2
-#     option_full = 3
-#     option_all = 4
-#     option_full_ammo = 5
-#     option_all_ammo = 6   
-#     option_troll = 7
-#     option_troll_starting = 8
-#     default = 0
 
 class AmmoPackModifier(Choice):
     """This option, when set, will modify the quantity of ammo in each ammo pack. This can make the game easier or much, much harder.
@@ -230,59 +179,51 @@ class AmmoPackModifier(Choice):
     option_random_by_type = 7
     option_random_always = 8
 
-# class OopsAllRockets(Choice):
-#     """Enabling this swaps all weapons, weapon ammo, and subweapons to Rocket Launchers. 
-#     (Except progression weapons, of course.)"""
-#     display_name = "Oops! All Rockets"
-#     option_false = 0
-#     option_true = 1
-#     default = 0
+class OopsAllChainsaw(Choice):
+    """Enabling this swaps all weapons, weapon ammo, and subweapons to Chainsaws. 
+    (Except progression weapons, of course.)"""
+    display_name = "Oops! All Chainsaws"
+    option_false = 0
+    option_true = 1
+    default = 0
 
-# class OopsAllMiniguns(Choice):
-#     """Enabling this swaps all weapons, weapon ammo, and subweapons to Miniguns. 
-#     (Except progression weapons, of course.)"""
-#     display_name = "Oops! All Miniguns"
-#     option_false = 0
-#     option_true = 1
-#     default = 0
+class OopsAlHandgun(Choice):
+    """Enabling this swaps all weapons, weapon ammo, and subweapons to Handgun. 
+    (Except progression weapons, of course.)"""
+    display_name = "Oops! All Handgun"
+    option_false = 0
+    option_true = 1
+    default = 0
 
-# class OopsAllGrenades(Choice):
-#     """Enabling this swaps all weapons, weapon ammo, and subweapons to Grenades. 
-#     (Except progression weapons, of course.)"""
-#     display_name = "Oops! All Grenades"
-#     option_false = 0
-#     option_true = 1
-#     default = 0
+class OopsAllGrenadeLauncher(Choice):
+    """Enabling this swaps all weapons, weapon ammo, and subweapons to GrenadeLauncher. 
+    (Except progression weapons, of course.)"""
+    display_name = "Oops! All Grenades"
+    option_false = 0
+    option_true = 1
+    default = 0
 
-# class OopsAllKnives(Choice):
-#     """Enabling this swaps all weapons, weapon ammo, and subweapons to Knives. 
-#     (Except progression weapons, of course.)"""
-#     display_name = "Oops! All Knives"
-#     option_false = 0
-#     option_true = 1
-#     default = 0
+class OopsAllKnives(Choice):
+    """Enabling this swaps all weapons, weapon ammo, and subweapons to Knives. 
+    (Except progression weapons, of course.)"""
+    display_name = "Oops! All Knives"
+    option_false = 0
+    option_true = 1
+    default = 0
 
 
-class NoFirstAidSpray(Choice):
-    """Enabling this swaps all first aid sprays to filler or less useful items. 
+class NoFirstAidMed(Choice):
+    """Enabling this swaps all first aid Meds to filler or less useful items. 
     """
     display_name = "No First Aid Spray"
     option_false = 0
     option_true = 1
     default = 0
 
-class NoGreenHerb(Choice):
-    """Enabling this swaps all green herbs to filler or less useful items. 
+class NoHerb(Choice):
+    """Enabling this swaps all herbs to filler or less useful items. 
     """
-    display_name = "No Green Herbs"
-    option_false = 0
-    option_true = 1
-    default = 0
-
-class NoRedHerb(Choice):
-    """Enabling this swaps all red herbs to filler or less useful items. 
-    """
-    display_name = "No Red Herbs"
+    display_name = "No Herbs"
     option_false = 0
     option_true = 1
     default = 0
@@ -316,11 +257,10 @@ class RE7Options(StartInventoryFromPoolMixin, DeathLinkMixin, PerGameCommonOptio
     # allow_progression_in_labs: AllowProgressionInLabs
     # cross_scenario_weapons: CrossScenarioWeapons
     ammo_pack_modifier: AmmoPackModifier
-    # oops_all_rockets: OopsAllRockets
-    # oops_all_miniguns: OopsAllMiniguns
-    # oops_all_grenades: OopsAllGrenades
-    # oops_all_knives: OopsAllKnives
-    no_first_aid_spray: NoFirstAidSpray
-    no_green_herb: NoGreenHerb
-    no_red_herb: NoRedHerb
+    oops_all_chainsaw: OopsAllChainsaw
+    oops_all_handgun: OopsAlHandgun
+    oops_all_grenade_launcher: OopsAllGrenadeLauncher
+    oops_all_knives: OopsAllKnives
+    no_first_aid_med: NoFirstAidMed
+    no_herb: NoHerb
     no_gunpowder: NoGunpowder

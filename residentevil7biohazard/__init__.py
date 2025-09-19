@@ -41,7 +41,7 @@ class ResidentEvil7(World):
 
     data_version = 2
     required_client_version = (0, 4, 4)
-    apworld_release_version = "0.0.2" # defined to show in spoiler log
+    apworld_release_version = "0.1.3" # defined to show in spoiler log
 
     item_id_to_name = { item['id']: item['name'] for item in Data.item_table }
     item_name_to_id = { item['name']: item['id'] for item in Data.item_table }
@@ -246,10 +246,8 @@ class ResidentEvil7(World):
         if self._format_option_text(self.options.bonus_start) == 'True':
             count_spray = 3
             count_ammo = 4
-            count_grenades = 3
-            count_bangs = 3
 
-            for x in range(count_spray): self.multiworld.push_precollected(self.create_item('First Aid Spray'))
+            for x in range(count_spray): self.multiworld.push_precollected(self.create_item('First Aid Med'))
 
             if self.player in self.starting_weapon:
                 starting_weapon = self.starting_weapon[self.player]
@@ -258,18 +256,15 @@ class ResidentEvil7(World):
             else:
                 for x in range(count_ammo): self.multiworld.push_precollected(self.create_item('Handgun Ammo'))
 
-            for x in range(count_grenades): self.multiworld.push_precollected(self.create_item('Hand Grenade'))
-            for x in range(count_bangs): self.multiworld.push_precollected(self.create_item('Flash Grenade'))
-
         # do all the "no X" options here so we have more empty spots to use for traps, if needed
-        # if self._format_option_text(self.options.no_first_aid_spray) == 'True':
-        #     pool = self._replace_pool_item_with(pool, 'First Aid Spray', 'Wooden Boards')
+        if self._format_option_text(self.options.no_first_aid_med) == 'True':
+            pool = self._replace_pool_item_with(pool, 'First Aid Med', 'Ethan\'s Hand')
 
-        # if self._format_option_text(self.options.no_green_herb) == 'True':
-        #     pool = self._replace_pool_item_with(pool, 'Green Herb', 'Wooden Boards')
+        if self._format_option_text(self.options.no_herb) == 'True':
+            pool = self._replace_pool_item_with(pool, 'Herb', 'Ethan\'s Hand')
 
-        # if self._format_option_text(self.options.no_red_herb) == 'True':
-        #     pool = self._replace_pool_item_with(pool, 'Red Herb', 'Wooden Boards')
+        if self._format_option_text(self.options.no_gunpowder) == 'True':
+            pool = self._replace_pool_item_with(pool, 'Gun Powder', 'Ethan\'s Leg')
         
         # if self._format_option_text(self.options.no_gunpowder) == 'True':
         #     replaceables = set(item.name for item in pool if 'Gunpowder' in item.name)
@@ -362,33 +357,30 @@ class ResidentEvil7(World):
         # check the "Oops! All ____" option. From the option description:
         #     Enabling this swaps all weapons, weapon ammo, and subweapons to the selected weapon. 
         #     (Except progression weapons, of course.)
-        # oops_all_flag = self._get_oops_all_options_flag()
-        # if oops_all_flag:            
-        #     oops_items_map = {
-        #         0x01: 'Single Use Rocket',
-        #         0x02: 'Mini-Minigun',
-        #         0x04: 'Hand Grenade',
-        #         0x08: 'Combat Knife'
-        #     }
+        oops_all_flag = self._get_oops_all_options_flag()
+        if oops_all_flag:            
+            oops_items_map = {
+                0x01: 'Chain Saw',
+                0x02: 'M19 Handgun',
+                0x04: 'Grenade Launcher',
+                0x08: 'Knife'
+            }
 
-        #     if oops_all_flag not in oops_items_map:
-        #         raise Exception("Cannot apply multiple 'Oops All' options. Please fix your yaml")
-
+            if oops_all_flag not in oops_items_map:
+                raise Exception("Cannot apply multiple 'Oops All' options. Please fix your yaml")
+            
         #     # Leave the Anti-Tank Rocket on Tyrant alone so the player can finish the fight
-        #     items_to_replace = [
-        #         item for item in self.item_name_to_item.values() 
-        #         if 'type' in item and item['type'] in ['Weapon', 'Subweapon', 'Ammo'] and item['name'] != 'Anti-tank Rocket'
-        #     ]
+            items_to_replace = [ item for item in self.item_name_to_item.values() ]
 
-        #     for from_item in items_to_replace:
-        #         pool = self._replace_pool_item_with(pool, from_item['name'], oops_items_map[oops_all_flag])
+            for from_item in items_to_replace:
+                pool = self._replace_pool_item_with(pool, from_item['name'], oops_items_map[oops_all_flag])
 
-        #     # Add Marvin's Knife back in. He gets cranky if you don't give him his knife.
-        #     for item in pool:
-        #         if item.name == oops_items_map[oops_all_flag]:
-        #             pool.remove(item)
-        #             pool.append(self.create_item("Combat Knife"))
-        #             break
+        #     # Add Knife back in (since its a progression item).
+            for item in pool:
+                if item.name == oops_items_map[oops_all_flag]:
+                    pool.remove(item)
+                    pool.append(self.create_item("Knife"))
+                    break
 
 
         # if the number of unfilled locations exceeds the count of the pool, fill the remainder of the pool with extra maybe helpful items
@@ -396,7 +388,7 @@ class ResidentEvil7(World):
 
         if missing_item_count > 0:
             for x in range(missing_item_count):
-                pool.append(self.create_item('Blue Herb'))
+                pool.append(self.create_item('Herb'))
 
         # Make any items that result in a really quick BK either early or local items, so the BK time is reduced
         early_items = {}       
@@ -406,7 +398,7 @@ class ResidentEvil7(World):
                 self.multiworld.early_items[self.player][item_name] = item_qty
 
         local_items = {}       
-        local_items["Fuse - Main Hall"] = len([i for i in pool if i.name == "Fuse - Main Hall"])
+        #local_items["Fuse - Main Hall"] = len([i for i in pool if i.name == "Fuse - Main Hall"])
 
         for item_name, item_qty in local_items.items():
             if item_qty > 0:
@@ -435,13 +427,10 @@ class ResidentEvil7(World):
     def fill_slot_data(self) -> Dict[str, Any]:
         slot_data = {
             "apworld_version": self.apworld_release_version,
-            # "character": self._get_character(),
-            # "scenario": self._get_scenario(),
             "difficulty": self._get_difficulty(),
             "unlocked_typewriters": self._format_option_text(self.options.unlocked_typewriters).split(", "),
             "starting_weapon": self._get_starting_weapon(),
             "ammo_pack_modifier": self._format_option_text(self.options.ammo_pack_modifier),
-            # "damage_traps_can_kill": self._format_option_text(self.options.damage_traps_can_kill) == 'True',
             "death_link": self._format_option_text(self.options.death_link) == 'Yes' # why is this yes? lol Edit : NO IDEA
         }
 
@@ -584,17 +573,17 @@ class ResidentEvil7(World):
 
         return pool
 
-    # def _get_oops_all_options_flag(self) -> int:
-    #     flag = 0
-    #     if self._format_option_text(self.options.oops_all_rockets) == 'True':
-    #         flag |= 0x01
-    #     if self._format_option_text(self.options.oops_all_miniguns) == 'True':
-    #         flag |= 0x02
-    #     if self._format_option_text(self.options.oops_all_grenades) == 'True':
-    #         flag |= 0x04
-    #     if self._format_option_text(self.options.oops_all_knives) == 'True':
-    #         flag |= 0x08
-    #     return flag
+    def _get_oops_all_options_flag(self) -> int:
+        flag = 0
+        if self._format_option_text(self.options.oops_all_chainsaw) == 'True':
+            flag |= 0x01
+        if self._format_option_text(self.options.oops_all_handgun) == 'True':
+            flag |= 0x02
+        if self._format_option_text(self.options.oops_all_grenade_launcher) == 'True':
+            flag |= 0x04
+        if self._format_option_text(self.options.oops_all_knives) == 'True':
+            flag |= 0x08
+        return flag
        
     # def _output_items_and_locations_as_text(self):
     #     my_locations = [

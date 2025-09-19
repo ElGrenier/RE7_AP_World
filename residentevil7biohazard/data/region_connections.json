@@ -97,7 +97,7 @@
         "to": "Main House Attic",
         "condition": {
 	"items": ["Knife","Wooden Statuette","Dissection Room Key","Stone Statuette",
-            "Burner Grip","Burner Nozzle","Blue Dogs Head", "White Dogs Head", "Red Dogs Head"]
+            "Burner Grip","Burner Nozzle","Blue Dogs Head", "White Dogs Head", "Red Dogs Head","Crow Key"]
     	}
     },
     { 
@@ -180,7 +180,7 @@
         "from": "Yard",
         "to": "Entrance - Old House",
         "condition": {
-		"items": ["Knife","Wooden Statuette", "Dissection Room Key"]
+		"items": ["Wooden Statuette", "Dissection Room Key"]
     	}
     },
      { 
@@ -252,7 +252,7 @@
         "from": "Yard",
         "to": "Testing Area",
         "condition": {
-            "items": ["Keycard (Blue)","Keycard (Red)"]
+            "items": ["Keycard (Blue)","Keycard (Red)","Dissection Room Key","Snake Key","Crow Key","Burner Grip","Burner Nozzle"]
         }
     },
     { 
