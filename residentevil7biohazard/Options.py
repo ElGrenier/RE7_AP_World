@@ -247,7 +247,7 @@ class StartInventoryFromPoolMixin:
 class RE7Options(StartInventoryFromPoolMixin, DeathLinkMixin, PerGameCommonOptions):
     difficulty: Difficulty
     unlocked_typewriters: UnlockedTypewriters
-    starting_hip_pouches: StartingHipPouches
+    # starting_hip_pouches: StartingHipPouches
     starting_ink_ribbons: StartingInkRibbons
     bonus_start: BonusStart
     start_at_chapter_2: StartAtChapter2
