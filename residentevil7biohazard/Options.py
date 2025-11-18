@@ -31,13 +31,13 @@ class UnlockedTypewriters(OptionList):
 #         "all": 6
 #     }
 
-class StartingInkRibbons(NamedRange):
-    """If playing Hardcore, the number of ink ribbons you want to start the game with, to a max of 12.
+class StartingTape(NamedRange):
+    """If playing Hardcore, the number of Tape you want to start the game with, to a max of 12.
     Any that you start with are taken out of the item pool and replaced with junk."""
     default = 0
     range_start = 0
     range_end = 12
-    display_name = "Starting Ink Ribbons"
+    display_name = "Starting Tape"
     special_range_names = {
         "disabled": 0,
         "half": 6,
@@ -47,7 +47,7 @@ class StartingInkRibbons(NamedRange):
 class BonusStart(Choice):
     """Some players might want to start with a little help in the way of a few extra heal items and packs of ammo.
 
-    False: Normal, don't start with extra heal items and packs of ammo.
+    False: (Default) Normal, don't start with extra heal items and packs of ammo.
     True: Start with those helper items."""
     display_name = "Bonus Start"
     option_false = 0
@@ -248,14 +248,13 @@ class RE7Options(StartInventoryFromPoolMixin, DeathLinkMixin, PerGameCommonOptio
     difficulty: Difficulty
     unlocked_typewriters: UnlockedTypewriters
     # starting_hip_pouches: StartingHipPouches
-    starting_ink_ribbons: StartingInkRibbons
+    starting_tape: StartingTape
     bonus_start: BonusStart
     start_at_chapter_2: StartAtChapter2
     randomize_coins: RandomizeCoins
     randomize_coins_cages: RandomizeCoinsCages
 
     # allow_progression_in_labs: AllowProgressionInLabs
-    # cross_scenario_weapons: CrossScenarioWeapons
     ammo_pack_modifier: AmmoPackModifier
     oops_all_chainsaw: OopsAllChainsaw
     oops_all_handgun: OopsAlHandgun

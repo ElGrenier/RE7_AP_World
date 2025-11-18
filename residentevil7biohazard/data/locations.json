@@ -18,26 +18,6 @@
         "folder_path": "Chapter/Chapter1/2F/c01_2F/c01_2F_sm"
     },
     {
-        "name": "At the start of the Old Videotape",
-        "original_item": "Lockpick",
-        "region": "Intro House",
-        "condition": {},
-        "item_object": "InteractDetailSearch",
-        "parent_object": "sm1796_KeyPick01A_DetailSearchItem",
-        "folder_path": "Chapter/FF000/Outside/c01_Outside11/c01_Outside11_sm",
-	"randomized": 0
-    },
-    {
-        "name": "In the locked drawer",
-        "original_item": "Antique Coin",
-        "region": "Intro House",
-        "condition": {},
-        "item_object": "sm2164_Coin01A_InteractDetailSearch",
-        "parent_object": "sm2164_Coin01A_DetailSearchItem",
-        "folder_path": "Chapter/Chapter1/1F/c01_Kitchen01/c01_Kitchen01_sm",
-	    "randomized": 0
-    },
-    {
         "name": "Next to mia cage",
         "original_item": "Bolt Cutters",
         "region": "Intro House",
@@ -268,7 +248,7 @@
         "condition": {},
         "item_object": "InteractWeapon",
         "parent_object": "wp1210_Handgun_Get",
-        "folder_path": "Chapter/Chapter3/Event_c03/Event_c03_1/evProps"
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_West/Common/KeyItem"
     },
     {
         "name": "In the garage, next to the car",
@@ -643,7 +623,7 @@
     },
     {
         "name":"In the Fridge (2)",
-        "original_item": "Lockpick",
+        "original_item": "Herb",
         "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
@@ -946,7 +926,7 @@
     },
     {
         "name":"In the pot, on the right stairs",
-        "original_item": "Lockpick",
+        "original_item": "Herb",
         "region": "Yard",
         "condition": {},
         "item_object": "InteractDetailSearch",
@@ -1199,7 +1179,7 @@
     },
     {
         "name":"Outside, on the right end, In the box",
-        "original_item": "Lockpick",
+        "original_item": "Herb",
         "region": "Dining Room - Old House",
         "condition": {},
         "item_object": "InteractDetailSearch",
@@ -1738,7 +1718,7 @@
     },
     {
         "name":"In the orange box, next to the mirror",
-        "original_item": "Lockpick",
+        "original_item": "Herb",
         "region": "Master Bedroom",
         "condition": {
             "items":["Snake Key"]
@@ -1860,7 +1840,7 @@
     },
     {
         "name":"In the flowerpot next to the windows",
-        "original_item": "Lockpick",
+        "original_item": "Herb",
         "region": "Kid's Room",
         "condition": {
             "items":["Snake Key"]

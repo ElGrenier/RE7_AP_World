@@ -11,14 +11,9 @@ from Fill import fill_restrictive
 
 from .Data import Data
 from .Options import RE7Options
-# from .WeaponRandomizer import WeaponRandomizer
 
 
 Data.load_data()
-# Data.load_data('leon', 'b')
-# Data.load_data('claire', 'a')
-# Data.load_data('claire', 'b')
-
 
 class RE7Location(Location):
     def stack_names(*area_names):
@@ -70,49 +65,6 @@ class ResidentEvil7(World):
                 for i, l in self.source_locations[self.player].items() 
         } # turn it into name:loc instead
 
-        # weapon_rando = self._format_option_text(self.options.cross_scenario_weapons).lower()
-
-        # if any of the "Oops! All X" weapon options are present, don't bother with weapon randomization since they'll all get overwritten
-        #    and since starting with pistol is important to prevent softlock at Gator with all knives
-        # if self._get_oops_all_options_flag():
-        #     if weapon_rando != "none":
-        #         raise Exception("Cannot apply 'Oops All' options alongside Cross Scenario Weapons. Please fix your yaml.")
-        #     return
-
-        # weapon_rando = self._format_option_text(self.options.cross_scenario_weapons).lower()
-
-        # # if the user didn't pick any weapon randomization, skip all of this
-        # if weapon_rando == "none":
-        #     return
-
-        # weapon_randomizer = WeaponRandomizer(self)
-        
-        # # if only randomizing the starting weapon, replace it and all of its ammo
-        # if weapon_rando == "starting": 
-        #     weapon_randomizer.starting()
-        # elif weapon_rando == "match": 
-        #     weapon_randomizer.match()
-        # elif weapon_rando == "full": 
-        #     weapon_randomizer.full()
-        # elif weapon_rando == "all": 
-        #     weapon_randomizer.all()
-        # elif weapon_rando == "full ammo": 
-        #     weapon_randomizer.full_ammo()
-        # # all ammo and troll are identical, except there's a step after upgrades are placed for all weapons to remove all but a few weapons
-        # # so just do all_ammo here, then call the actual troll option after upgrades + gunpowder + whatever else
-        # elif weapon_rando == "all ammo" or weapon_rando == "troll" or weapon_rando == "troll starting": 
-        #     weapon_randomizer.all_ammo()
-        # else:
-        #     raise "Invalid weapon randomizer value!"
-
-        # weapon_randomizer.upgrades() # always swap upgrades after weapons are rando'd
-        # weapon_randomizer.high_grade_gunpowder() # always split high-grade gunpowder after weapons are rando'd
-
-        # if weapon_rando == "troll":
-        #     weapon_randomizer.troll()
-        # if weapon_rando == "troll starting":
-        #     weapon_randomizer.troll_starting()
-
     def create_regions(self): # and create locations
         scenario_locations = { l['id']: l for _, l in self.source_locations[self.player].items() }
         scenario_regions = self._get_region_table()
@@ -154,9 +106,6 @@ class ResidentEvil7(World):
                     location.item_rule = lambda item: not item.advancement
                 # if randomize_coins_cage = 2, don't do anything (randomize as default)
 
-
-
-
                 if 'forbid_item' in location_data and location_data['forbid_item']:
                     current_item_rule = location.item_rule or None
 
@@ -186,7 +135,7 @@ class ResidentEvil7(World):
             if "condition" in connect and "items" in connect["condition"]:
                 set_rule(ent, lambda state, en=ent, conn=connect: self._has_items(state, conn["condition"].get("items", [])))
 
-        # Uncomment the below to see a connection of the regions (and their locations) for any scenarios you're testing.
+        # Uncomment the below to see a connection of the regions (and their locations).
         # visualize_regions(self.multiworld.get_region("Menu", self.player), "region_uml")
 
         # Place victory and set the completion condition for having victory
@@ -228,17 +177,17 @@ class ResidentEvil7(World):
         #         pool.remove(hip_pouches[x])
 
         # check the starting ink ribbons option and add as precollected, removing from pool and replacing with junk
-        starting_ink_ribbons = int(self.options.starting_ink_ribbons)
+        starting_tape = int(self.options.starting_tape)
 
-        if self._format_option_text(self.options.difficulty) == 'Hardcore' and starting_ink_ribbons > 0:
+        if self._format_option_text(self.options.difficulty) == 'Hardcore' and starting_tape > 0:
             ink_ribbons = [item for item in pool if item.name == 'Ink Ribbon'] # 12+ total in every campaign, I think
 
             # if the ink ribbons option exceeds the number of ink ribbons in the pool, reduce it to the number in the pool
-            if starting_ink_ribbons > len(ink_ribbons):
-                starting_ink_ribbons = len(ink_ribbons)
-                self.options.starting_ink_ribbons.value = len(ink_ribbons)
+            if starting_tape > len(ink_ribbons):
+                starting_tape = len(ink_ribbons)
+                self.options.starting_tape.value = len(ink_ribbons)
 
-            for x in range(starting_ink_ribbons):
+            for x in range(starting_tape):
                 self.multiworld.push_precollected(ink_ribbons[x]) # starting inv
                 pool.remove(ink_ribbons[x])
 
@@ -284,10 +233,6 @@ class ResidentEvil7(World):
         # if self._format_option_text(self.options.add_damage_traps) == 'True':
         #     for x in range(int(self.options.damage_trap_count)):
         #         traps.append(self.create_item("Damage Trap"))
-
-        # if self._format_option_text(self.options.add_poison_traps) == 'True':
-        #     for x in range(int(self.options.poison_trap_count)):
-        #         traps.append(self.create_item("Poison Trap"))
 
         # if len(traps) > 0:
         #     # use these spots for replacement first, since they're entirely non-essential
@@ -439,46 +384,6 @@ class ResidentEvil7(World):
     def write_spoiler_header(self, spoiler_handle: TextIO):
         spoiler_handle.write(f"RE7_AP_World version: {self.apworld_release_version}\n")
 
-    # def write_spoiler(self, spoiler_handle: typing.TextIO) -> None:
-    #     # if weapons were randomized across scenarios, list what was swapped for what here (excluding upgrades, because who cares)
-    #     if self._format_option_text(self.options.cross_scenario_weapons) != "None":
-    #         starting_weapon = self.starting_weapon[self.player]
-    #         spoiler_handle.write(f"\n\nWeapon Swaps ({self.multiworld.player_name[self.player]}):\n")
-    #         spoiler_handle.write(f"\n{'(Starting Weapon)'.ljust(30, ' ')} -> {starting_weapon}")
-
-    #         for from_weapon, to_weapon in self.replacement_weapons[self.player].items():
-    #             # if the from weapon is a placeholder string of underscores, all of these were added (no "old" weapon)
-    #             if re.match('^[_]+$', from_weapon):
-    #                 from_weapon = '(Added)'
-
-    #             if isinstance(to_weapon, list):
-    #                 if not to_weapon:
-    #                     spoiler_handle.write(f"\n{from_weapon.ljust(30, ' ')} -> :(")
-    #                     continue
-
-    #                 spoiler_handle.write(f"\n{from_weapon.ljust(30, ' ')} -> {to_weapon[0]}")
-
-    #                 if len(to_weapon) > 1:
-    #                     for weapon in to_weapon[1:]:
-    #                         spoiler_handle.write(f"\n{''.ljust(30, ' ')} -> {weapon}")
-    #             else:
-    #                 spoiler_handle.write(f"\n{from_weapon.ljust(30, ' ')} -> {to_weapon}")
-            
-    #         spoiler_handle.write(f"\n\nAmmo Swaps ({self.multiworld.player_name[self.player]}):\n")
-
-    #         for from_ammo, to_ammo in self.replacement_ammo[self.player].items():
-    #             ammo_set = list(set(to_ammo))
-    #             ammo_count = len([l for _, l in self.source_locations[self.player].items() if l.get('original_item', None) == ammo_set[0]])                    
-
-    #             spoiler_handle.write(f"\n{from_ammo.ljust(30, ' ')} -> {ammo_set[0]} ({ammo_count})")
-
-    #             if len(ammo_set) > 1:
-    #                 for ammo in ammo_set[1:]:
-    #                     ammo_count = len([l for _, l in self.source_locations[self.player].items() if l.get('original_item', None) == ammo])                    
-    #                     spoiler_handle.write(f"\n{''.ljust(30, ' ')} -> {ammo} ({ammo_count})")
-
-    #         spoiler_handle.write("\n\n(Ammo totals are for the whole campaign, not per swap/category.)")
-
     def _has_items(self, state: CollectionState, item_names: list) -> bool:
         # if there are no item requirements, this location is open, they "have the items needed"
         if len(item_names) == 0:
@@ -519,7 +424,6 @@ class ResidentEvil7(World):
     def _get_locations(self) -> dict:
         locations_pool = {
             loc['id']: loc for _, loc in self.location_name_to_location.items()
-                # if loc['character'] == character and loc['scenario'] == scenario
         }
 
         # if the player chose hardcore, take out any matching standard difficulty locations
