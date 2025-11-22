@@ -623,7 +623,7 @@
     },
     {
         "name":"In the Fridge (2)",
-        "original_item": "Herb",
+        "original_item": "Lockpick",
         "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
@@ -926,7 +926,7 @@
     },
     {
         "name":"In the pot, on the right stairs",
-        "original_item": "Herb",
+        "original_item": "Lockpick",
         "region": "Yard",
         "condition": {},
         "item_object": "InteractDetailSearch",
@@ -1179,7 +1179,7 @@
     },
     {
         "name":"Outside, on the right end, In the box",
-        "original_item": "Herb",
+        "original_item": "Lockpick",
         "region": "Dining Room - Old House",
         "condition": {},
         "item_object": "InteractDetailSearch",
@@ -1718,7 +1718,7 @@
     },
     {
         "name":"In the orange box, next to the mirror",
-        "original_item": "Herb",
+        "original_item": "Lockpick",
         "region": "Master Bedroom",
         "condition": {
             "items":["Snake Key"]
@@ -1840,7 +1840,7 @@
     },
     {
         "name":"In the flowerpot next to the windows",
-        "original_item": "Herb",
+        "original_item": "Lockpick",
         "region": "Kid's Room",
         "condition": {
             "items":["Snake Key"]
