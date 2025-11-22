@@ -18,6 +18,16 @@
         "folder_path": "Chapter/Chapter1/2F/c01_2F/c01_2F_sm"
     },
     {
+        "name": "At the start of the Old Videotape",
+        "original_item": "Lockpick",
+        "region": "Intro House",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "sm1796_KeyPick01A_DetailSearchItem",
+        "folder_path": "Chapter/FF000/Outside/c01_Outside11/c01_Outside11_sm",
+	"randomized": 0
+    },
+    {
         "name": "In the locked drawer",
         "original_item": "Antique Coin",
         "region": "Intro House",
@@ -633,7 +643,7 @@
     },
     {
         "name":"In the Fridge (2)",
-        "original_item": "Antique Coin",
+        "original_item": "Lockpick",
         "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
@@ -936,7 +946,7 @@
     },
     {
         "name":"In the pot, on the right stairs",
-        "original_item": "Antique Coin",
+        "original_item": "Lockpick",
         "region": "Yard",
         "condition": {},
         "item_object": "InteractDetailSearch",
@@ -1728,7 +1738,7 @@
     },
     {
         "name":"In the orange box, next to the mirror",
-        "original_item": "Antique Coin",
+        "original_item": "Lockpick",
         "region": "Master Bedroom",
         "condition": {
             "items":["Snake Key"]
