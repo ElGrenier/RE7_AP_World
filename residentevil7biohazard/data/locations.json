@@ -633,7 +633,7 @@
     },
     {
         "name":"In the Fridge (2)",
-        "original_item": "Lockpick",
+        "original_item": "Antique Coin",
         "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
@@ -936,7 +936,7 @@
     },
     {
         "name":"In the pot, on the right stairs",
-        "original_item": "Lockpick",
+        "original_item": "Antique Coin",
         "region": "Yard",
         "condition": {},
         "item_object": "InteractDetailSearch",
@@ -1728,7 +1728,7 @@
     },
     {
         "name":"In the orange box, next to the mirror",
-        "original_item": "Lockpick",
+        "original_item": "Antique Coin",
         "region": "Master Bedroom",
         "condition": {
             "items":["Snake Key"]
