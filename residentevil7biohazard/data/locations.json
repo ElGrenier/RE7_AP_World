@@ -18,6 +18,16 @@
         "folder_path": "Chapter/Chapter1/2F/c01_2F/c01_2F_sm"
     },
     {
+        "name": "In the locked drawer",
+        "original_item": "Antique Coin",
+        "region": "Intro House",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "parent_object": "sm2164_Coin01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter1/1F/c01_Kitchen01/c01_Kitchen01_sm",
+	    "randomized": 0
+    },
+    {
         "name": "Next to mia cage",
         "original_item": "Bolt Cutters",
         "region": "Intro House",
