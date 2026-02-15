@@ -372,7 +372,7 @@
     },
     {
         "type": "Consumable",
-        "name": "Gun Powder",
+        "name": "Gunpowder",
         "game_id": "Gunpowder",
         "count": 1,
         "progression": 0

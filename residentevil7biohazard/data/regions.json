@@ -52,7 +52,7 @@
         "zone_id": 2
     },
     {
-        "name": "Main Room",
+        "name": "Meat Storage",
         "zone_id": 2
     },
     {
@@ -64,7 +64,7 @@
         "zone_id": 2
     },
     {
-        "name": "Bathroom - Processing Area",
+        "name": "Washroom",
         "zone_id": 2
     },
     {
@@ -88,7 +88,7 @@
         "zone_id": 2
     },
     {
-        "name": "Grandma Room",
+        "name": "'Grandma's Room",
         "zone_id": 2
     },
     {
@@ -108,12 +108,8 @@
         "zone_id": 2
     },
     {
-        "name": "Yard",
+        "name": "Courtyard",
         "zone_id": 2
-    },
-    {
-        "name": "Coin Cages",
-        "zone_id": 4
     },
     {
         "name": "Entrance - Old House",
@@ -136,7 +132,7 @@
         "zone_id": 2
     },
     {
-        "name": "Gallery - Old House",
+        "name": "Back Porch - Old House",
         "zone_id": 2
     },
     {
@@ -172,11 +168,155 @@
         "zone_id": 2
     },
     {
-        "name": "Dad Bossroom",
-        "zone_id": 2
+        "name": "Office",
+        "zone_id": 3
     },
     {
-        "name": "Victory Zone",
-        "zone_id": 2
+        "name": "Flooded Room (1S)",
+        "zone_id": 3
+    },
+    {
+        "name": "Maintenance Room",
+        "zone_id": 3
+    },
+    {
+        "name": "Storage (1F)",
+        "zone_id": 3
+    },
+    {
+        "name": "Bunk Room",
+        "zone_id": 3
+    },
+    {
+        "name": "Laundry Room (1F)",
+        "zone_id": 3
+    },
+    {
+        "name": "Stockroom",
+        "zone_id": 3
+    },
+    {
+        "name": "Security",
+        "zone_id": 3
+    },
+    {
+        "name": "Elevator Corridor",
+        "zone_id": 3
+    },
+    {
+        "name": "Control Room",
+        "zone_id": 3
+    },
+    {
+        "name": "Bridge",
+        "zone_id": 3
+    },
+    {
+        "name": "Captain's Cabin",
+        "zone_id": 3
+    },
+    {
+        "name": "Main Corridor",
+        "zone_id": 3
+    },
+    {
+        "name": "Guest Room",
+        "zone_id": 3
+    },
+    {
+        "name": "Break Room",
+        "zone_id": 3
+    },
+    {
+        "name": "Lounge",
+        "zone_id": 3
+    },
+    {
+        "name": "Kitchen (2F)",
+        "zone_id": 3
+    },
+    {
+        "name": "Sick Bay",
+        "zone_id": 3
+    },
+    {
+        "name": "Small Corridor",
+        "zone_id": 3
+    },
+    {
+        "name": "Side Stairs",
+        "zone_id": 3
+    },
+    {
+        "name": "Shaft",
+        "zone_id": 3
+    },
+    {
+        "name": "Workers Access Passage 1",
+        "zone_id": 3
+    },
+    {
+        "name": "Store Room",
+        "zone_id": 3
+    },
+    {
+        "name": "No. 1 Engine Room",
+        "zone_id": 3
+    },
+    {
+        "name": "Workers Access Passage 2",
+        "zone_id": 3
+    },
+    {
+        "name": "Cargo Bay",
+        "zone_id": 3
+    },
+    {
+        "name": "Swamp",
+        "zone_id": 4
+    },
+    {
+        "name": "Mine Office",
+        "zone_id": 4
+    },
+    {
+        "name": "Mine Entrance Path",
+        "zone_id": 4
+    },
+    {
+        "name": "Crossroads",
+        "zone_id": 5
+    },
+    {
+        "name": "North Cavern",
+        "zone_id": 5
+    },
+    {
+        "name": "Cultivation Room",
+        "zone_id": 5
+    },
+    {
+        "name": "Office (B3)",
+        "zone_id": 5
+    },
+    {
+        "name": "South Cavern",
+        "zone_id": 5
+    },
+    {
+        "name": "Flooded Cavern",
+        "zone_id": 5
+    },
+    {
+        "name": "Spiralling Cavern",
+        "zone_id": 5
+    },
+    {
+        "name": "Abandoned Mine",
+        "zone_id": 5
+    },
+    {
+        "name": "Exit Passage",
+        "zone_id": 5
     }
 ]

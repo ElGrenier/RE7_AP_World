@@ -252,7 +252,7 @@
         "from": "Yard",
         "to": "Testing Area",
         "condition": {
-            "items": ["Keycard (Blue)","Keycard (Red)","Dissection Room Key","Snake Key","Crow Key","Burner Grip","Burner Nozzle"]
+            "items": ["Keycard (Blue)","Keycard (Red)","Dissection Room Key","Snake Key","Crow Key","Burner Grip","Burner Nozzle","Stone Statuette"]
         }
     },
     { 
