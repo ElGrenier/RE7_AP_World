@@ -32,7 +32,7 @@ class UnlockedTypewriters(OptionList):
 #     }
 
 class StartingTape(NamedRange):
-    """If playing Hardcore, the number of Tape you want to start the game with, to a max of 12.
+    """If playing Hardcore, the number of Tape you want to start the game with, to a max of XX.
     Any that you start with are taken out of the item pool and replaced with junk."""
     default = 0
     range_start = 0

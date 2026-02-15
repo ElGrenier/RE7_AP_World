@@ -15,6 +15,22 @@ from .Options import RE7Options
 
 Data.load_data()
 
+
+def no_advancement_items(item):
+    return not item.advancement
+
+def chain_item_rule(location, new_rule): ### Permit stacking of rules instead of overwritting it
+    old_rule = location.item_rule or (lambda item: True)
+    location.item_rule = lambda item: old_rule(item) and new_rule(item)
+
+def handle_coin_randomization(option, location, original_item):
+    if option == 0:
+        location.place_locked_item(self.create_item(original_item))
+    elif option == 1:
+        chain_item_rule(location, no_advancement_items)
+
+
+
 class RE7Location(Location):
     def stack_names(*area_names):
         return " - ".join(area_names)
@@ -92,18 +108,29 @@ class ResidentEvil7(World):
                 elif 'randomized' in location_data and location_data['randomized'] == 0:
                     location.place_locked_item(self.create_item(location_data["original_item"]))
                 # if the coins are not randomized
-                elif self.options.randomize_coins == 0 and "original_item" in location_data and location_data['original_item'] == "Antique Coin":
+
+                if location_data.get("original_item") == "Antique Coin": # Manage Antique coins randomization
+                    handle_coin_randomization(self.options.randomize_coins, location, "Antique Coin")
+
+                elif self.options.start_at_chapter_2 and region_data["zone_id"] == 1: # Check if "start_at_chapter_2 option is activated"
                     location.place_locked_item(self.create_item(location_data["original_item"]))
-                elif self.options.randomize_coins == 1 and "original_item" in location_data and location_data['original_item'] == "Antique Coin":
-                    location.item_rule = lambda item: not item.advancement
-                # if randomize_coins is 2, don't do anything (randomize as everything else)
-                elif self.options.start_at_chapter_2 and region_data['zone_id'] == 1: # Check if "start_at_chapter_2 option is activated"
-                    location.place_locked_item(self.create_item(location_data["original_item"]))
+
+                elif region_data["zone_id"] == 4 and "original_item" in location_data: # Manage Coins Cage Randomization
+                    handle_coin_randomization(self.options.randomize_coins_cages, location, location_data["original_item"])
+
+
+                # elif self.options.randomize_coins == 0 and "original_item" in location_data and location_data['original_item'] == "Antique Coin":
+                #     location.place_locked_item(self.create_item(location_data["original_item"]))
+                # elif self.options.randomize_coins == 1 and "original_item" in location_data and location_data['original_item'] == "Antique Coin":
+                #     location.item_rule = lambda item: not item.advancement
+                # # if randomize_coins is 2, don't do anything (randomize as everything else)
+                # elif self.options.start_at_chapter_2 and region_data['zone_id'] == 1: 
+                #     location.place_locked_item(self.create_item(location_data["original_item"]))
                 # if "start_at_chapter_2 option is de-activated, don't do anything (randomize as normal)
-                elif self.options.randomize_coins_cages == 0 and region_data['zone_id'] == 4 :
-                    location.place_locked_item(self.create_item(location_data["original_item"]))
-                elif self.options.randomize_coins_cages == 1 and region_data['zone_id'] == 4 :
-                    location.item_rule = lambda item: not item.advancement
+                # elif self.options.randomize_coins_cages == 0 and region_data['zone_id'] == 4 :
+                #     location.place_locked_item(self.create_item(location_data["original_item"]))
+                # elif self.options.randomize_coins_cages == 1 and region_data['zone_id'] == 4 :
+                #     location.item_rule = lambda item: not item.advancement
                 # if randomize_coins_cage = 2, don't do anything (randomize as default)
 
                 if 'forbid_item' in location_data and location_data['forbid_item']:

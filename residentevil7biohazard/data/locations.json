@@ -18,26 +18,6 @@
         "folder_path": "Chapter/Chapter1/2F/c01_2F/c01_2F_sm"
     },
     {
-        "name": "At the start of the Old Videotape",
-        "original_item": "Lockpick",
-        "region": "Intro House",
-        "condition": {},
-        "item_object": "InteractDetailSearch",
-        "parent_object": "sm1796_KeyPick01A_DetailSearchItem",
-        "folder_path": "Chapter/FF000/Outside/c01_Outside11/c01_Outside11_sm",
-	"randomized": 0
-    },
-    {
-        "name": "In the locked drawer",
-        "original_item": "Antique Coin",
-        "region": "Intro House",
-        "condition": {},
-        "item_object": "sm2164_Coin01A_InteractDetailSearch",
-        "parent_object": "sm2164_Coin01A_DetailSearchItem",
-        "folder_path": "Chapter/Chapter1/1F/c01_Kitchen01/c01_Kitchen01_sm",
-	    "randomized": 0
-    },
-    {
         "name": "Next to mia cage",
         "original_item": "Bolt Cutters",
         "region": "Intro House",
@@ -516,6 +496,15 @@
         "folder_path": "Chapter/Chapter3/c03_MainHouse/c03_MainHouse2F/c03_MainHouse2FBath/c03_MainHouse2FBath_sm"
     },
     {
+        "name":"Under the planks",
+        "original_item": "Shotgun Ammo",
+        "region": "Drawing Room",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object": "_wp1031_ShotgunBullet_Get",
+        "folder_path": "Chapter/Chapter3/ItemSet_c03/MainHouse_East/Normal/Item/EAST_1F"
+    },
+    {
         "name":"At the feet of the Deer",
         "original_item": "Handgun Ammo",
         "region": "Drawing Room",
@@ -643,7 +632,7 @@
     },
     {
         "name":"In the Fridge (2)",
-        "original_item": "Lockpick",
+        "original_item": "Herb",
         "region": "Main Room",
         "condition": {},
         "item_object": "InteractDetailSearch",
@@ -946,7 +935,7 @@
     },
     {
         "name":"In the pot, on the right stairs",
-        "original_item": "Lockpick",
+        "original_item": "Herb",
         "region": "Yard",
         "condition": {},
         "item_object": "InteractDetailSearch",
@@ -1199,7 +1188,7 @@
     },
     {
         "name":"Outside, on the right end, In the box",
-        "original_item": "Lockpick",
+        "original_item": "Herb",
         "region": "Dining Room - Old House",
         "condition": {},
         "item_object": "InteractDetailSearch",
@@ -1738,7 +1727,7 @@
     },
     {
         "name":"In the orange box, next to the mirror",
-        "original_item": "Lockpick",
+        "original_item": "Herb",
         "region": "Master Bedroom",
         "condition": {
             "items":["Snake Key"]
@@ -1860,7 +1849,7 @@
     },
     {
         "name":"In the flowerpot next to the windows",
-        "original_item": "Lockpick",
+        "original_item": "Herb",
         "region": "Kid's Room",
         "condition": {
             "items":["Snake Key"]
@@ -2244,16 +2233,813 @@
         "folder_path": "Chapter/Chapter3/ItemSet_c03/BoatShed/Normal/Item"
     },
     {
-        "name": "Victory",
-        "region": "Dad Bossroom",
-        "condition": {
-            "items": ["Snake Key", "Hatch Key", "Crow Key", "Blue Dogs Head", "White Dogs Head","Red Dogs Head","Keycard (Red)","Keycard (Blue)"]
-        },
-        "item_object": "Interact_SerumFinishPoint",
-        "parent_object": "",
-        "folder_path": "Chapter/Chapter3/Enemy_c03/Enemy_c03_5",
-        "id": null,
-        "victory": true
-    }
+        "name":"In the crawl section, on the ground in a dead-end",
+        "original_item": "Antique Coin",
+        "region": "Office",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipBF/Normal/Coin",
+        "item_position": [70.29,13.25,19.18]
+    },
+     {
+        "name":"In the water in the middle of the room, near the ladder.",
+        "original_item": "Antique Coin",
+        "region": "Flooded Room",
+        "condition": {},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship1F/Normal/Coin",
+        "item_position": [80.0,16.16,23.76]
+    },
+    {
+        "name":"Inside the desk drawer that the dead body has its hand on.",
+        "original_item": "MPM Handgun",
+        "region": "Maintenance Room - Wrecked Ship 1F",
+        "condition": {},
+        "item_object": "InteractWeapon",
+        "parent_object":"wp1240_MiaHandgun_Get",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship1F/c04_Ship1FOffice/c04_Ship1FOffice_sm",
+        "randomized":0
+    },
+    {
+        "name":"On the table near the south west door.",
+        "original_item": "Psychostimulants",
+        "region": "Storage - Wrecked Ship 1F",
+        "condition": {},
+        "item_object": "sm2179_Psychostimulant01A_InteractDetailSearch",
+        "parent_object":"sm2179_Psychostimulant01A_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship1F/Normal/Item"
+    },
+    {
+        "name":"Underneath one of the bunks on the west side of the room.",
+        "original_item": "Handgun Ammo",
+        "region": "Bunk Room - Wrecked Ship 1F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship1F/Normal/Item"
+    },
+    {
+        "name":"In the fuse box on the southern wall.",
+        "original_item": "General Purpose Fuse",
+        "region": "Laundry Room - Wrecked Ship 1F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm0246_Fuse01A_DetailSearchItem2",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship1F/c04_Ship1FLaundry/c04_Ship1FLaundry_sm",
+        "randomized":0
+    },
+    {
+        "name":"Inside the top washing machine in the south west corner.",
+        "original_item": "Machine Gun Ammo",
+        "region": "Laundry Room - Wrecked Ship 1F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1161_MachineGunBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship1F/Normal/Item"
+    },
+    {
+        "name":"Inside the upright trash container in the north west corner of the room.",
+        "original_item": "Chem Fluid",
+        "region": "Laundry Room - Wrecked Ship 1F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship1F/c04_Ship1FLaundry/c04_Ship1FLaundry_sm"
+    },
+    {
+        "name":"Inside the green cabinet.",
+        "original_item": "Herb",
+        "region": "Stockroom - Wrecked Ship 1F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship1F/c04_Ship1FWarehouseB/c04_Ship1FWarehouseB_sm"
+    },
+    {
+        "name":"On the desk next to the TV.",
+        "original_item": "Old Videotape",
+        "region": "Security - Wrecked Ship 3F",
+        "condition": {},
+        "item_object": "sm1889_MiaVideotape01A_InteractDetailSearch",
+        "parent_object":"sm1889_MiaVideotape01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship3F/Common/KeyItem"
+    },
+    {
+        "name":"Inside the metal cabinet in the north west corner.",
+        "original_item": "Chem Fluid",
+        "region": "Elevator Corridor - Wrecked Ship 3F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship3F/c04_Ship3FCorridor03/c04_Ship3FCorridor03_sm"
+    },
+    {
+        "name":"On the desks on the north side of the room.",
+        "original_item": "Herb",
+        "region": "Control Room - Wrecked Ship 3F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship3F/Normal/Item"
+    },
+    {
+        "name":"Inside the locker in the north west corner of the room.",
+        "original_item": "Chem Fluid",
+        "region": "Control Room - Wrecked Ship 3F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship3F/c04_Ship3FElectricDistributionRoom/c04_Ship3FElectricDistributionRoom_sm"
+    },
+    {
+        "name":"On the bench.",
+        "original_item": "Machine Gun Ammo",
+        "region": "Control Room - Wrecked Ship 3F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1161_MachineGunBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship3F/Normal/Item"
+    },
+    {
+        "name":"Inside the desk draw on the west side of the room.",
+        "original_item": "Gun Powder",
+        "region": "Control Room - Wrecked Ship 3F",
+        "condition": {},
+        "item_object": "sm2183_Gunpowder01A_InteractDetailSearch",
+        "parent_object":"sm2183_Gunpowder01A_Get",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship3F/c04_Ship3FElectricDistributionRoom/c04_Ship3FElectricDistributionRoom_sm"
+    },
+    {
+        "name":"On the console on the east side of the room.",
+        "original_item": "Remote Bomb",
+        "region": "Bridge - Wrecked Ship 4F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1270_Liquidbomb_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship4F/Normal/Weapon"
+    },
+    {
+        "name":"Inside the left-hand filing cabinet on the west side of the room.",
+        "original_item": "Gun powder",
+        "region": "Bridge - Wrecked Ship 4F",
+        "condition": {},
+        "item_object": "sm2183_Gunpowder01A_InteractDetailSearch",
+        "parent_object":"sm2183_Gunpowder01A_Get",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship4F/c04_Ship4FBridge/c04_Ship4FBridge_sm"
+    },
+    {
+        "name":"Inside the locker opposite the elevator.",
+        "original_item": "Herb",
+        "region": "Elevator Corridor - Wrecked Ship 4F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship4F/c04_Ship4FCorridorC/c04_Ship4FCorridorC_sm"
+    },
+     {
+        "name":"On the desk.",
+        "original_item": "Lug Wrench",
+        "region": "Captain's Cabin - Wrecked Ship 4F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm2377_WheelWrench01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship4F/Common/KeyItem"
+    },
+     {
+        "name":"Embedded into the upside-down table opposite the elevator.",
+        "original_item": "Survival Knife",
+        "region": "Main Corridor - Wrecked Ship 2F",
+        "condition": {},
+        "item_object": "InteractWeapon",
+        "parent_object":"wp1360_MiaKnife_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship2F/Normal/Weapon"
+    },
+     {
+        "name":"In the small bedside cabinet next to the bed.",
+        "original_item": "Handgun Ammo",
+        "region": "Guest Room - Wrecked Ship 2F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship2F/Normal/Item"
+    },
+     {
+        "name":"On the floor at the foot of the bed.",
+        "original_item": "Corrosive",
+        "region": "Guest Room - Wrecked Ship 2F",
+        "condition": {},
+        "item_object": "sm2186_Solution01A_InteractDetailSearch",
+        "parent_object":"sm2186_Solution01A_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship2F/Common/KeyItem"
+    },
+     {
+        "name":"Inside the wardrobe on the northern wall.",
+        "original_item": "Gun Powder",
+        "region": "Break Room - Wrecked Ship 2F",
+        "condition": {},
+        "item_object": "sm2183_Gunpowder01A_InteractDetailSearch",
+        "parent_object":"sm2183_Gunpowder01A_Get",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship2F/c04_Ship2FTeaRoom/c04_Ship2FTeaRoom_sm"
+    },
+     {
+        "name":"On one of the sofas.",
+        "original_item": "Herb",
+        "region": "Lounge - Wrecked Ship 2F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship2F/Normal/Item"
+    },
+     {
+        "name":"Inside the safe. Left Corrosive",
+        "original_item": "Corrosive",
+        "region": "Lounge - Wrecked Ship 2F",
+        "condition": {},
+        "item_object": "sm2186_Solution01A_InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship2F/c04_Ship2FReceptionRoom/c04_Ship2FReceptionRoom_sm",
+        "item_position":[79.75,26.08,19.82]
+    },
+    {
+        "name":"Inside the safe. Middle Corrosive",
+        "original_item": "Corrosive",
+        "region": "Lounge - Wrecked Ship 2F",
+        "condition": {},
+        "item_object": "sm2186_Solution01A_InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship2F/c04_Ship2FReceptionRoom/c04_Ship2FReceptionRoom_sm",
+        "item_position":[79.91,26.08,19.82]
+    },
+    {
+        "name":"Inside the safe. Right Corrosive",
+        "original_item": "Corrosive",
+        "region": "Lounge - Wrecked Ship 2F",
+        "condition": {},
+        "item_object": "sm2186_Solution01A_InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship2F/c04_Ship2FReceptionRoom/c04_Ship2FReceptionRoom_sm",
+        "item_position":[80.08,26.08,19.82]
 
+    },
+     {
+        "name":"On the cooking hobs on the east side of the room.",
+        "original_item": "Machine Gun Ammo",
+        "region": "Kitchen - Wrecked Ship 2F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1161_MachineGunBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship2F/Normal/Item"
+    },
+     {
+        "name":"In the north half of the room. Inside the microwave in the north west corner of the room.",
+        "original_item": "Chem Fluid",
+        "region": "Bunk Room - Wrecked Ship 2F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship2F/c04_Ship2FCabinA/c04_Ship2FCabinA_sm"
+    },
+     {
+        "name":"In the north half of the room. Inside the desk draw.",
+        "original_item": "Gun Powder",
+        "region": "Bunk Room - Wrecked Ship 2F",
+        "condition": {},
+        "item_object": "sm2183_Gunpowder01A_InteractDetailSearch",
+        "parent_object":"sm2183_Gunpowder01A_Get",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship2F/c04_Ship2FCabinA/c04_Ship2FCabinA_sm"
+    },
+     {
+        "name":"In the south half of the room. Inside the small white cabinet between the two southern bunks.",
+        "original_item": "Strong Chem Fluid",
+        "region": "Bunk Room - Wrecked Ship 2F",
+        "condition": {"items":["Corrosive"]},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm2037_ChemicalM01A_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship2F/Normal/Item"
+    },
+     {
+        "name":"In the south half of the room. On the desk next to the collapsed bunk.",
+        "original_item": "Captain's Cabin Locker Key",
+        "region": "Bunk Room - Wrecked Ship 2F",
+        "condition": {"items":["Corrosive"]},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm9252_CabinKey01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship2F/Common/KeyItem"
+    },
+     {
+        "name":"In the south half of the room. On the desk next to the collapsed bunk.",
+        "original_item": "Remote Bomb",
+        "region": "Bunk Room - Wrecked Ship 2F",
+         "condition": {"items":["Corrosive"]},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship2F/Normal/Weapon",
+        "item_position":[55.08,26.35,20.52]
+    },
+     {
+        "name":"In the south half of the room. On the collapsed bunk.",
+        "original_item": "Remote Bomb",
+        "region": "Bunk Room - Wrecked Ship 2F",
+         "condition": {"items":["Corrosive"]},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship2F/Normal/Weapon",
+        "item_position":[57.83,26.42,21.38]
+    },
+     {
+        "name":"In the upper side of the locker in the south east corner of the room.",
+        "original_item": "P19 Machine Gun",
+        "region": "Captain's Cabin - Wrecked Ship 4F",
+        "condition": {"items":["Captain's Cabin Locker Key"]},
+        "item_object": "InteractWeapon",
+        "parent_object":"wp1160_MachineGun_Get",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship4F/c04_Ship4FCabinA/c04_Ship4FCabinA_smx"
+    },
+     {
+        "name":"In the lower side of the locker in the south east corner of the room.",
+        "original_item": "Remote Bomb",
+        "region": "Captain's Cabin - Wrecked Ship 4F",
+        "condition": {"items":["Captain's Cabin Locker Key"]},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1270_Liquidbomb_Get",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship4F/c04_Ship4FCabinA/c04_Ship4FCabinA_sm"
+    },
+     {
+        "name":"Inside the medicine cabinet on the right on the southern wall.",
+        "original_item": "Chem Fluid",
+        "region": "Sick Bay - Wrecked Ship 3F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship3F/Normal/Item"
+    },
+     {
+        "name":"Inside the medicine cabinet on the left on the southern wall.",
+        "original_item": "Strong Chem Fluid",
+        "region": "Sick Bay - Wrecked Ship 3F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm2037_ChemicalM01A_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship3F/Normal/Item"
+    },
+     {
+        "name":"Inside the medicine cabinet in the north east corner.",
+        "original_item": "Corrosive",
+        "region": "Sick Bay - Wrecked Ship 3F",
+        "condition": {},
+        "item_object": "sm2186_Solution01A_InteractDetailSearch",
+        "parent_object":"sm2186_Solution01A_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship3F/Common/KeyItem"
+    },
+     {
+        "name":"Attached to the medical apparatus in the north west corner of the room.",
+        "original_item": "Power Cable",
+        "region": "Sick Bay - Wrecked Ship 3F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm2383_ElevatorCode01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_Ship3F/c04_Ship3FInfirmary/c04_Ship3FInfirmary_sm"
+    },
+     {
+        "name":"On the floor at the east end of the corridor.",
+        "original_item": "Remote Bomb",
+        "region": "Small Corridor - Wrecked Ship 3F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1270_Liquidbomb_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship3F/Normal/Weapon"
+    },
+     {
+        "name":"On the stairs.",
+        "original_item": "Remote Bomb",
+        "region": "Side Stairs - Wrecked Ship 4F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship4F/Normal/Weapon",
+        "item_position":[85.73,32.4,24.15]
+    },
+     {
+        "name":"On the floor in the south west corner of the platform.In the center of the room",
+        "original_item": "Remote Bomb",
+        "region": "Shaft - Wrecked Ship 3F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship3F/Normal/Weapon",
+        "item_position":[61.04,29.5,28.26]
+    },
+     {
+        "name":"On the floor in the south west corner of the platform. In the corner of the room.",
+        "original_item": "Remote Bomb",
+        "region": "Shaft - Wrecked Ship 3F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship3F/Normal/Weapon",
+        "item_position":[62.05,29.44,27.68]
+    },
+     {
+        "name":"Inside the metal box on the floor next to the railing.",
+        "original_item": "Lockpick (Mia)",
+        "region": "Shaft - Wrecked Ship 3F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm1796_KeyPick01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship3F/Normal/Box"
+    },
+     {
+        "name":"Inside the locked orange toolbox on the bench.",
+        "original_item": "Antique Coin",
+        "region": "Control Room - Wrecked Ship 3F",
+        "condition": {"items":["Lockpick (Mia)"]},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "parent_object":"sm2164_Coin01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship3F/Normal/Box"
+    },
+     {
+        "name":"On the gauge control on the eastern wall near the entrance.",
+        "original_item": "Machine Gun Ammo",
+        "region": "Workers Access Passage 1 - Wrecked Ship S2",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1161_MachineGunBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipBF/Normal/Item"
+    },
+     {
+        "name":"Inside the stack of trays in the western section of the passage.",
+        "original_item": "Remote Bomb",
+        "region": "Workers Access Passage 1 - Wrecked Ship S2",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1270_Liquidbomb_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipBF/Normal/Weapon"
+    },
+     {
+        "name":"Inside the green cabinet in the western section of the passage.",
+        "original_item": "Chem Fluid",
+        "region": "Workers Access Passage 1 - Wrecked Ship S2",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_ShipB2/c04_ShipB2Corridor01/c04_ShipB2Corridor01_sm"
+    },
+     {
+        "name":"On the upper section of the shelves in the south east corner of the room.",
+        "original_item": "Remote Bomb",
+        "region": "Store Room - Wrecked Ship S2",
+        "condition": {},
+        "item_object": "x",
+        "parent_object":"x",
+        "folder_path": "x",
+        "item_position":[104.74,8.98,1.62]
+
+    },
+     {
+        "name":"On the lower section of the shelves in the south east corner of the room.",
+        "original_item": "Remote Bomb",
+        "region": "Store Room - Wrecked Ship S2",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipBF/Normal/Weapon",
+        "item_position":[105.37,8.66,1.42]
+
+    },
+     {
+        "name":"Inside the green cabinet on the north side of the room.",
+        "original_item": "First Aid Med",
+        "region": "Store Room - Wrecked Ship S2",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_ShipB2/c04_ShipB2Storage01/c04_ShipB2Storage01_sm"
+
+    },
+    
+     {
+        "name":"On the shelves on the west side of the room.",
+        "original_item": "Machine Gun Ammo",
+        "region": "Store Room - Wrecked Ship S2",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1161_MachineGunBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipBF/Normal/Item"
+    },
+     {
+        "name":"On the ventilation pipe in the north west corner of the room.",
+        "original_item": "Remote Bomb",
+        "region": "No. 1 Engine Room - Wrecked Ship S2",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1270_Liquidbomb_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipBF/Normal/Weapon"
+    },
+    {
+        "name":"On top of the large pipe in the west section of the room.",
+        "original_item": "Machine Gun Ammo",
+        "region": "No. 1 Engine Room - Wrecked Ship S2",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1161_MachineGunBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipBF/Normal/Item"
+    },
+    
+    
+    {
+        "name":"Inside the wall panel in the north west corner of the passage. ",
+        "original_item": "Antique Coin",
+        "region": "Workers Access Passage 2 - Wrecked Ship S2 ",
+        "condition": {"items":["Corrosive"]},
+        "item_object": "sm2164_Coin01A_InteractDetailSearch",
+        "parent_object":"sm2164_Coin01A_DetailSearchItem",
+        "folder_path": "Chapter/Chapter4/c04_Ship/c04_ShipB2/c04_ShipB2Corridor03/c04_ShipB2Corridor03_sm"
+    },
+    {
+        "name":"Inside the wall panel. On the left.",
+        "original_item": "Remote Bomb",
+        "region": "Cargo Bay - Wrecked Ship S2 ",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipBF/Common/Weapon",
+        "item_position":[67.77,9.03,12.63]
+    },
+    {
+        "name":"Inside the wall panel. On the right.",
+        "original_item": "Remote Bomb",
+        "region": "Cargo Bay - Wrecked Ship S2 ",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipBF/Common/Weapon",
+        "item_position":[67.48,9.11,12.79]
+    },
+    {
+        "name":"On the south west bank of the swamp, near the fence.",
+        "original_item": "Flame Rounds",
+        "region": "Swamp",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1111_FlameBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipOutside/Normal/Item"
+    },
+    {
+        "name":"On the shelves near the ladder.",
+        "original_item": "Enhanced Handgun Ammo",
+        "region": "Mine Office - Swamp",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1013_HandgunBulletStrong_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipOutside/Normal/Item"
+    },
+    {
+        "name":"On the small shelving unit with the fan in the middle corridor section of the cabin.",
+        "original_item": "Psychostimulants",
+        "region": "Mine Office - Swamp",
+        "condition": {},
+        "item_object": "sm2179_Psychostimulant01A_InteractDetailSearch",
+        "parent_object":"sm2179_Psychostimulant01A_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipOutside/Normal/Item"
+    },
+    {
+        "name":"Underneath the bench in the south west section of the cabin.",
+        "original_item": "Machine Gun Ammo",
+        "region": "Mine Office - Swamp",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1161_MachineGunBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipOutside/Normal/Item"
+    },
+    {
+        "name":"On the ledge of the wall of the Mine Office, next to the door.",
+        "original_item": "Burner Fuel",
+        "region": "Mine Entrance Path - Swamp ",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1001_GasCan_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipOutside/Normal/Item"
+    },
+    {
+        "name":"On a ledge of the wall of the Mine Office in the north east corner.",
+        "original_item": "44 Mag Ammo",
+        "region": "Mine Entrance Path - Swamp",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1141_MagnumBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipOutside/Normal/Item"
+    },
+    {
+        "name":"On the mine cart near the Mine Office.",
+        "original_item": "Chem Fluid",
+        "region": "Mine Entrance Path - Swamp",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipOutside/Normal/Item"
+    },
+    {
+        "name":"On the mining machinery next to the mine cart near the Mine Office.",
+        "original_item": "Strong Chem Fluid",
+        "region": "Mine Entrance Path - Swamp",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipOutside/Normal/Item",
+        "item_position":[35.19,0.85,-50.68]
+    },
+    {
+        "name":"On the barrels next to the Elevator.",
+        "original_item": "Strong Chem Fluid",
+        "region": "Mine Entrance Path - Swamp",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipOutside/Normal/Item",
+        "item_position":[47.57,2.26,-79.42]
+    },
+    {
+        "name":"Inside the metal box on the digger on the west side of the clearing.",
+        "original_item": "Herb",
+        "region": "Mine Entrance Path - Swamp",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipOutside/Normal/Item"
+    },
+    
+   
+    {
+        "name":"On the upside-down digger bucket near the Elevator.",
+        "original_item": "Chem Fluid",
+        "region": "Mine Entrance Path - Swamp",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipOutside/Normal/Item",
+        "item_position":[47.77,1.42,-71.02]
+    },
+    
+    {
+        "name":"Inside the partially-buried barrel in the eastern section of the tunnel.",
+        "original_item": "44 MAG Ammo",
+        "region": "Crossroads - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1141_MagnumBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB1F/Normal/Item"
+    },
+    {
+        "name":"On the ground of the southern section of the tunnel. On the left.",
+        "original_item": "Remote Bomb",
+        "region": "Crossroads - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "x",
+        "item_position":[-8.73,-41.6,-141.88]
+    },
+    {
+        "name":"On the ground of the southern section of the tunnel. On the right.",
+        "original_item": "Remote Bomb",
+        "region": "Crossroads - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB1F/Normal/Item",
+        "item_position":[-8.6,-41.66,-142.41]
+
+    },
+    {
+        "name":"Behind the eastern support structure on the lower level.",
+        "original_item": "Neuro Rounds",
+        "region": "North Cavern - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1112_AcidBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB1F/Normal/Item"
+    },
+    
+    {
+        "name":"On the workbench on the north side of the room. On the left.",
+        "original_item": "Herb",
+        "region": "Cultivation Room - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB1F/Normal/Item",
+        "item_position": [-19.63,-40.46,-164.97]
+    },
+    {
+        "name":"On the workbench on the north side of the room. On the right.",
+        "original_item": "Herb",
+        "region": "Cultivation Room - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB1F/Normal/Item",
+        "item_position": [-19.94,-40.41,-164.82]
+    },
+    {
+        "name":"On the floor next to the bathtubs.",
+        "original_item": "Steroids",
+        "region": "Cultivation Room - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm1927_Stimulant_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB1F/Common/KeyItem"
+    },
+    {
+        "name":"On the shelves on the east side of the room. On the left.",
+        "original_item": "Flame Rounds",
+        "region": "Office - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB1F/Normal/Item",
+        "item_position": [-25.13,-40.23,-183.9]
+    },
+    {
+        "name":"On the shelves on the east side of the room. On the right.",
+        "original_item": "Flame Rounds",
+        "region": "Office - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB1F/Normal/Item",
+        "item_position": [-25.15,-40.19,-183.96]
+    },
+    {
+        "name":"On the barrels next to the door from the Office.",
+        "original_item": "Enhanced Handgun Ammo ",
+        "region": "South Cavern - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1013_HandgunBulletStrong_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB1F/Normal/Item"
+    },
+    {
+        "name":"Behind the curtain at the end of the upper walkway on the north side of the cavern.",
+        "original_item": "44 Mag Ammo",
+        "region": "South Cavern - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1141_MagnumBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB1F/Normal/Item"
+    },
+    {
+        "name":"On the ground in the south west corner of the cavern.",
+        "original_item": "Remote Bomb",
+        "region": "South Cavern - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1270_Liquidbomb_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB1F/Normal/Item"
+    },
+    {
+        "name":"On the large container in the south west corner of the cavern.",
+        "original_item": "Chem Fluid",
+        "region": "South Cavern - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB1F/Normal/Item"
+    },
+    {
+        "name":"On a rock in the north west area of the cavern.",
+        "original_item": "44 Mag Ammo",
+        "region": "Flooded Cavern - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1141_MagnumBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB2F/Normal/Item"
+    },
+    {
+        "name":"In the upturned mine cart on the east side of the cavern.",
+        "original_item": "Neuro Rounds",
+        "region": "Flooded Cavern - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1112_AcidBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB2F/Normal/Item"
+    },
+    {
+        "name":"Inside the north west offshoot of the lower level.",
+        "original_item": "Herb",
+        "region": "Spiralling Cavern - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB2F/Normal/Item"
+    },
+   
+    {
+        "name":"On the floor of the small north east offshoot of the B1 level.",
+        "original_item": "Remote Bomb",
+        "region": "Spiralling Cavern - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1270_Liquidbomb_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB2F/Normal/Item"
+    },
+    
+    {
+        "name":"On a rock in the south east corner of the cavern.",
+        "original_item": "First Aid Med",
+        "region": "Abandoned Mine - Salt Mine B1 ",
+        "condition": {},
+        "item_object": "sm1852_AntisepticSolutionMedium_InteractDetailSearch",
+        "parent_object":"sm1852_AntisepticSolutionMedium_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB2F/Normal/Item"
+    },
+      {
+        "name":"Victory",
+        "original_item": "Victory",
+        "region": "Exit Passage - Salt Mine B1",
+        "condition": {},
+        "item_object": "InteractWeapon",
+        "parent_object":"wp1340_ChrisHandgun_Get_Event",
+        "folder_path": "Chapter/Chapter4/Event_c04/Event_c04_3/evProps",
+        "victory:":1
+    }
 ]

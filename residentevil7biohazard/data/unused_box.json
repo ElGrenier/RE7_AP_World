@@ -1,0 +1,174 @@
+[
+ {
+        "name":"Inside the breakable crate in the western section of the corridor.",
+        "original_item": "Remote Bomb",
+        "region": "Main Corridor - Wrecked Ship 2F",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1270_Liquidbomb_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/Ship2F/Normal/Box"
+    },
+{
+        "name":"Inside the breakable crate in the middle alcove section of the passage.",
+        "original_item": "Strong Chem Fluid",
+        "region": "Workers Access Passage 1 - Wrecked Ship S2",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm2037_ChemicalM01A_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipBF/Normal/Box"
+    },
+ {
+        "name":"Inside the breakable crate in the middle of the room.",
+        "original_item": "Handgun Ammo",
+        "region": "Store Room - Wrecked Ship S2",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipBF/Normal/Box"
+    },
+{
+        "name":"Inside the breakable crate on the ledge of the platform at the top of the stairs.",
+        "original_item": "Handgun Ammo",
+        "region": "No. 1 Engine Room - Wrecked Ship S2",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipBF/Normal/Box",
+        "item_position":[88.81,9.96,-0.35]
+    },
+{
+        "name":"Inside the breakable crate on the walkway at the top of the stairs.",
+        "original_item": "Handgun Ammo",
+        "region": "No. 1 Engine Room - Wrecked Ship S2",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipBF/Normal/Box",
+        "item_position":[88.77,9.87,-4.33]
+    },
+{
+        "name":"Inside the breakable crate in the south west area of the clearing.",
+        "original_item": "Handgun Ammo",
+        "region": "Mine Entrance Path - Swamp",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipOutside/Normal/Box"
+    },
+ {
+        "name":"Inside the breakable crate in the south east area of the clearing.",
+        "original_item": "Chem Fluid",
+        "region": "Mine Entrance Path - Swamp",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm2036_ChemicalS01A_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipOutside/Normal/Box"
+    },
+{
+        "name":"Inside the breakable crate on the east side of the cavern.",
+        "original_item": "Herb",
+        "region": "Cavern - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm1800_Herb00A_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB1F/Normal/Box"
+    },
+    {
+        "name":"Inside the breakable crate on the west side of the cavern.",
+        "original_item": "Handgun Ammo",
+        "region": "Cavern - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1011_HandgunBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB1F/Normal/Box"
+    },
+{
+        "name":"Inside the breakable crate on the southern side of the lower area.",
+        "original_item": "Handgun Ammo",
+        "region": "North Cavern - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1161_MachineGunBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB1F/Normal/Box"
+    },
+ {
+        "name":"Inside the breakable crate in the area with the cage on B2 level.",
+        "original_item": "Burner Fuel",
+        "region": "Spiralling Cavern - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1161_MachineGunBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB2F/Normal/Box"
+    },
+{
+        "name":"Inside the left breakable crates in the eastern fenced area on B1 level.",
+        "original_item": "Machine Gun Ammo",
+        "region": "Spiralling Cavern - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB2F/Normal/Box",
+        "item_position":[-67.53,-32.9,-169.36]
+    },
+    {
+        "name":"Inside the right breakable crates in the eastern fenced area on B1 level.",
+        "original_item": "Machine Gun Ammo",
+        "region": "Spiralling Cavern - Salt Mine B3",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB2F/Normal/Box",
+        "item_position":[-67.11,-32.89,-171.78]
+    },
+{
+        "name":"Inside the breakable crate in the south east corner of the cavern.",
+        "original_item": "Machine Gun Ammo",
+        "region": "Abandoned Mine - Salt Mine B1 ",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1161_MachineGunBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB2F/Normal/Box"
+    },
+    {
+        "name":"Inside the breakable crate on the north side of the cavern.",
+        "original_item": "Herb",
+        "region": "Abandoned Mine - Salt Mine B1",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB2F/Normal/Box",
+        "item_position": [-51.36,-23.28,-126.23]
+    },
+    {
+        "name":"Inside the breakable crate on the north west corner of the cavern.",
+        "original_item": "Machine Gun Ammo",
+        "region": "Abandoned Mine - Salt Mine B1",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB2F/Normal/Box",
+        "item_position": [-43.23,-23.31,-127.02]
+    },
+    {
+        "name":"Inside the breakable crate on the west side of the cavern.",
+        "original_item": "Strong Chem Fluid",
+        "region": "Abandoned Mine - Salt Mine B1",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm1853_AntisepticSolutionStrong_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB2F/Normal/Box",
+        "item_position":[-39.47,-23.25,-135.25]
+    },
+      {
+        "name":"Inside the left breakable crate in the eastern section of the passage.",
+        "original_item": "Machine Gun Ammo",
+        "region": "Exit Passage - Salt Mine B1",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"wp1161_MachineGunBullet_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB2F/Normal/Box"
+    },
+      {
+        "name":"Inside the right breakable crate in the eastern section of the passage.",
+        "original_item": "Strong First Aid Med",
+        "region": "Exit Passage - Salt Mine B1",
+        "condition": {},
+        "item_object": "InteractDetailSearch",
+        "parent_object":"sm1853_AntisepticSolutionStrong_Get",
+        "folder_path": "Chapter/Chapter4/ItemSet_c04/SaltDomeB2F/Normal/Box"
+    }
+]
