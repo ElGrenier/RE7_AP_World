@@ -31,18 +31,18 @@ class UnlockedTypewriters(OptionList):
 #         "all": 6
 #     }
 
-class StartingTape(NamedRange):
-    """If playing Hardcore, the number of Tape you want to start the game with, to a max of XX.
-    Any that you start with are taken out of the item pool and replaced with junk."""
-    default = 0
-    range_start = 0
-    range_end = 12
-    display_name = "Starting Tape"
-    special_range_names = {
-        "disabled": 0,
-        "half": 6,
-        "all": 12
-    }
+# class StartingTape(NamedRange):
+#     """If playing Hardcore, the number of Tape you want to start the game with, to a max of XX.
+#     Any that you start with are taken out of the item pool and replaced with junk."""
+#     default = 0
+#     range_start = 0
+#     range_end = 12
+#     display_name = "Starting Tape"
+#     special_range_names = {
+#         "disabled": 0,
+#         "half": 6,
+#         "all": 12
+#     }
 
 class BonusStart(Choice):
     """Some players might want to start with a little help in the way of a few extra heal items and packs of ammo.
@@ -248,7 +248,7 @@ class RE7Options(StartInventoryFromPoolMixin, DeathLinkMixin, PerGameCommonOptio
     difficulty: Difficulty
     unlocked_typewriters: UnlockedTypewriters
     # starting_hip_pouches: StartingHipPouches
-    starting_tape: StartingTape
+    # starting_tape: StartingTape
     bonus_start: BonusStart
     start_at_chapter_2: StartAtChapter2
     randomize_coins: RandomizeCoins

@@ -204,19 +204,19 @@ class ResidentEvil7(World):
         #         pool.remove(hip_pouches[x])
 
         # check the starting ink ribbons option and add as precollected, removing from pool and replacing with junk
-        starting_tape = int(self.options.starting_tape)
+        # starting_tape = int(self.options.starting_tape)
 
-        if self._format_option_text(self.options.difficulty) == 'Hardcore' and starting_tape > 0:
-            ink_ribbons = [item for item in pool if item.name == 'Ink Ribbon'] # 12+ total in every campaign, I think
+        # if self._format_option_text(self.options.difficulty) == 'Hardcore' and starting_tape > 0:
+        #     ink_ribbons = [item for item in pool if item.name == 'Ink Ribbon'] # 12+ total in every campaign, I think
 
-            # if the ink ribbons option exceeds the number of ink ribbons in the pool, reduce it to the number in the pool
-            if starting_tape > len(ink_ribbons):
-                starting_tape = len(ink_ribbons)
-                self.options.starting_tape.value = len(ink_ribbons)
+        #     # if the ink ribbons option exceeds the number of ink ribbons in the pool, reduce it to the number in the pool
+        #     if starting_tape > len(ink_ribbons):
+        #         starting_tape = len(ink_ribbons)
+        #         self.options.starting_tape.value = len(ink_ribbons)
 
-            for x in range(starting_tape):
-                self.multiworld.push_precollected(ink_ribbons[x]) # starting inv
-                pool.remove(ink_ribbons[x])
+        #     for x in range(starting_tape):
+        #         self.multiworld.push_precollected(ink_ribbons[x]) # starting inv
+        #         pool.remove(ink_ribbons[x])
 
         # check the bonus start option and add some heal items and ammo packs as precollected / starting items
         if self._format_option_text(self.options.bonus_start) == 'True':

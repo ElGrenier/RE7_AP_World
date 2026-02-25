@@ -1,4 +1,16 @@
 [
+    {
+        "name": "On the table, left to the gun, in the attic",
+        "original_item": "First Aid Med",
+        "region": "Intro House",
+        "condition": {
+            "items": ["Fuse"]
+        },
+        "item_object": "InteractDetailSearch",
+        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
+	"item_position": [12.41,7.31,12.62],
+	"randomized": 0
+    },
  {
         "name":"Inside the breakable crate in the western section of the corridor.",
         "original_item": "Remote Bomb",

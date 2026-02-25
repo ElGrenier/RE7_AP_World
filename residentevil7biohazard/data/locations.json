@@ -34,7 +34,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter1/1F/c01_Bathroom01/c01_Bathroom01_sm",
-	    "item_position": [-2,0,-2]
+	    "item_position": [-2.18,0.72,-2.84]
     },
     {
         "name": "On the shelf, right of the sink",
@@ -43,7 +43,7 @@
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter1/1F/c01_Bathroom01/c01_Bathroom01_sm",
-	    "item_position": [-2,0,-4]
+	    "item_position": [-2.51,0.82,-4.48]
     },
     {
         "name": "On The Floor",
@@ -88,20 +88,7 @@
         "item_object": "InteractWeapon",
         "parent_object": "wp1010_Handgun_GetEvent",
         "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
-	"randomized": 0
-    },
-    {
-        "name": "On the table, left to the gun, in the attic",
-        "original_item": "First Aid Med",
-        "region": "Intro House",
-        "condition": {
-            "items": ["Fuse"]
-        },
-        "item_object": "InteractDetailSearch",
-        "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
-	"item_position": [12,7,12],
-	"randomized": 0
-
+	    "randomized": 0
     },
     {
         "name": "On the table, right of the gun, in the attic",
@@ -112,7 +99,7 @@
         },
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
-	"item_position": [12,7,11],
+	"item_position": [12.28,7.31,11.19],
 	"randomized": 0
     },
     {
@@ -124,7 +111,7 @@
         },
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
-	"item_position": [18,7,17]
+	"item_position": [18.33,7.31,17.13]
     },
     {
         "name": "On the table, in the battle zone against Mia",
@@ -135,7 +122,7 @@
         },
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter1/3F/c01_3F/c01_3F_sm",
-	"item_position": [7,7,7]
+	"item_position": [7.88,7.31,7.63]
     },
     {
         "name": "In the drawer, next to the right speaker",
