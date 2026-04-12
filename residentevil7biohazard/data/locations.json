@@ -2450,7 +2450,7 @@
     },
      {
         "name":"Inside the safe Left Corrosive",
-        "original_item": "Corrosive",
+        "original_item": "Machine Gun Ammo",
         "region": "Lounge",
         "condition": {},
         "item_object": "sm2186_Solution01A_InteractDetailSearch",
@@ -2459,7 +2459,7 @@
     },
     {
         "name":"Inside the safe Middle Corrosive",
-        "original_item": "Corrosive",
+        "original_item": "Machine Gun Ammo",
         "region": "Lounge",
         "condition": {},
         "item_object": "sm2186_Solution01A_InteractDetailSearch",
@@ -2468,7 +2468,7 @@
     },
     {
         "name":"Inside the safe Right Corrosive",
-        "original_item": "Corrosive",
+        "original_item": "Machine Gun Ammo",
         "region": "Lounge",
         "condition": {},
         "item_object": "sm2186_Solution01A_InteractDetailSearch",
@@ -2568,7 +2568,7 @@
     },
      {
         "name":"Inside the medicine cabinet in the north east corner",
-        "original_item": "Corrosive",
+        "original_item": "Machine Gun Ammo",
         "region": "Sick Bay",
         "condition": {},
         "item_object": "sm2186_Solution01A_InteractDetailSearch",

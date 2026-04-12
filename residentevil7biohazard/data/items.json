@@ -466,6 +466,70 @@
         "progression": 1
     },
     {
+        "type": "Weapon",
+        "name": "MPM Handgun",
+        "game_id": "XXX",
+        "count": 1,
+        "progression": 0,
+        "ammo": "Handgun Ammo"
+    },
+        {
+        "type": "Key",
+        "name": "General Purpose Fuse",
+        "game_id": "XXX",
+        "count": 1,
+        "progression": 1
+    },
+        {
+        "type": "Ammo",
+        "name": "Machine Gun Ammo",
+        "game_id": "XXX",
+        "count": 30,
+        "progression": 0
+    },
+        {
+        "type": "Key",
+        "name": "Old Videotape",
+        "game_id": "XXX",
+        "count": 1,
+        "progression": 1
+    },
+     {
+        "type": "Key",
+        "name": "Lug Wrench",
+        "game_id": "XXX",
+        "count": 1,
+        "progression": 1
+    },
+     {
+        "type": "Weapon",
+        "name": "P19 Machine Gun",
+        "game_id": "XXX",
+        "count": 1,
+        "progression": 0
+    },
+     {
+        "type": "Subweapon",
+        "name": "Remote Bomb",
+        "game_id": "XXX",
+        "count": 1,
+        "progression": 0
+    },
+     {
+        "type": "Weapon",
+        "name": "Survival Knife",
+        "game_id": "XXX",
+        "count": 1,
+        "progression": 0
+    },
+     {
+        "type": "Key",
+        "name": "Corrosive",
+        "game_id": "XXX",
+        "count": 50,
+        "progression": 1
+    },
+    {
         "name": "Victory",
         "id": null,
         "progression": 1
