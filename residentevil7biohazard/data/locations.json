@@ -1185,7 +1185,7 @@
     {
         "name":"On the Table (3)",
         "original_item": "Burner Nozzle",
-        "region": "Water Station",
+        "region": "Water Station - Old House",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Common/KeyItem",
@@ -1194,7 +1194,7 @@
     {
         "name":"on the left Shelf",
         "original_item": "Herb",
-        "region": "Water Station",
+        "region": "Water Station - Old House",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "folder_path": "Chapter/Chapter3/ItemSet_c03/OldHouse/Normal/Item",
@@ -2298,7 +2298,7 @@
     {
         "name":"Inside the metal cabinet in the north west corner",
         "original_item": "Chem Fluid",
-        "region": "Elevator Corridor",
+        "region": "Elevator Corridor (3F)",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object":"sm2036_ChemicalS01A_Get",
@@ -2370,7 +2370,7 @@
     {
         "name":"Inside the locker opposite the elevator",
         "original_item": "Herb",
-        "region": "Elevator Corridor",
+        "region": "Elevator Corridor (3F)",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object":"sm1800_Herb00A_Get",
@@ -2845,7 +2845,7 @@
     
     {
         "name":"Inside the partially-buried barrel in the eastern section of the tunnel",
-        "original_item": "44 MAG Ammo",
+        "original_item": "44 Mag Ammo",
         "region": "Crossroads",
         "condition": {},
         "item_object": "InteractDetailSearch",
@@ -2928,7 +2928,7 @@
     },
     {
         "name":"On the barrels next to the door from the Office",
-        "original_item": "Enhanced Handgun Ammo ",
+        "original_item": "Enhanced Handgun Ammo",
         "region": "South Cavern",
         "condition": {},
         "item_object": "InteractDetailSearch",

@@ -468,7 +468,7 @@
     {
         "type": "Weapon",
         "name": "MPM Handgun",
-        "game_id": "XXX",
+        "game_id": "Handgun_MPM",
         "count": 1,
         "progression": 0,
         "ammo": "Handgun Ammo"
@@ -476,56 +476,56 @@
         {
         "type": "Key",
         "name": "General Purpose Fuse",
-        "game_id": "XXX",
+        "game_id": "FuseCh4",
         "count": 1,
         "progression": 1
     },
         {
         "type": "Ammo",
         "name": "Machine Gun Ammo",
-        "game_id": "XXX",
+        "game_id": "MachineGunBullet",
         "count": 30,
         "progression": 0
-    },
-        {
-        "type": "Key",
-        "name": "Old Videotape",
-        "game_id": "XXX",
-        "count": 1,
-        "progression": 1
     },
      {
         "type": "Key",
         "name": "Lug Wrench",
-        "game_id": "XXX",
+        "game_id": "EvOpener",
         "count": 1,
         "progression": 1
     },
      {
         "type": "Weapon",
         "name": "P19 Machine Gun",
-        "game_id": "XXX",
+        "game_id": "MachineGun",
         "count": 1,
         "progression": 0
     },
      {
         "type": "Subweapon",
         "name": "Remote Bomb",
-        "game_id": "XXX",
+        "game_id": "LiquidBomb",
         "count": 1,
         "progression": 0
     },
      {
         "type": "Weapon",
         "name": "Survival Knife",
-        "game_id": "XXX",
+        "game_id": "MiaKnife",
         "count": 1,
         "progression": 0
     },
      {
         "type": "Key",
         "name": "Corrosive",
-        "game_id": "XXX",
+        "game_id": "SpareKey",
+        "count": 50,
+        "progression": 1
+    },
+    {
+        "type": "Key",
+        "name": "Power Cable",
+        "game_id": "EvCable",
         "count": 50,
         "progression": 1
     },

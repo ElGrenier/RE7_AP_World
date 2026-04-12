@@ -88,7 +88,7 @@
         "zone_id": 2
     },
     {
-        "name": "'Grandma's Room",
+        "name": "Grandma's Room",
         "zone_id": 2
     },
     {
@@ -129,6 +129,10 @@
     },
     {
         "name": "Dining Room - Old House",
+        "zone_id": 2
+    },
+    {
+        "name": "Gallery - Old House",
         "zone_id": 2
     },
     {

@@ -131,23 +131,23 @@
     },
     { 
         "from": "Monitoring Room",
-        "to": "Main Room",
+        "to": "Meat Storage",
         "condition": {
             "items": ["Scorpion Key"]
         }
     },
      { 
-        "from": "Main Room",
+        "from": "Meat Storage",
         "to": "Incinerator Room",
         "condition": {}
     },
     { 
-        "from": "Main Room",
-        "to": "Bathroom - Processing Area",
+        "from": "Meat Storage",
+        "to": "Washroom",
         "condition": {}
     },
      { 
-        "from": "Bathroom - Processing Area",
+        "from": "Washroom",
         "to": "Boiler Room",
         "condition": {}
     },
@@ -165,7 +165,7 @@
     },
     { 
         "from": "Morgue",
-        "to": "Main Room",
+        "to": "Meat Storage",
         "condition": {
 	     "items": ["Snake Key"]	
         },
@@ -173,22 +173,17 @@
     },
     { 
         "from": "Main Hall",
-        "to": "Yard",
+        "to": "Courtyard",
         "condition": {
             "items": ["Blue Dogs Head", "White Dogs Head", "Red Dogs Head"]
         }
     },
     { 
-        "from": "Yard",
+        "from": "Courtyard",
         "to": "Entrance - Old House",
         "condition": {
 		"items": ["Wooden Statuette", "Dissection Room Key"]
     	}
-    },
-     { 
-        "from": "Yard",
-        "to": "Coin Cages",
-        "condition": {}
     },
     { 
         "from": "Entrance - Old House",
@@ -248,13 +243,14 @@
     },
     { 
         "from": "Altar",
-        "to": "Greenhouse"
+        "to": "Greenhouse",
+        "condition": {}
     },
     { 
-        "from": "Yard",
+        "from": "Courtyard",
         "to": "Testing Area",
         "condition": {
-            "items": ["Keycard (Blue)","Keycard (Red)","Dissection Room Key","Snake Key","Crow Key","Burner Grip","Burner Nozzle","Stone Statuette","Lantern","Snake Key","Crank"]
+            "items": ["Keycard (Blue)","Keycard (Red)","Dissection Room Key","Snake Key","Crow Key","Burner Grip","Burner Nozzle","Stone Statuette","Lantern","Crank"]
         }
     },
     { 
@@ -266,10 +262,8 @@
     },
     { 
         "from": "Boat House",
-        "to": "Dad Bossroom",
-        "condition": {
-	   "items": ["D-Series Arm","D-Series Head"]
-	}
+        "to": "Flooded Room",
+        "condition": {}
     },
     { 
         "from": "Flooded Room",
@@ -307,7 +301,7 @@
     },
     { 
         "from": "Security",
-        "to": "Elevator Corridor"
+        "to": "Elevator Corridor (3F)"
     },
     { 
         "from": "Elevator Corridor (3F)",
@@ -455,5 +449,30 @@
     { 
         "from": "Abandoned Mine",
         "to": "Exit Passage"
-}
+    },
+    { 
+        "from": "Lounge",
+        "to": "Cargo Bay",
+        "condition": {}
+    },
+    { 
+        "from": "Entrance - Old House",
+        "to": "Back Porch - Old House",
+        "condition": {}
+    },
+    { 
+        "from": "Entrance - Old House",
+        "to": "Water Station - Old House",
+        "condition": {}
+    },
+    { 
+        "from": "Living Room - Old House",
+        "to": "Cellar - Old House",
+        "condition": {}
+    },
+    { 
+        "from": "Flooded Room",
+        "to": "Office",
+        "condition": {}
+    }
 ]
