@@ -63,7 +63,7 @@
     },
     { 
         "from": "Recreation Room",
-        "to": "Grandma Room",
+        "to": "Grandma's Room",
         "condition": {
 	"items": ["Scorpion Key"]	
         }
