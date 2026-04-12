@@ -23,7 +23,7 @@ def chain_item_rule(location, new_rule): ### Permit stacking of rules instead of
     old_rule = location.item_rule or (lambda item: True)
     location.item_rule = lambda item: old_rule(item) and new_rule(item)
 
-def handle_coin_randomization(option, location, original_item):
+def handle_coin_randomization(self, option, location, original_item):
     if option == 0:
         location.place_locked_item(self.create_item(original_item))
     elif option == 1:
@@ -110,13 +110,13 @@ class ResidentEvil7(World):
                 # if the coins are not randomized
 
                 if location_data.get("original_item") == "Antique Coin": # Manage Antique coins randomization
-                    handle_coin_randomization(self.options.randomize_coins, location, "Antique Coin")
+                    handle_coin_randomization(self,self.options.randomize_coins, location, "Antique Coin")
 
                 elif self.options.start_at_chapter_2 and region_data["zone_id"] == 1: # Check if "start_at_chapter_2 option is activated"
                     location.place_locked_item(self.create_item(location_data["original_item"]))
 
                 elif region_data["zone_id"] == 4 and "original_item" in location_data: # Manage Coins Cage Randomization
-                    handle_coin_randomization(self.options.randomize_coins_cages, location, location_data["original_item"])
+                    handle_coin_randomization(self, self.options.randomize_coins_cages, location, location_data["original_item"])
 
 
                 # elif self.options.randomize_coins == 0 and "original_item" in location_data and location_data['original_item'] == "Antique Coin":
