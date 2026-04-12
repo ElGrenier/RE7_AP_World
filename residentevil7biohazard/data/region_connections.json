@@ -85,7 +85,9 @@
     { 
         "from": "Master Bedroom",
         "to": "Workshop",
-        "condition": {}
+        "condition": {
+            "items": ["Snake Key"]
+        }
     },
     { 
         "from": "Master Bedroom",
@@ -252,7 +254,7 @@
         "from": "Yard",
         "to": "Testing Area",
         "condition": {
-            "items": ["Keycard (Blue)","Keycard (Red)","Dissection Room Key","Snake Key","Crow Key","Burner Grip","Burner Nozzle","Stone Statuette"]
+            "items": ["Keycard (Blue)","Keycard (Red)","Dissection Room Key","Snake Key","Crow Key","Burner Grip","Burner Nozzle","Stone Statuette","Lantern","Snake Key","Crank"]
         }
     },
     { 
@@ -268,5 +270,190 @@
         "condition": {
 	   "items": ["D-Series Arm","D-Series Head"]
 	}
-    }
+    },
+    { 
+        "from": "Flooded Room",
+        "to": "Maintenance Room"
+    },
+    { 
+        "from": "Flooded Room",
+        "to": "Storage (1F)"
+    },
+    { 
+        "from": "Flooded Room",
+        "to": "Bunk Room (1F)"
+    },
+    { 
+        "from": "Flooded Room",
+        "to": "Recreation Room",
+        "condition": {
+	   "items": ["Corrosive"]
+        }
+    },
+    { 
+        "from": "Flooded Room",
+        "to": "Laundry Room (1F)"
+    },
+    { 
+        "from": "Flooded Room",
+        "to": "Stockroom"
+    },
+    { 
+        "from": "Flooded Room",
+        "to": "Security",
+        "condition": {
+	   "items": ["General Purpose Fuse"]
+        }
+    },
+    { 
+        "from": "Security",
+        "to": "Elevator Corridor"
+    },
+    { 
+        "from": "Elevator Corridor (3F)",
+        "to": "Control Room"
+    },
+    { 
+        "from": "Elevator Corridor (3F)",
+        "to": "Bridge"
+    },
+    { 
+        "from": "Bridge",
+        "to": "Elevator Corridor (4F)"
+    },
+    { 
+        "from": "Elevator Corridor (4F)",
+        "to": "Side Stairs"
+    },
+    { 
+        "from": "Elevator Corridor (4F)",
+        "to": "Captain's Cabin"
+    },
+    { 
+        "from": "Captain's Cabin",
+        "to": "Elevator (2F)",
+        "condition": {
+	   "items": ["Lug Wrench"]
+        }
+    },    
+    { 
+        "from": "Elevator (2F)",
+        "to": "Main Corridor"
+    },
+    { 
+        "from": "Main Corridor",
+        "to": "Guest Room"
+    }, 
+    { 
+        "from": "Main Corridor",
+        "to": "Bunk Room (2F)"
+    },
+    { 
+        "from": "Main Corridor",
+        "to": "Shaft",
+        "condition": {
+	   "items": ["Corrosive"]
+        }
+    },   
+    { 
+        "from": "Main Corridor",
+        "to": "Dining Room"
+    },
+    { 
+        "from": "Dining Room",
+        "to": "Kitchen (2F)"
+    },
+    { 
+        "from": "Dining Room",
+        "to": "Break Room"
+    },
+    { 
+        "from": "Break Room",
+        "to": "Lounge"
+    },
+    { 
+        "from": "Control Room",
+        "to": "Sick Bay",
+        "condition": {
+	   "items": ["Corrosive"]
+        }
+    },
+    { 
+        "from": "Sick Bay",
+        "to": "Small Corridor"
+    },
+    { 
+        "from": "Elevator (2F)",
+        "to": "Workers Access Passage 1",
+        "condition": {
+	   "items": ["General Purpose Fuse","Power Cable"]
+        }
+    },
+    { 
+        "from": "Workers Access Passage 1",
+        "to": "Store Room"
+    },
+    { 
+        "from": "Workers Access Passage 1",
+        "to": "No. 1 Engine Room"
+    },
+    { 
+        "from": "No. 1 Engine Room",
+        "to": "Workers Access Passage 2"
+    },
+    { 
+        "from": "Workers Access Passage 2",
+        "to": "Swamp",
+        "condition": {
+	   "items": ["Corrosive"]
+        }
+    },
+    { 
+        "from": "Swamp",
+        "to": "Mine Office"
+    },
+    { 
+        "from": "Mine Office",
+        "to": "Mine Entrance Path"
+    },
+    { 
+        "from": "Mine Entrance Path",
+        "to": "Cavern"
+    },
+    { 
+        "from": "Cavern",
+        "to": "Crossroads"
+    },
+    { 
+        "from": "Crossroads",
+        "to": "North Cavern"
+    },
+    { 
+        "from": "North Cavern",
+        "to": "Cultivation Room"
+    },
+    { 
+        "from": "Cultivation Room",
+        "to": "Office (B3)"
+    },
+    { 
+        "from": "Office (B3)",
+        "to": "South Cavern"
+    },
+    { 
+        "from": "South Cavern",
+        "to": "Flooded Cavern"
+    },
+    { 
+        "from": "Flooded Cavern",
+        "to": "Spiralling Cavern"
+    },
+    { 
+        "from": "Spiralling Cavern",
+        "to": "Abandoned Mine"
+    },
+    { 
+        "from": "Abandoned Mine",
+        "to": "Exit Passage"
+}
 ]

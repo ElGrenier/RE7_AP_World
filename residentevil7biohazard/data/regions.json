@@ -172,7 +172,7 @@
         "zone_id": 3
     },
     {
-        "name": "Flooded Room (1S)",
+        "name": "Flooded Room",
         "zone_id": 3
     },
     {
@@ -184,7 +184,7 @@
         "zone_id": 3
     },
     {
-        "name": "Bunk Room",
+        "name": "Bunk Room (1F)",
         "zone_id": 3
     },
     {
@@ -200,7 +200,7 @@
         "zone_id": 3
     },
     {
-        "name": "Elevator Corridor",
+        "name": "Elevator Corridor (3F)",
         "zone_id": 3
     },
     {
@@ -212,11 +212,28 @@
         "zone_id": 3
     },
     {
+        "name": "Elevator Corridor (4F)",
+        "zone_id": 3
+    },
+
+    {
         "name": "Captain's Cabin",
         "zone_id": 3
     },
     {
+        "name": "Elevator (2F)",
+        "zone_id": 3
+    },
+    {
         "name": "Main Corridor",
+        "zone_id": 3
+    },
+    {
+        "name": "Bunk Room (2F)",
+        "zone_id": 3
+    },
+    {
+        "name": "Dining Room",
         "zone_id": 3
     },
     {
@@ -282,6 +299,10 @@
     {
         "name": "Mine Entrance Path",
         "zone_id": 4
+    },
+    {
+        "name": "Cavern",
+        "zone_id": 5
     },
     {
         "name": "Crossroads",

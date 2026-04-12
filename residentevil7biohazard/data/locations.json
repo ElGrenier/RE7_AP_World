@@ -1519,7 +1519,8 @@
         "condition": {},
         "item_object": "wp2080_Lantern_InteractDetailSearch",
         "parent_object": "wp2080_Lantern_Get",
-        "folder_path": "Chapter/Chapter3/Enemy_c03/Enemy_c03_3/Lantern"
+        "folder_path": "Chapter/Chapter3/Enemy_c03/Enemy_c03_3/Lantern",
+        "randomized":0
     },
     {
         "name":"In the green drawer, in front of the normal entrance",
@@ -2715,8 +2716,6 @@
         "parent_object":"wp1161_MachineGunBullet_Get",
         "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipBF/Normal/Item"
     },
-    
-    
     {
         "name":"Inside the wall panel in the north west corner of the passage ",
         "original_item": "Antique Coin",
@@ -2834,8 +2833,6 @@
         "parent_object":"sm1800_Herb00A_Get",
         "folder_path": "Chapter/Chapter4/ItemSet_c04/ShipOutside/Normal/Item"
     },
-    
-   
     {
         "name":"On the upside-down digger bucket near the Elevator",
         "original_item": "Chem Fluid",
