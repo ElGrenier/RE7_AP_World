@@ -52,7 +52,7 @@ class ResidentEvil7(World):
 
     data_version = 2
     required_client_version = (0, 4, 4)
-    apworld_release_version = "1.0.0" # defined to show in spoiler log
+    apworld_release_version = "0.3.4" # defined to show in spoiler log
 
     item_id_to_name = { item['id']: item['name'] for item in Data.item_table }
     item_name_to_id = { item['name']: item['id'] for item in Data.item_table }
