@@ -2479,7 +2479,7 @@
      {
         "name":"On the cooking hobs on the east side of the room",
         "original_item": "Machine Gun Ammo",
-        "region": "Kitchen",
+        "region": "Kitchen (2F)",
         "condition": {},
         "item_object": "InteractDetailSearch",
         "parent_object":"wp1161_MachineGunBullet_Get",

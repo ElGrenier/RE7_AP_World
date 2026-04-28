@@ -214,7 +214,7 @@
         "from": "Altar",
         "to": "Entrance - Old House",
         "condition": {
-	        "items": ["Crank"]
+	        "items": ["Crank","Stone Statuette"]
         }
     },
     { 
