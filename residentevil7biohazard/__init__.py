@@ -66,7 +66,6 @@ class ResidentEvil7(World):
     item_name_groups = { key: set(values) for key, values in Data.item_name_groups.items() }
 
     # keep track of the weapon randomizer settings for use in various steps and in slot data
-    starting_weapon = {}
     replacement_weapons = {}
     replacement_ammo = {}
 
@@ -109,7 +108,7 @@ class ResidentEvil7(World):
                     location.place_locked_item(self.create_item(location_data["original_item"]))
                 # if the coins are not randomized
 
-                if location_data.get("original_item") == "Antique Coin": # Manage Antique coins randomization
+                elif location_data.get("original_item") == "Antique Coin": # Manage Antique coins randomization
                     handle_coin_randomization(self,self.options.randomize_coins, location, "Antique Coin")
 
                 elif self.options.start_at_chapter_2 and region_data["zone_id"] == 1: # Check if "start_at_chapter_2 option is activated"
@@ -401,7 +400,6 @@ class ResidentEvil7(World):
             "apworld_version": self.apworld_release_version,
             "difficulty": self._get_difficulty(),
             "unlocked_typewriters": self._format_option_text(self.options.unlocked_typewriters).split(", "),
-            "starting_weapon": self._get_starting_weapon(),
             "ammo_pack_modifier": self._format_option_text(self.options.ammo_pack_modifier),
             "death_link": self._format_option_text(self.options.death_link) == 'Yes' # why is this yes? lol Edit : NO IDEA
         }
@@ -488,9 +486,6 @@ class ResidentEvil7(World):
     
     def _get_difficulty(self) -> str:
         return self._format_option_text(self.options.difficulty).lower()
-    
-    def _get_starting_weapon(self) -> str:
-        return self.starting_weapon[self.player] if self.player in self.starting_weapon else None
     
     def _replace_pool_item_with(self, pool, from_item_name, to_item_name) -> list:
         items_to_remove = [item for item in pool if item.name == from_item_name]
