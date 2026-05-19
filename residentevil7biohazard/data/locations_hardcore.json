@@ -2,7 +2,7 @@
     {
         "name": "Red Bench by Stairs",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},
         "item_object": "sm70_201",
         "parent_object": "InkRibbon_Garden_2nd",
@@ -11,7 +11,7 @@
 	{
         "name": "Main Desk",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},
         "item_object": "sm70_201",
         "parent_object": "InkRibbon_Hall",
@@ -20,7 +20,7 @@
     {
         "name": "Right Locker",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},    
         "item_object": "sm70_201",
         "parent_object": "ItemPositions_OldLocker_1FW3",
@@ -29,7 +29,7 @@
     {
         "name": "Table by Door",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},    
         "item_object": "sm70_201",
         "parent_object": "sm70_201_InkRibbon_EastOffice",
@@ -38,7 +38,7 @@
     {
         "name": "Desk",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},    
         "item_object": "sm70_201",
         "parent_object": "InkRibbon_UnderGoddes",
@@ -47,7 +47,7 @@
     {
         "name": "Locker",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},    
         "item_object": "sm70_201",
         "parent_object": "PosOnly_ItemLocker",
@@ -56,7 +56,7 @@
     {
         "name": "Desk",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},    
         "item_object": "sm70_201",
         "parent_object": "InkRibbon_OutdoorNorth",
@@ -65,7 +65,7 @@
     {
         "name": "Chair across Room",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},    
         "item_object": "sm70_201",
         "parent_object": "InkRibbon_TorishirabeShitu",
@@ -74,7 +74,7 @@
     {
         "name": "Printer",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},    
         "item_object": "sm70_201",
         "parent_object": "sm70_201_InkRibbon_ReferenceRoom",
@@ -83,7 +83,7 @@
     {
         "name": "Barrels before Alligator Cutscene",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},    
         "item_object": "sm70_201",
         "parent_object": "InkRibbon_02",
@@ -92,7 +92,7 @@
     {
         "name": "Table with Raccoon Milk",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},    
         "item_object": "sm70_201",
         "parent_object": "sm70_201_01_01",
@@ -101,7 +101,7 @@
     {
         "name": "On Table 2",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},    
         "item_object": "sm70_201",
         "parent_object": "sm70_201_01_01_01_01",
@@ -110,7 +110,7 @@
     {
         "name": "Trash Can by Saving Ada",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},    
         "item_object": "sm70_201",
         "parent_object": "sm70_201_G2",
@@ -119,7 +119,7 @@
     {
         "name": "Reception Desk at Labs",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},    
         "item_object": "sm70_201",
         "parent_object": "sm70_201_Inkribbon_Narea",
@@ -128,7 +128,7 @@
     {
         "name": "Front Desk",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},    
         "item_object": "sm70_201",
         "parent_object": "sm70_201_Inkribbon_Tarea",
@@ -137,7 +137,7 @@
     {
         "name": "Beside Typewriter",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},    
         "item_object": "sm70_201",
         "parent_object": "sm70_201_Inkribbon_Garea",
@@ -146,7 +146,7 @@
     {
         "name": "Boxes by Typewriter",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},    
         "item_object": "sm70_201",
         "parent_object": "sm70_201",
@@ -155,7 +155,7 @@
     {
         "name": "Next to Gunpowder",
         "region": "Main Hall",
-        "original_item": "Ink Ribbon",
+        "original_item": "Lantern",
         "condition": {},    
         "item_object": "sm70_201",
         "parent_object": "sm70_201_G5",
