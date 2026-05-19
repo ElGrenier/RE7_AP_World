@@ -530,6 +530,13 @@
         "progression": 1
     },
     {
+        "type": "Gating",
+        "name": "Captain's Cabin Locker Key",
+        "game_id": "CabinKey",
+        "count": 1,
+        "progression": 1
+    },
+    {
         "name": "Victory",
         "id": null,
         "progression": 1
