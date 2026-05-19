@@ -396,6 +396,7 @@ class ResidentEvil7(World):
             
     def pre_fill(self):
         # Item plando runs after create_items. If plando fills RE7 locations, the
+        # original item for each plando-filled location is still sitting in the pool.
         # Trim non-progression items here so fill sees the same number of items as
         # unfilled locations.
         player_pool = [item for item in self.multiworld.itempool if item.player == self.player]
