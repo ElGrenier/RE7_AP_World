@@ -3017,6 +3017,6 @@
         "item_object": "InteractWeapon",
         "parent_object":"wp1340_ChrisHandgun_Get_Event",
         "folder_path": "Chapter/Chapter4/Event_c04/Event_c04_3/evProps",
-        "victory:":1
+        "victory":1
     }
 ]
