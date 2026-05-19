@@ -394,25 +394,25 @@ class ResidentEvil7(World):
 
         self.multiworld.itempool += pool
             
-    def pre_fill(self):
-        # Item plando runs after create_items. If plando fills RE7 locations, the
-        # original item for each plando-filled location is still sitting in the pool.
-        # Trim non-progression items here so fill sees the same number of items as
-        # unfilled locations.
-        player_pool = [item for item in self.multiworld.itempool if item.player == self.player]
-        extra_items = len(player_pool) - len(self.multiworld.get_unfilled_locations(self.player))
+    # def pre_fill(self):
+    #     # Item plando runs after create_items. If plando fills RE7 locations, the
+    #     # original item for each plando-filled location is still sitting in the pool.
+    #     # Trim non-progression items here so fill sees the same number of items as
+    #     # unfilled locations.
+    #     player_pool = [item for item in self.multiworld.itempool if item.player == self.player]
+    #     extra_items = len(player_pool) - len(self.multiworld.get_unfilled_locations(self.player))
 
-        for _ in range(extra_items):
-            eligible_items = [
-                item for item in self.multiworld.itempool
-                if item.player == self.player
-                and item.classification in (ItemClassification.filler, ItemClassification.useful)
-            ]
+    #     for _ in range(extra_items):
+    #         eligible_items = [
+    #             item for item in self.multiworld.itempool
+    #             if item.player == self.player
+    #             and item.classification in (ItemClassification.filler, ItemClassification.useful)
+    #         ]
 
-            if not eligible_items:
-                break
+    #         if not eligible_items:
+    #             break
 
-            self.multiworld.itempool.remove(eligible_items[0])
+    #         self.multiworld.itempool.remove(eligible_items[0])
 
     def _remove_one_pool_item_by_name(self, pool, item_name: str) -> bool:
         for item in list(pool):
