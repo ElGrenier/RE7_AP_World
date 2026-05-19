@@ -59,7 +59,7 @@ class StartAtChapter2(Choice):
 
     False: (Default) Normal, you start the game as normal
     True: The first chapter is not randomized."""
-    display_name = "Bonus Start"
+    display_name = "Start at Chapter 2"
     option_false = 0
     option_true = 1
     default = 0
@@ -82,7 +82,7 @@ class AllowMissableLocations(Choice):
     default = 0
 
 class RandomizeCoins(Choice):
-    """This option permit you to choose how you Randomize Antique Coins (but not what is unlocked with it)
+    """This option permit you to choose how you Randomize Antique Coins (but not the content of the cages (see randomize_coins_cages for that))
     None: (Default) Won't Randomize Antique Coins
     This will make you able to find coins as default, and make that no item will be behind Coinss
     
@@ -107,7 +107,7 @@ class RandomizeCoinsCages(Choice):
     All : The coins cage will be randomized, and can contains anything.
 
     NOTE - This option only affects *YOUR* game. Your progression can still be in someone else's if they have this option enabled."""
-    display_name = "Randomized Coins"
+    display_name = "Randomized Coins Cages"
     option_none = 0
     option_no_progression = 1
     option_all = 2

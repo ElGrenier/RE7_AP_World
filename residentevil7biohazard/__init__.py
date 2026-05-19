@@ -11,6 +11,7 @@ from Fill import fill_restrictive
 
 from .Data import Data
 from .Options import RE7Options
+from .Exceptions import RE7ROptionError
 
 
 Data.load_data()
@@ -52,7 +53,7 @@ class ResidentEvil7(World):
 
     data_version = 2
     required_client_version = (0, 4, 4)
-    apworld_release_version = "0.3.5" # defined to show in spoiler log
+    apworld_release_version = "0.3.4" # defined to show in spoiler log
 
     item_id_to_name = { item['id']: item['name'] for item in Data.item_table }
     item_name_to_id = { item['name']: item['id'] for item in Data.item_table }
@@ -66,8 +67,9 @@ class ResidentEvil7(World):
     item_name_groups = { key: set(values) for key, values in Data.item_name_groups.items() }
 
     # keep track of the weapon randomizer settings for use in various steps and in slot data
-    replacement_weapons = {}
-    replacement_ammo = {}
+    # disabling for now because it's ruining generations
+    # replacement_weapons = {}
+    # replacement_ammo = {}
 
     options_dataclass = RE7Options
     options: RE7Options
@@ -117,20 +119,6 @@ class ResidentEvil7(World):
                 elif region_data["zone_id"] == 4 and "original_item" in location_data: # Manage Coins Cage Randomization
                     handle_coin_randomization(self, self.options.randomize_coins_cages, location, location_data["original_item"])
 
-
-                # elif self.options.randomize_coins == 0 and "original_item" in location_data and location_data['original_item'] == "Antique Coin":
-                #     location.place_locked_item(self.create_item(location_data["original_item"]))
-                # elif self.options.randomize_coins == 1 and "original_item" in location_data and location_data['original_item'] == "Antique Coin":
-                #     location.item_rule = lambda item: not item.advancement
-                # # if randomize_coins is 2, don't do anything (randomize as everything else)
-                # elif self.options.start_at_chapter_2 and region_data['zone_id'] == 1: 
-                #     location.place_locked_item(self.create_item(location_data["original_item"]))
-                # if "start_at_chapter_2 option is de-activated, don't do anything (randomize as normal)
-                # elif self.options.randomize_coins_cages == 0 and region_data['zone_id'] == 4 :
-                #     location.place_locked_item(self.create_item(location_data["original_item"]))
-                # elif self.options.randomize_coins_cages == 1 and region_data['zone_id'] == 4 :
-                #     location.item_rule = lambda item: not item.advancement
-                # if randomize_coins_cage = 2, don't do anything (randomize as default)
 
                 if 'forbid_item' in location_data and location_data['forbid_item']:
                     current_item_rule = location.item_rule or None
@@ -224,12 +212,7 @@ class ResidentEvil7(World):
 
             for x in range(count_spray): self.multiworld.push_precollected(self.create_item('First Aid Med'))
 
-            if self.player in self.starting_weapon:
-                starting_weapon = self.starting_weapon[self.player]
-                starting_weapon_ammo = self.item_name_to_item[starting_weapon].get('ammo')
-                for x in range(count_ammo): self.multiworld.push_precollected(self.create_item(starting_weapon_ammo))
-            else:
-                for x in range(count_ammo): self.multiworld.push_precollected(self.create_item('Handgun Ammo'))
+            for x in range(count_ammo): self.multiworld.push_precollected(self.create_item('Handgun Ammo'))
 
         # do all the "no X" options here so we have more empty spots to use for traps, if needed
         if self._format_option_text(self.options.no_first_aid_med) == 'True':
@@ -338,7 +321,7 @@ class ResidentEvil7(World):
             }
 
             if oops_all_flag not in oops_items_map:
-                raise Exception("Cannot apply multiple 'Oops All' options. Please fix your yaml")
+                raise RE7ROptionError("Cannot apply multiple 'Oops All' options. Please fix your yaml")
             
         #     # Leave the Anti-Tank Rocket on Tyrant alone so the player can finish the fight
             items_to_replace = [ item for item in self.item_name_to_item.values() ]
@@ -463,11 +446,10 @@ class ResidentEvil7(World):
                 if len(standard_locs) > 0:
                     del locations_pool[standard_locs[0]]
 
-        # else, the player is still playing standard, take out all of the matching hardcore difficulty locations
-        else:
-            locations_pool = {
-                id: loc for id, loc in locations_pool.items() if loc['difficulty'] != 'hardcore'
-            }
+        # Hardcore locations temporarily disabled until Madhouse support is implemented
+        locations_pool = {
+            id: loc for id, loc in locations_pool.items() if loc['difficulty'] != 'hardcore'
+        }
 
         # now that we've factored in hardcore swaps, remove any hardcore locations that were just there for removing unused standard ones
         locations_pool = { id: loc for id, loc in locations_pool.items() if 'remove' not in loc }
