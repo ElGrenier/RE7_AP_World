@@ -170,30 +170,10 @@ class ResidentEvil7(World):
 
         pool = [item for item in pool if item is not None] # some of the locations might not have an original item, so might not create an item for the pool
 
-        # remove any already-placed source items from the pool (forced / vanilla-locked locations)
-        #
-        # Important: filled_location.item is a new Item object, so object identity does not
-        # match the item object that was created for the pool. Also, force_item locations
-        # still consume their original source item slot from the pool.
+        # remove any already-placed items from the pool (forced items, etc.)
         for filled_location in self.multiworld.get_filled_locations(self.player):
-            if filled_location.player != self.player:
-                continue
-
-            location_data = scenario_locations.get(filled_location.name)
-            if not location_data and filled_location.address is not None:
-                location_data = next(
-                    (loc for loc in scenario_locations.values() if loc.get('id') == filled_location.address),
-                    None
-                )
-
-            source_item_name = None
-            if location_data:
-                source_item_name = location_data.get('original_item')
-            elif filled_location.item:
-                source_item_name = filled_location.item.name
-
-            if source_item_name:
-                self._remove_one_pool_item_by_name(pool, source_item_name)
+            if filled_location.item.code and filled_location.item in pool: # not id... not address... "code"
+                pool.remove(filled_location.item)
 
         # check the starting hip pouches option and add as precollected, removing from pool and replacing with junk
         # starting_hip_pouches = int(self.options.starting_hip_pouches)
@@ -329,9 +309,8 @@ class ResidentEvil7(World):
    
 
         # check the "Oops! All ____" option. From the option description:
-        #     Enabling this swaps weapons, weapon ammo, subweapons, crafting supplies,
-        #     and upgrades to the selected weapon. Progression / key / gating items are
-        #     intentionally left alone, matching the safer RE3-style behavior.
+        #     Enabling this swaps all weapons, weapon ammo, and subweapons to the selected weapon.
+        #     (Except progression weapons, of course.)
         oops_all_flag = self._get_oops_all_options_flag()
         if oops_all_flag:
             oops_items_map = {
@@ -376,52 +355,8 @@ class ResidentEvil7(World):
             if item_qty > 0:
                 self.options.local_items.value.add(item_name)
 
-        # Match the pool to the currently unfilled location count.
-        # This mirrors the RE3 safety trim and prevents option combinations from
-        # leaving extra filler/useful items in the pool.
-        extra_items = len(pool) - len(self.multiworld.get_unfilled_locations(self.player))
-
-        for _ in range(extra_items):
-            eligible_items = [
-                item for item in pool
-                if item.classification in (ItemClassification.filler, ItemClassification.useful)
-            ]
-
-            if not eligible_items:
-                break
-
-            pool.remove(eligible_items[0])
-
         self.multiworld.itempool += pool
             
-    # def pre_fill(self):
-    #     # Item plando runs after create_items. If plando fills RE7 locations, the
-    #     # original item for each plando-filled location is still sitting in the pool.
-    #     # Trim non-progression items here so fill sees the same number of items as
-    #     # unfilled locations.
-    #     player_pool = [item for item in self.multiworld.itempool if item.player == self.player]
-    #     extra_items = len(player_pool) - len(self.multiworld.get_unfilled_locations(self.player))
-
-    #     for _ in range(extra_items):
-    #         eligible_items = [
-    #             item for item in self.multiworld.itempool
-    #             if item.player == self.player
-    #             and item.classification in (ItemClassification.filler, ItemClassification.useful)
-    #         ]
-
-    #         if not eligible_items:
-    #             break
-
-    #         self.multiworld.itempool.remove(eligible_items[0])
-
-    def _remove_one_pool_item_by_name(self, pool, item_name: str) -> bool:
-        for item in list(pool):
-            if item.name == item_name:
-                pool.remove(item)
-                return True
-
-        return False
-
     def create_item(self, item_name: str) -> Item:
         if not item_name: return
 
@@ -492,10 +427,8 @@ class ResidentEvil7(World):
         return re.sub(r'\w+\(', '', str(option)).rstrip(')')
     
     def _get_locations(self) -> dict:
-        valid_region_names = {region['name'] for region in self._get_region_table()}
         locations_pool = {
             loc['id']: loc for _, loc in self.location_name_to_location.items()
-            if loc.get('region') in valid_region_names
         }
 
         # if the player chose hardcore, take out any matching standard difficulty locations
