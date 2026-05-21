@@ -113,9 +113,6 @@ class ResidentEvil7(World):
                 elif location_data.get("original_item") == "Antique Coin": # Manage Antique coins randomization
                     handle_coin_randomization(self,self.options.randomize_coins, location, "Antique Coin")
 
-                elif self.options.start_at_chapter_2 and region_data["zone_id"] == 1: # Check if "start_at_chapter_2 option is activated"
-                    location.place_locked_item(self.create_item(location_data["original_item"]))
-
                 elif region_data["zone_id"] == 4 and "original_item" in location_data: # Manage Coins Cage Randomization
                     handle_coin_randomization(self, self.options.randomize_coins_cages, location, location_data["original_item"])
 
@@ -426,6 +423,9 @@ class ResidentEvil7(World):
     def _format_option_text(self, option) -> str:
         return re.sub(r'\w+\(', '', str(option)).rstrip(')')
     
+    def _is_chapter1_region(self, region_name: str) -> bool:
+        return any(region['name'] == region_name and region.get('zone_id') == 1 for region in Data.region_table)
+
     def _get_locations(self) -> dict:
         locations_pool = {
             loc['id']: loc for _, loc in self.location_name_to_location.items()
@@ -443,6 +443,12 @@ class ResidentEvil7(World):
                 if len(standard_locs) > 0:
                     del locations_pool[standard_locs[0]]
 
+        if self._format_option_text(self.options.start_at_chapter_2) == 'True':
+            locations_pool = {
+                id: loc for id, loc in locations_pool.items()
+                if not self._is_chapter1_region(loc['region'])
+            }
+
         # Hardcore locations temporarily disabled until Madhouse support is implemented
         locations_pool = {
             id: loc for id, loc in locations_pool.items() if loc['difficulty'] != 'hardcore'
@@ -459,9 +465,17 @@ class ResidentEvil7(World):
         ]
     
     def _get_region_connection_table(self) -> list:
-        return [
+        connections = [
             conn for conn in Data.region_connections_table
         ]
+
+        if self._format_option_text(self.options.start_at_chapter_2) == 'True':
+            connections = [
+                conn for conn in connections
+                if not self._is_chapter1_region(conn['from']) and not self._is_chapter1_region(conn['to'])
+            ]
+
+        return connections
     
     def _get_difficulty(self) -> str:
         return self._format_option_text(self.options.difficulty).lower()

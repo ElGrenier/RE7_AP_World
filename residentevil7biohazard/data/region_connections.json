@@ -279,7 +279,7 @@
     },
     { 
         "from": "Flooded Room",
-        "to": "Recreation Room",
+        "to": "Recreation Room - Boat",
         "condition": {
 	   "items": ["Corrosive"]
         }
