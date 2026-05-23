@@ -470,10 +470,26 @@ class ResidentEvil7(World):
         ]
 
         if self._format_option_text(self.options.start_at_chapter_2) == 'True':
+            chapter1_regions = {region['name'] for region in Data.region_table if region.get('zone_id') == 1}
             connections = [
                 conn for conn in connections
                 if not self._is_chapter1_region(conn['from']) and not self._is_chapter1_region(conn['to'])
             ]
+
+            seen_paths = set()
+            for conn in Data.region_connections_table:
+                if conn['from'] in chapter1_regions and conn['to'] not in chapter1_regions:
+                    path = ('Menu', conn['to'])
+
+                    if path in seen_paths:
+                        continue
+
+                    seen_paths.add(path)
+                    connections.append({
+                        **conn,
+                        'from': 'Menu',
+                        'to': conn['to']
+                    })
 
         return connections
     
