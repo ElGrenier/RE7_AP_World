@@ -53,7 +53,7 @@ class ResidentEvil7(World):
 
     data_version = 2
     required_client_version = (0, 4, 4)
-    apworld_release_version = "0.3.4" # defined to show in spoiler log
+    apworld_release_version = "0.4.0" # defined to show in spoiler log
 
     item_id_to_name = { item['id']: item['name'] for item in Data.item_table }
     item_name_to_id = { item['name']: item['id'] for item in Data.item_table }
@@ -65,11 +65,6 @@ class ResidentEvil7(World):
 
     # de-dupe the item names for the item group name
     item_name_groups = { key: set(values) for key, values in Data.item_name_groups.items() }
-
-    # keep track of the weapon randomizer settings for use in various steps and in slot data
-    # disabling for now because it's ruining generations
-    # replacement_weapons = {}
-    # replacement_ammo = {}
 
     options_dataclass = RE7Options
     options: RE7Options
@@ -378,7 +373,8 @@ class ResidentEvil7(World):
             "difficulty": self._get_difficulty(),
             "unlocked_typewriters": self._format_option_text(self.options.unlocked_typewriters).split(", "),
             "ammo_pack_modifier": self._format_option_text(self.options.ammo_pack_modifier),
-            "death_link": self._format_option_text(self.options.death_link) == 'Yes' # why is this yes? lol Edit : NO IDEA
+            "death_link": self._format_option_text(self.options.death_link) == 'Yes', # why is this yes? lol Edit : NO IDEA
+            "skip_to_chapter_2:": self._format_option_text(self.options.skip_to_chapter_2) == 'True'
         }
 
         return slot_data
