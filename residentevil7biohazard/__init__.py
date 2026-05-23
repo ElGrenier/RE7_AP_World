@@ -374,7 +374,7 @@ class ResidentEvil7(World):
             "unlocked_typewriters": self._format_option_text(self.options.unlocked_typewriters).split(", "),
             "ammo_pack_modifier": self._format_option_text(self.options.ammo_pack_modifier),
             "death_link": self._format_option_text(self.options.death_link) == 'Yes', # why is this yes? lol Edit : NO IDEA
-            "skip_to_chapter_2:": self._format_option_text(self.options.skip_to_chapter_2) == 'True'
+            "start_at_chapter_2:": self._format_option_text(self.options.start_at_chapter_2) == 'True'
         }
 
         return slot_data
