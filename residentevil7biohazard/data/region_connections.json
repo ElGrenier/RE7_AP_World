@@ -164,6 +164,11 @@
         }
     },
     { 
+        "from": "Dissection Room",
+        "to": "Meat Storage",
+        "condition": {}
+    },
+    { 
         "from": "Morgue",
         "to": "Meat Storage",
         "condition": {
